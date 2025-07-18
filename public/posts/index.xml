@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ardonio Ltd.</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Ardonio Ltd.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Jul 2025 10:40:06 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 4 Stages of a CTO</title>
+      <link>http://localhost:1313/posts/4-stages-of-a-cto/</link>
+      <pubDate>Wed, 16 Jul 2025 10:40:06 +0100</pubDate>
+      <guid>http://localhost:1313/posts/4-stages-of-a-cto/</guid>
+      <description>&lt;p&gt;&amp;ldquo;The CTO you want, or the CTO you need?&amp;rdquo;.&lt;br&gt;&#xA;It&amp;rsquo;s a question I have asked many CEO over the years. Sometimes I was referring to myself, sometimes a co-founder, sometimes their existing CTO, or a candidate hire.&lt;/p&gt;&#xA;&lt;p&gt;Like most executive roles, the CTO role changes with the business. But for clarity, when I think of a CTO, I think of the person who is accountable for everything that goes on in the technology organization. The part of your business that decides what you&amp;rsquo;re going to build, how you&amp;rsquo;re going to build it, and how you&amp;rsquo;ll deal with it when it&amp;rsquo;s live.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

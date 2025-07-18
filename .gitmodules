@@ -1,0 +1,12 @@
+[submodule "themes/hugocoder"]
+	path = themes/hugocoder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/hugo-up-business"]
+	path = themes/hugo-up-business
+	url = https://github.com/writeonlycode/hugo-up-business.git
+[submodule "themes/adritian"]
+	path = themes/adritian
+	url = https://github.com/zetxek/adritian-free-hugo-theme.git

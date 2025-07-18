@@ -1,0 +1,89 @@
+baseurl = "http://www.ardonio.com"
+title = "Ardonio Ltd."
+theme = "hugocoder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "Klaas"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Klaas Ardinois"
+  info = "Technology driven value creation for mid market SaaS"
+  description = "Ardonio Ltd."
+  keywords = "blog,value creation, Private Equity,CTO coaching, CEO coaching"
+  avatarurl = "images/avatar.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Mail me"
+  icon = "fa-envelope fa fa-2x"
+  weight = 1
+  url = "mailto:info@ardonio.com"
+#[[params.social]]
+#  name = "LinkedIn"
+#  icon = "fa fa-linkedin fa-2x"
+#  weight = 2
+#  url = "https://www.linkedin.com/in/klaasardinois/"
+[[params.social]]
+  name = "Schedule a meeting"
+  icon = "fa-solid fa-calendar-days fa-2x"
+  weight = 3
+  url = "https://cal.com/klaas-ardinois/30min"
+[[params.social]]
+  name = "Learn more"
+  icon = "fa-solid fa-info fa-2x"
+  weight = 4
+  url = "./about/"
+[[params.social]]
+  name = "Services"
+  icon = "fa-solid fa-briefcase fa-2x"
+  weight = 5
+  url = "./services/"
+
+# Menu links
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url  = "/"
+[[menu.main]]
+  name = "Services"
+  weight = 1
+  url  = "services/"
+[[menu.main]]
+  name = "The Story"
+  weight = 2
+  url  = "about/"
+[[menu.main]]
+  name = "Latest Thoughts"
+  weight = 3
+  url = "posts/"
