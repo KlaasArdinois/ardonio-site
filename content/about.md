@@ -40,26 +40,26 @@ The journey was a typical startup rollercoaster filled with highs and lows. But 
 * acquired assets from a distressed competitor
 * learned the practical and backoffice of funding rounds, share issueance, shareholder agreements, voting rights, employee options, bridge structures, ... . Few stones were left unturned.
 
-Eventually I left my full time role as CTO to join the board as a non exec, and helped navigate an [exit to CosmoBlue](https://kidscreen.com/2024/09/11/cosmoblue-media-acquires-azoomee-and-da-vinci-parent-macademia/) in 2024
+Eventually I left my full time role as CTO to join the board as a non exec, and helped navigate an [exit to CosmoBlue](https://kidscreen.com/2024/09/11/cosmoblue-media-acquires-azoomee-and-da-vinci-parent-macademia/) in 2024.
 
 
 ### Public & Private Exploration
 In early 2021, after 6 months off, I stepped in as CTO at [CloudCall](https://cloudcall.com/), a global integrated communications platform for staffing and recruiting. When I joined CloudCall was publicly listed in the UK with annual revenues around $15m.  
 By February 2022 Cloudcall was [taken private by Xplorer Capital](https://xplorer.vc/cloudcall-agrees-takeover-by-xplorer-capital/) in an all cash deal valuing the business at £40m (~$50m).  
 The transition from public to private ownership was liberating in many ways. Not least with the shift in tone from European investors focused on fundamentals to US shareholders focused on growth. My time at CloudCall was a combination of **technical debt cleanup**, **organizational restructuring** and **technology modernization**. In short **value creation** that is at the core of driving growth through technology.  
-I left CloudCall in 2023 
+I left CloudCall in the summer of 2023.
 
 ### CommVision, starting and stopping my own "AI" startup
-In mid 2024 I decided to start my own SaaS business. The idea: IT Service Providers need a way of truly understanding the relationship with their customers. And the data that matters is hidden in conversations on phonecalls, tickets and digital meetings. So let's use language models to extract the data that matters, and provide upsell, churn and retention signals.  
+By spring 2024 I decided to start my own SaaS business.  
+The idea: IT Service Providers need a way of truly understanding the relationship with their customers. And the data that matters is hidden in conversations on phonecalls, tickets and digital meetings. So let's use language models to extract the data that matters, and provide upsell, churn and retention signals.  
 Ultimately, the business didn't manage to attract enough capital to take the post-MVP step and gain commercial traction. 
 
-As far as battle scars go, I've learned a lot about the importance of **clarity on ICP**, **product-market fit** and **building with AI**, and **the slog of fundraising**.
-
+As far as battle scars go, I've learned a lot about the importance of **clarity on ICP**, **product-market fit** and **building with AI**, and **the art of fundraising**.
 
 ## And now?
 I'm working as a **strategic advisor** and at times **hands-on fixer**.  
 
-While I can't name names, I can list impact
+While I can't name names, I can list impact of my work:
 * Restructured the product&engineering org for a Nasdaq listed media company to reduce cash burn. They're now **sustainbly cash flow positive** and the market has rewarded them with a share price that has gone 4x since I completed my work.
 * Stepped in for a short term stabilization after a CTO unexpectedly quit a series A business. The focus was on bringing **structure** and **process** to the engineering org, as well as advise on broader **fundraise strategy**. 
 * Mentored several CEO and CTO in EdTech as part of my **Coaching** role at the [WISE accelerator](https://www.wise-qatar.org/wise-works/wise-accelerator/)

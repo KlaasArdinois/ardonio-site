@@ -33,62 +33,54 @@ How hard would it be to undo our latest upgrade and take a different direction?
 How quickly can you gather and parse insight from our usage data?
 
 # The Managerial CTO
+**Team size**: 15+ engineering team members with specialized roles
+**Focus**: Establishing processes and coordination rather than direct coding
+**Responsibilities**: Owning architecture, security, and compliance while empowering teams to execute autonomously
+**Value**: Creating systems for how technology components work together and decisions are made. Basis of measuring in place, but close enough to know the details
+
+The shift for a CTO here is subtle, and in larger companies they would likely carry a title such as engineering lead or head of engineering.  
+In this stage CTOs are still very close to the codebase, and probably at times hands on as they transition into this stage. But make no mistake, they need to pick up a new set of skills. It's the first baby steps towards **thinking in systems** rather than focusing on what they can bring directly.  
+
+For many engineers this steps comes as a natural progression. As the technical decisions they make impact more of the product, so does the number of people they need to coordinate to achieve a result. And most good engineers are systems thinkers at heart. Once they've made the mental switch, they've won half the battle here. The other half is learning to delegate, even if that means the work might go a bit slower.
+
+## A CEO's perspective
+The key here is to shift the conversation towards **planning** and **acountability**. In other words, ensure that your CTO understands the outcomes you're after for the company, but also that they start thinking about actions they can take to get there.  
+And since they are accountable for the results of the entire team, make sure they drive actions through the team. The knee-jerk is often to "just do it themselves", but that's the enemy of scaling.  
 
 # The Scaled CTO
+**Team size**: 50-100 people across multiple engineering teams
+**Focus**: Cross-team alignment and managing managers (not individual contributors)
+**Responsibilities**: Serving as the glue between departments, bridging priorities and making tradeoffs
+**Value**: Ensuring all teams are rowing in the same direction through unified progress and relying on measures/objective datapoint rather than gut feel
+
+This is **the hardest transition** for a CTO. Partially because it means letting go of most of the technical details, and partially because it shifts the focus to dealing with people in a new way.  
+Your CTO is now likely managing managers, rather than individual contributors. It's one more step removed from being able to directly impact the product.  
+And in this, the challenge becomes one of **inspiring, motivating and aligning** teams to ensure outcomes stay aligned to company goals. While building out adequate reporting to spot issues before they become a problem.
+
+And while technical knowledge is still vital, it's now no longer applied in creating the solution. Rather than knowing the answer, the challenge becomes **knowing the question**.
+
+## A CEO's perspective
+While the first 2 stages were more akin to project management at times. The change here really is to elevate your CTO to **think strategically**.  
+Help your CTO stay focused on the big picture, and walk through the trade-offs you're willing to make. It's the CTOs job to lay out the tradeoffs in a way that makes sense to you and the wider business. Push back on overly technical and detailed explanations. The devil is in the details, but the big picture is what matters.
+Laslty, recognize that success metrics evolve - emphasize team alignment around clear vision over just roadmaps and delivery. Are you building the right things, rather than just building the things right.
 
 # The Strategic CTO
+**Team size**: 100+
+**Focus**: Financial performance, competitive positioning, and business partnerships
+**Responsibilities**: Representing technology in the boardroom, delegating hands-on leadership to VPs
+**Value**: Guiding overall company direction through technology strategy while maintaining technical principles
 
-CTO Stages
-1. The Lean Startup CTO
-Team size: Small team (alone or just a few developers)
-Focus: Hands-on coding and building the MVP
-Responsibilities: Rolling up sleeves alongside the team, making quick technical tradeoffs based on execution speed
-Value: Turning whiteboard visions into reality through direct technical contribution, focus usually on speed of change over anything else
-2. The Managerial CTO
-Team size: 15+ engineering team members with specialized roles
-Focus: Establishing processes and coordination rather than direct coding
-Responsibilities: Owning architecture, security, and compliance while empowering teams to execute autonomously
-Value: Creating systems for how technology components work together and decisions are made. Basis of measuring in place, but close enough to know the details
-3. The Scaled CTO
-Team size: 50-100 people across multiple engineering teams
-Focus: Cross-team alignment and managing managers (not individual contributors)
-Responsibilities: Serving as the glue between departments, bridging priorities and making tradeoffs
-Value: Ensuring all teams are rowing in the same direction through unified progress and relying on measures/objective datapoint rather than gut feel
-4. The Strategic CTO
-Team size: 100+
-Focus: Financial performance, competitive positioning, and business partnerships
-Responsibilities: Representing technology in the boardroom, delegating hands-on leadership to VPs
-Value: Guiding overall company direction through technology strategy while maintaining technical principles
+The CTO is now well and truly out of the weeds, and more likely to spend time in excel than in the codebase.  
+Technical skills are now relegated to technology strategy, top level architecture and ensuring that VPs reporting to the CTO are aligned. The thinking should shift towards a 2 year window of change.  
+Short of emergency firefighting, the CTO shouldn't be dealing with individual features or requests. Rather they should be thinking about the **evolution of technology** and how it can be used to **improve the entire business**. 
 
-How do CEOs support their CTO
-1. The Lean Startup CTO
-CEO's Role: Empowerment and Focus
-Judge progress based on working software shipped, not process formality
-Focus conversations on short-term technical tradeoffs and their future implications
-Discuss the "why" behind decisions rather than the specifics of implementation
-Ask key questions like:
-How will this scale with many new users?
-Can we quickly pivot to new customer insights?
-How quickly can you gather data to steer decisions?
-Accept less predictability in timelines in exchange for flexibility and speed
-2. The Managerial CTO (Post-Seed Stage)
-CEO's Role: Planning and Accountability
-Keep everyone focused on a clearly outlined plan and ensure the company follows it
-Be prepared to discuss priorities and resource needs
-Appreciate that technical work needs to happen, but challenge your CTO to explain "why" or "why now"
-Ensure your CTO is empowering their team rather than being a bottleneck
-Help them transition from doing everything themselves to achieving results through leadership
-3. The Scaled CTO (Scale Stage)
-CEO's Role: Strategic Perspective
-Ask questions that help your CTO step back from details and see the bigger picture
-Work closely to ensure they understand how their team's work fits into overall company strategy
-Focus discussions on how teams interact and collaborate
-Help align teams on outcomes that drive desired behaviors
-Recognize that success metrics evolve - emphasize team alignment around clear vision over just roadmaps and delivery
-4. The Strategic CTO
-CEO's Role: Executive Partnership
-Partner with the CTO as a fellow executive focused on company direction
-Ensure the CTO has the right information structure so key insights bubble up timely
-Support their role in representing technology in the boardroom
-Help maintain the balance between strategic focus and staying connected to engineering principles
+## A CEO's perspective
+This is where your CTO really shines as a strategic partner. The conversation is as much *business strategy** as it is technology.  
+The key is pushing the CTO to make sure the right information is flowing to the right people. And support them in the boardroom as you would any other executive.
+While it's tempting to think someone without a technical background could do this; the reality is that the technical background is vital to understand the strategic trade offs that make the business strategy possible.
 
+# Conclusion
+The CTO you want and the CTO you need might not be the same after all. And reality is rarely as nicely delineated as the stages above.  
+In fact, the messy reality is that a crisis might drive the most strategic CTO to fall into a lean CTO phase. And a lean CTO might occasionally be your truly strategic thinking partner.   
+
+What is however important is that a CTO grows, and your company will need them predominantly in one of these 4 stages. And adds that business thinking to their skillset.  

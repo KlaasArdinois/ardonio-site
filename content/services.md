@@ -18,7 +18,7 @@ Working with me is *cheaper than making the mistakes* I'll help you avoid. Plain
 # More details?
 -------
 
-## Deep Dive Session
+## Problem Solving Session
 What will break when you scale up your team quickly?  
 Worried your tech burn is too high and you're not sure about the outcomes delivered?  
 Concerned about the quality of your product but no clear way of defining what's good?  
@@ -29,7 +29,7 @@ This format is best if you already know your key problem, but are looking for so
 In **90 minutes** we'll discuss **actions** you can take for your **1 key problem**
 
 -------
-## Technology Strategy Alignment Workshop
+## Strategy Alignment Workshop
 You probably have a plan for the business. But are you sure your technology is getting you there?  
 Are you getting value for money from your product delivery function?  
 How would you measure that?  
@@ -57,11 +57,10 @@ Let me be your experienced catalyst for driving big changes.
 
 I've led **technology restructures**, **process implementations**, **strategy re-alignment** all driven by a strong foundation in the business strategy.
 
-
 -------
-## Klaas on demand
-I've been in the exec team when difficult decisions need to be made. Sometimes you need someone outside the circle to bounce ideas around and ask for feedback.
+## Advisory retainer
+I've been in many rooms where difficult decisions need to be made. Sometimes you want someone outside the circle to bounce ideas around and ask for feedback before pulling the trigger. 
 
 The offer is simple:  
 I've been there and done that.  
-Tap into my experience anytime you have a question
+Tap into my experience anytime you have a question.
