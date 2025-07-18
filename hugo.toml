@@ -87,3 +87,7 @@ style = "github-dark"
   name = "Latest Thoughts"
   weight = 3
   url = "posts/"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
