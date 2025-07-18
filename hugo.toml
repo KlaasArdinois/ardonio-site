@@ -1,4 +1,4 @@
-baseurl = "http://www.ardonio.com"
+baseurl = "https://ardonio.com"
 title = "Ardonio Ltd."
 theme = "hugocoder"
 languagecode = "en"
