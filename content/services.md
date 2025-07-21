@@ -9,11 +9,11 @@ Working with me is *cheaper than making the mistakes* I'll help you avoid. Plain
 
 | Package | What | Price | Find out more | 
 | --- | --- | --- | --- |
-| Problem Solving Session | In 90 minutes we'll set out a set of actions you can take for your 1 key problem | $1,000 | [link](/) |
-| Strategy Alignment workshop | CEO & CTO join a half or full day to ensure your technology plan supports your business goals | $2,500 (half day) / $4,000 (full day) | [link](/) |
-| CTO Coaching | Tailored coaching to level up your CTO using my [4 stages framework](/posts/4-stages-of-a-cto). Ideal for transforming technical leaders into business thinkers |  $10,000 / 6 months | [link](/) |
-| Interim work | Long-term engagement where I drive change in your organization | bespoke pricing | [link](/) |
-| Advisory retainer | Have my brain and experience on speed dial for strategic advice | starts at $10,000 / month |  [link](/) |
+| Problem Solving Session | In 90 minutes we'll set out a set of actions you can take for your 1 key problem | $1,000 | [learn more](https://cal.com/klaas-ardinois/deep-dive) |
+| Strategy Alignment workshop | CEO & CTO join a half or full day to ensure your technology plan supports your business goals | $2,500 (half day) / $4,000 (full day) | [learn more](https://cal.com/klaas-ardinois/workshop-intro) |
+| CTO Coaching | Tailored coaching to level up your CTO using my [4 stages framework](/posts/4-stages-of-a-cto). Ideal for transforming technical leaders into business thinkers |  $10,000 / 6 months | [learn more](https://cal.com/klaas-ardinois/coaching-intro) |
+| Interim work | Long-term engagement where I drive change in your organization | bespoke pricing | [learn more](https://cal.com/klaas-ardinois/interim) |
+| Advisory retainer | Have my brain and experience on speed dial for strategic advice | starts at $10,000 / month |  [learn more](https://cal.com/klaas-ardinois/speeddial) |
 
 # More details?
 -------
