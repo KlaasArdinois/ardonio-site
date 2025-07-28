@@ -3,7 +3,7 @@ title = "Ardonio Ltd."
 theme = "hugocoder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
+googleAnalytics="G-TP6K8JELXS"
 
 [pagination]
 pagerSize = 20
