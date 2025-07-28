@@ -2,6 +2,7 @@
 date = '2025-07-16T10:40:06+01:00'
 draft = false
 title = 'The 4 Stages of a CTO'
+author = ["Klaas Ardinois"]
 +++
 "The CTO you want, or the CTO you need?".  
 It's a question I have asked many CEO over the years. Sometimes I was referring to myself, sometimes a co-founder, sometimes their existing CTO, or a candidate hire.
