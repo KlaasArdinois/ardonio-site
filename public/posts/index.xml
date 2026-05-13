@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Jul 2025 14:39:07 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 11:55:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why engineering capex tracking doesn&#39;t have to be a mess</title>
+      <link>http://localhost:1313/posts/engineering-capex-opex/</link>
+      <pubDate>Tue, 12 May 2026 11:55:28 +0100</pubDate>
+      <guid>http://localhost:1313/posts/engineering-capex-opex/</guid>
+      <description>&lt;p&gt;Engineering capex tracking often rests on one of two options:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ignored. Viable path if you&amp;rsquo;re a small startup. It shows a fairer burn on the PnL and no arguments around the shelf-life of your pre product-market fit work.&lt;/li&gt;&#xA;&lt;li&gt;Hourly tracking of engineers. Despised by all and producing data nobody particularly trusts. Even worse if it&amp;rsquo;s started with estimated hours, but that&amp;rsquo;s a debate for a different time.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Over the years I&amp;rsquo;ve implemented a 3rd way that is good enough for financial purposes AND light enough to not become a burden. And we all know, things that are easy to measure are more likely to be consistently measured.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>3 Best Books on Business Strategy</title>
       <link>http://localhost:1313/posts/3-best-books-on-business-strategy/</link>

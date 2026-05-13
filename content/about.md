@@ -2,6 +2,7 @@
 date = '2025-07-16T10:40:06+01:00'
 draft = false
 title = ''
+author = ["Klaas Ardinois"]
 +++
 
 # Built, Scaled, Acquired, Divested, Exited, Private, Public?

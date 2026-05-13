@@ -1,378 +1,120 @@
-summaryInclude = 60;
-
-const fuseOptions = {
-  shouldSort: true,
-  includeMatches: true,
-  threshold: 0.0,
-  tokenize: true,
-  location: 0,
-  distance: 100,
-  maxPatternLength: 32,
-  minMatchCharLength: 1,
-  keys: [
-    { name: "title", weight: 0.9 },
-    { name: "contents", weight: 0.5 },
-    { name: "tags", weight: 0.3 },
-    { name: "categories", weight: 0.3 },
-  ],
-};
-
-// Display error message in the search results container
-function displayError(message) {
-  const searchResultsElement = document.getElementById("search-results");
-  if (searchResultsElement) {
-    const sanitizedMessage = DOMPurify.sanitize(message);
-    searchResultsElement.innerHTML = `<div class="alert alert-danger">${sanitizedMessage}</div>`;
-  } else {
-    console.error("Search results container not found");
-  }
+function encodeHTML(str) {
+  return str.replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
 }
 
-// Safely get DOM element with error handling
-function getElement(id) {
-  const element = document.getElementById(id);
-  if (!element) {
-    console.error(`Element with ID '${id}' not found`);
-  }
-  return element;
-}
-
-// Debounce function to prevent excessive search calls
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
-
-// Function to update URL with search query
-function updateURL(query) {
+function isValidUrl(url) {
   try {
-    // Create a URL object from the current URL
-    const url = new URL(window.location.href);
+    const parsedUrl = new URL(url, window.location.origin);
+    return parsedUrl.protocol === "http:" || parsedUrl.protocol === "https:";
+  } catch (e) {
+    return false;
+  }
+}
 
-    if (query && query.length >= 2) {
-      // Set or update the 's' parameter
-      url.searchParams.set("s", query);
+let debounceTimeout;
+function searchOnChange(evt) {
+  clearTimeout(debounceTimeout);
+  debounceTimeout = setTimeout(() => {
+    performSearch(evt);
+  }, 300); // Debounce delay of 300ms
+}
+
+async function performSearch(evt) {
+  let searchQuery = evt.target.value.trim().toLowerCase();
+
+  if (searchQuery !== "") {
+    const searchButtonEle = document.querySelectorAll("#search");
+
+    if (searchButtonEle.length < 2) {
+      console.error("Search button elements missing!");
+      return;
+    }
+
+    let searchButtonPosition;
+    if (window.innerWidth > 768) {
+      searchButtonPosition = searchButtonEle[0].getBoundingClientRect();
+      document.getElementById("search-content").style.width = "500px";
     } else {
-      // Remove the 's' parameter if query is empty or too short
-      url.searchParams.delete("s");
+      searchButtonPosition = searchButtonEle[1].getBoundingClientRect();
+      document.getElementById("search-content").style.width = "300px";
     }
 
-    // Update the URL without reloading the page
-    window.history.replaceState({}, "", url.toString());
-  } catch (error) {
-    console.error("Error updating URL:", error);
-    // Continue without URL update - non-critical error
-  }
-}
+    document.getElementById("search-content").style.top =
+      searchButtonPosition.top + 50 + "px";
+    document.getElementById("search-content").style.left =
+      searchButtonPosition.left + "px";
 
-// Safe parameter extraction with error handling
-function param(name) {
-  try {
-    const paramValue = (location.search.split(`${name}=`)[1] || "").split("&")[0];
-    return paramValue ? decodeURIComponent(paramValue).replace(/\+/g, " ") : "";
-  } catch (error) {
-    console.error(`Error parsing URL parameter '${name}':`, error);
-    return "";
-  }
-}
-
-// Get search query from URL parameter
-const searchQuery = param("s");
-try {
-  const searchInput = getElement("search-query");
-  const searchResults = getElement("search-results");
-
-  if (searchInput && searchQuery) {
-    searchInput.value = searchQuery;
-    executeSearch(searchQuery);
-  } else if (searchResults) {
-    searchResults.innerHTML =
-      "<div class='alert'>Please enter at least 2 characters to search</div>";
-  }
-} catch (error) {
-  console.error("Error initializing search:", error);
-  displayError(
-    "There was a problem initializing the search. Please try again later.",
-  );
-}
-
-// Add event listener for real-time searching
-document.addEventListener("DOMContentLoaded", () => {
-  try {
-    const searchInput = getElement("search-query");
-    if (!searchInput) {
-      throw new Error("Search input not found");
-    }
-
-    // Create debounced search function - 300ms is a good balance
-    const debouncedSearch = debounce((query) => {
-      // Update URL with current search query
-      updateURL(query);
-
-      const searchResults = getElement("search-results");
-      if (!searchResults) {
-        throw new Error("Search results container not found");
+    try {
+      // Use the search index URL provided by Hugo template, fallback to /index.json
+      let indexURL = window.searchIndexURL || '/index.json';
+      
+      let response = await fetch(indexURL);
+      if (!response.ok) {
+        throw new Error("Failed to fetch search data");
       }
 
-      if (query.length >= 2) {
-        executeSearch(query);
-      } else if (query.length === 0 || query.length === 1) {
-        searchResults.innerHTML =
-          "<div class='alert'>Please enter at least 2 characters to search</div>";
-      }
-    }, 300);
+      let searchJson = await response.json();
+      console.log("Fetched Data:", searchJson); // Debugging log
 
-    // Set up input event for real-time searching
-    searchInput.addEventListener("input", function () {
-      const query = this.value.trim();
-      debouncedSearch(query);
-    });
+      let searchResults = searchJson.filter((item) => {
+        if (!item || typeof item !== "object") return false;
+        if (!item.title && !item.description && !item.content) return false;
 
-    // Handle form submission to prevent page reload
-    const searchForm = searchInput.closest("form");
-    if (searchForm) {
-      searchForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const query = searchInput.value.trim();
-        if (query.length >= 2) {
-          updateURL(query);
-          executeSearch(query);
-        }
+        return (
+          (item.title && item.title.toLowerCase().includes(searchQuery)) ||
+          (item.description && item.description.toLowerCase().includes(searchQuery)) ||
+          (item.content && item.content.toLowerCase().includes(searchQuery))
+        );
       });
-    }
-  } catch (error) {
-    console.error("Error setting up search event listeners:", error);
-    displayError(
-      "There was a problem setting up the search functionality. Please try reloading the page.",
-    );
-  }
-});
 
-function executeSearch(searchQuery) {
-  try {
-    if (!searchQuery || typeof searchQuery !== "string") {
-      throw new Error("Invalid search query");
-    }
+      const searchResultsContainer = document.getElementById("search-results");
+      searchResultsContainer.innerHTML = ""; // Clear previous results
 
-    const searchResults = getElement("search-results");
-    if (!searchResults) {
-      throw new Error("Search results container not found");
-    }
-
-    // Show loading indicator
-    searchResults.innerHTML =
-      '<div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>';
-
-    fetch("/index.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(
-            `Network response was not ok: ${response.status} ${response.statusText}`,
-          );
-        }
-        return response.json();
-      })
-      .then((data) => {
-        if (!Array.isArray(data)) {
-          throw new Error("Received invalid data format from server");
-        }
-
-        const pages = data;
-        const fuse = new Fuse(pages, fuseOptions);
-        const result = fuse.search(searchQuery);
-
-        // Clear previous results only when we have new results to show
-        searchResults.innerHTML = "";
-
-        if (result.length > 0) {
-          populateResults(result);
-        } else {
-          searchResults.insertAdjacentHTML(
-            "beforeend",
-            "<div class='alert'>No matches found</div>",
-          );
-        }
-      })
-      .catch((error) => {
-        console.error("Error executing search:", error);
-        displayError(`Failed to search: ${error.message}`);
-      });
-  } catch (error) {
-    console.error("Error in search execution:", error);
-    displayError("There was a problem with the search. Please try again later.");
-  }
-}
-
-function populateResults(result) {
-  try {
-    if (!Array.isArray(result)) {
-      throw new Error("Invalid search results");
-    }
-
-    const searchResults = getElement("search-results");
-    if (!searchResults) {
-      throw new Error("Search results container not found");
-    }
-
-    const templateElement = document.getElementById("search-result-template");
-    if (!templateElement) {
-      throw new Error("Search result template not found");
-    }
-    const templateDefinition = templateElement.innerHTML;
-
-    for (const [key, value] of result.entries()) {
-      if (!value || !value.item) {
-        console.warn("Skipping invalid search result item", value);
-        continue;
-      }
-
-      const contents = value.item.contents || "";
-      let snippet = "";
-      const snippetHighlights = [];
-      let start;
-      let end;
-
-      if (fuseOptions.tokenize) {
-        snippetHighlights.push(searchQuery);
-      } else {
-        if (value.matches) {
-          for (const mvalue of value.matches) {
-            if (!mvalue || typeof mvalue.key !== "string") {
-              continue;
-            }
-
-            if (
-              mvalue.key === "tags" ||
-              mvalue.key === "categories"
-            ) {
-              snippetHighlights.push(mvalue.value);
-            } else if (
-              mvalue.key === "contents" &&
-              Array.isArray(mvalue.indices) &&
-              mvalue.indices.length > 0
-            ) {
-              try {
-                start =
-                  mvalue.indices[0][0] - summaryInclude > 0
-                    ? mvalue.indices[0][0] - summaryInclude
-                    : 0;
-                end =
-                  mvalue.indices[0][1] + summaryInclude < contents.length
-                    ? mvalue.indices[0][1] + summaryInclude
-                    : contents.length;
-                snippet += contents.substring(start, end);
-
-                if (typeof mvalue.value === "string") {
-                  const highlightValue =
-                    mvalue.indices[0][1] - mvalue.indices[0][0] + 1;
-                  if (
-                    highlightValue > 0 &&
-                    mvalue.indices[0][0] < mvalue.value.length
-                  ) {
-                    snippetHighlights.push(
-                      mvalue.value.substring(
-                        mvalue.indices[0][0],
-                        mvalue.indices[0][0] + highlightValue,
-                      ),
-                    );
-                  }
-                }
-              } catch (e) {
-                console.warn("Error processing match indices", e);
-              }
-            }
+      if (searchResults.length > 0) {
+        searchResults.forEach((item) => {
+          if (!item.permalink || !isValidUrl(item.permalink)) {
+            console.warn("Skipping invalid search result:", item);
+            return;
           }
-        }
-      }
 
-      if (snippet.length < 1 && contents) {
-        snippet += contents.substring(0, summaryInclude * 2);
-      }
+          const card = document.createElement("div");
+          card.className = "card";
 
-      try {
-        // Insert the templated result
-        const output = render(templateDefinition, {
-          key: key,
-          title: value.item.title || "Untitled",
-          link: value.item.permalink || "#",
-          tags: value.item.tags || "",
-          categories: value.item.categories || "",
-          snippet: snippet || "No preview available",
+          const link = document.createElement("a");
+          link.href = item.permalink; // Safe, since we validated it
+
+          const contentDiv = document.createElement("div");
+          contentDiv.className = "p-3";
+
+          const title = document.createElement("h5");
+          title.textContent = item.title || "Untitled"; // Use textContent to prevent XSS
+
+          const description = document.createElement("div");
+          description.textContent = item.description || "No description available"; // Safe
+
+          contentDiv.appendChild(title);
+          contentDiv.appendChild(description);
+          link.appendChild(contentDiv);
+          card.appendChild(link);
+          searchResultsContainer.appendChild(card);
         });
-        searchResults.insertAdjacentHTML("beforeend", output);
-
-        // Add highlighting after insertion
-        for (const snipvalue of snippetHighlights) {
-          if (!snipvalue) continue;
-
-          const summaryElem = document.getElementById(`summary-${key}`);
-          if (summaryElem && typeof Mark !== "undefined") {
-            try {
-              const markInstance = new Mark(summaryElem);
-              markInstance.mark(snipvalue);
-            } catch (e) {
-              console.warn("Error highlighting text:", e);
-            }
-          }
-        }
-      } catch (error) {
-        console.error("Error rendering search result:", error);
-      }
-    }
-  } catch (error) {
-    console.error("Error populating results:", error);
-    displayError("There was a problem displaying search results.");
-  }
-}
-
-function render(templateString, data) {
-  try {
-    if (!templateString || !data) {
-      throw new Error("Invalid template or data");
-    }
-
-    let conditionalMatches, conditionalPattern, copy;
-    conditionalPattern = /\$\{\s*isset ([a-zA-Z]*) \s*\}(.*)\$\{\s*end\s*}/g;
-
-    // Since loop below depends on re.lastIndex, we use a copy to capture any manipulations
-    copy = templateString;
-
-    while ((conditionalMatches = conditionalPattern.exec(templateString)) !== null) {
-      if (conditionalMatches.length < 3) continue;
-
-      if (data[conditionalMatches[1]]) {
-        // Valid key, remove conditionals, leave contents
-        copy = copy.replace(conditionalMatches[0], conditionalMatches[2]);
       } else {
-        // Not valid, remove entire section
-        copy = copy.replace(conditionalMatches[0], "");
+        const noResultsMessage = document.createElement("p");
+        noResultsMessage.className = "text-center py-3";
+        noResultsMessage.textContent = `No results found for "${searchQuery}"`;
+        searchResultsContainer.appendChild(noResultsMessage);
       }
+
+      document.getElementById("search-content").style.display = "block";
+    } catch (error) {
+      console.error("Error fetching search data:", error);
     }
-
-    let result = copy;
-
-    // Now any conditionals removed we can do simple substitution
-    for (const key in data) {
-      if (Object.prototype.hasOwnProperty.call(data, key)) {
-        const value = data[key];
-        if (value !== undefined && value !== null) {
-          const find = `\\$\\{\\s*${key}\\s*\\}`;
-          const re = new RegExp(find, "g");
-          result = result.replace(re, value);
-        }
-      }
-    }
-
-    return result;
-  } catch (error) {
-    console.error("Error rendering template:", error);
-    return '<div class="alert alert-danger">Error rendering result</div>';
+  } else {
+    document.getElementById("search-content").style.display = "none";
+    document.getElementById("search-results").innerHTML = "";
   }
 }
