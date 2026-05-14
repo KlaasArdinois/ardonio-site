@@ -16,6 +16,27 @@
       <description>&lt;p&gt;Engineering capex tracking often rests on one of two options:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ignored. Viable path if you&amp;rsquo;re a small startup. It shows a fairer burn on the PnL and no arguments around the shelf-life of your pre product-market fit work.&lt;/li&gt;&#xA;&lt;li&gt;Hourly tracking of engineers. Despised by all and producing data nobody particularly trusts. Even worse if it&amp;rsquo;s started with estimated hours, but that&amp;rsquo;s a debate for a different time.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Over the years I&amp;rsquo;ve implemented a 3rd way that is good enough for financial purposes AND light enough to not become a burden. And we all know, things that are easy to measure are more likely to be consistently measured.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Podcast guest on: Build and Break Through, a podcast for founders</title>
+      <link>http://localhost:1313/posts/build-and-break-through-podcast-with-klaas-ardinois/</link>
+      <pubDate>Sun, 10 May 2026 09:59:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/build-and-break-through-podcast-with-klaas-ardinois/</guid>
+      <description>&lt;p&gt;Hunter Harris from &lt;a href=&#34;https://huntersoftwareconsulting.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hunter Software Consulting&lt;/a&gt; and I sat down to shoot the breeze. Like me, Hunter is focused on helping companies navigate growing pains. Too small to be big, too big to be small.&lt;/p&gt;&#xA;&lt;h1 id=&#34;topics&#34;&gt;&#xA;  Topics&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#topics&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t meant to be purely about AI, but inevitably these days we ended up dedicating a good bit of our conversation to it.&lt;/p&gt;&#xA;&lt;p&gt;Besides AI we also touched on&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podcast guest on: AI Builder Series</title>
+      <link>http://localhost:1313/posts/ai-builder-podcast-with-klaas-ardinois/</link>
+      <pubDate>Thu, 12 Mar 2026 09:33:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ai-builder-podcast-with-klaas-ardinois/</guid>
+      <description>&lt;p&gt;Sean from &lt;a href=&#34;https://www.kerno.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerno&lt;/a&gt; was kind enough to put up with me for a good 40 minutes. Kerno moves behavior and integration testing from CI to the developer&amp;rsquo;s machine, giving AI agents an instant feedback loop to catch and fix what they broke in every session.&lt;/p&gt;&#xA;&lt;p&gt;I like what the team at Kerno is doing. Philosophically we&amp;rsquo;re very aligned on thinking that the key to using LLM for coding is in the harness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Venture Capital says NO to your startup</title>
+      <link>http://localhost:1313/posts/why-venture-capital-says-no-to-your-startup/</link>
+      <pubDate>Fri, 28 Nov 2025 11:12:12 +0100</pubDate>
+      <guid>http://localhost:1313/posts/why-venture-capital-says-no-to-your-startup/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re a founder considering venture capital, stop thinking of VCs as mystical &amp;ldquo;investors&amp;rdquo; and start thinking of them as business owners. They&amp;rsquo;re running their own company, it just happens that their business involves selecting startups to fund with the goal of making significantly more money in return.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;So why are they talking to you at all?&lt;/strong&gt; We&amp;rsquo;ll come back to that crucial question.&lt;/p&gt;&#xA;&lt;p&gt;First, let&amp;rsquo;s demystify what a &amp;ldquo;VC&amp;rdquo; actually is by following the money. This explanation focuses on the UK system, but the fundamental principles apply globally.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>3 Best Books on Business Strategy</title>
       <link>http://localhost:1313/posts/3-best-books-on-business-strategy/</link>
       <pubDate>Mon, 28 Jul 2025 14:39:07 +0100</pubDate>
@@ -28,6 +49,13 @@
       <pubDate>Wed, 16 Jul 2025 10:40:06 +0100</pubDate>
       <guid>http://localhost:1313/posts/4-stages-of-a-cto/</guid>
       <description>&lt;p&gt;&amp;ldquo;The CTO you want, or the CTO you need?&amp;rdquo;.&lt;br&gt;&#xA;It&amp;rsquo;s a question I have asked many CEO over the years. Sometimes I was referring to myself, sometimes a co-founder, sometimes their existing CTO, or a candidate hire.&lt;/p&gt;&#xA;&lt;p&gt;Like most executive roles, the CTO role changes with the business. But for clarity, when I think of a CTO, I think of the person who is accountable for everything that goes on in the technology organization. The part of your business that decides what you&amp;rsquo;re going to build, how you&amp;rsquo;re going to build it, and how you&amp;rsquo;ll deal with it when it&amp;rsquo;s live.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fundraising for Founders, strategies for investment</title>
+      <link>http://localhost:1313/posts/fundraising-for-founders-navigating-investment-ecosystem/</link>
+      <pubDate>Tue, 29 Apr 2025 10:28:24 +0100</pubDate>
+      <guid>http://localhost:1313/posts/fundraising-for-founders-navigating-investment-ecosystem/</guid>
+      <description>&lt;p&gt;Money is the only problem a founder has. You&amp;rsquo;re either trying to figure out where to best spend it or how to get it from customers. And if the gap between spending and receiving is too big, you&amp;rsquo;re trying to get investors to pick up the difference.&lt;/p&gt;&#xA;&lt;p&gt;In this article, I&amp;rsquo;m going to focus on strategies for investment for early stage companies. And since I&amp;rsquo;m writing this in 2025 where investor money is less free flowing than it was a decade ago; the equation has changed. We live in unprecedented times indeed.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
