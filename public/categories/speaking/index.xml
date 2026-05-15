@@ -6,14 +6,21 @@
     <description>Recent content in Speaking on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 09:33:52 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 09:59:04 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/speaking/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Podcast guest on: Build and Break Through, a podcast for founders</title>
+      <link>http://localhost:1313/posts/build-and-break-through-podcast-with-klaas-ardinois/</link>
+      <pubDate>Sun, 10 May 2026 09:59:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/build-and-break-through-podcast-with-klaas-ardinois/</guid>
+      <description>&lt;p&gt;Hunter Harris from &lt;a href=&#34;https://huntersoftwareconsulting.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hunter Software Consulting&lt;/a&gt; and I sat down to shoot the breeze. Like me, Hunter is focused on helping companies navigate growing pains. Too small to be big, too big to be small.&lt;/p&gt;&#xA;&lt;h1 id=&#34;topics&#34;&gt;&#xA;  Topics&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#topics&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t meant to be purely about AI, but inevitably these days we ended up dedicating a good bit of our conversation to it.&lt;/p&gt;&#xA;&lt;p&gt;Besides AI we also touched on&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podcast guest on: AI Builder Series</title>
       <link>http://localhost:1313/posts/ai-builder-podcast-with-klaas-ardinois/</link>
-      <pubDate>Thu, 14 May 2026 09:33:52 +0100</pubDate>
+      <pubDate>Thu, 12 Mar 2026 09:33:52 +0100</pubDate>
       <guid>http://localhost:1313/posts/ai-builder-podcast-with-klaas-ardinois/</guid>
-      <description>&lt;p&gt;Placeholder&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sean from &lt;a href=&#34;https://www.kerno.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerno&lt;/a&gt; was kind enough to put up with me for a good 40 minutes. Kerno moves behavior and integration testing from CI to the developer&amp;rsquo;s machine, giving AI agents an instant feedback loop to catch and fix what they broke in every session.&lt;/p&gt;&#xA;&lt;p&gt;I like what the team at Kerno is doing. Philosophically we&amp;rsquo;re very aligned on thinking that the key to using LLM for coding is in the harness.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
