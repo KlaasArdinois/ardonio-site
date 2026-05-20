@@ -33,7 +33,7 @@ An example, a business I worked with simultaneously had equally good reasons to 
 
 And it's exactly that unique reality where an average opinion will do more harm than good. 
 
-LLM are incredible aggregators. They will aggregate priors, language patterns, scenarios, plausible situations. However, they also lack operator perspective to separate a reddit thread, a tourist opinion or lived reality; nor do they have a sense of how people will react to change or what a realistic timeline looks like. Instead they'll default to common slop observations for the most part, [including on business strategy].(https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return)
+LLM are incredible aggregators. They will aggregate priors, language patterns, scenarios, plausible situations. However, they also lack operator perspective to separate a reddit thread, a tourist opinion or lived reality; nor do they have a sense of how people will react to change or what a realistic timeline looks like. Instead they'll default to common slop observations for the most part, [including on business strategy](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return).
 
 Investment returns on the other hand come specifically from being able to understand the art of the possible in a single business situation, knowing how an operator might go about achieving those changes, and understanding asymmetry in the model. 
 
