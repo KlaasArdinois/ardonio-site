@@ -17,9 +17,9 @@ style = "github-dark"
 
 [params]
   author = "Klaas Ardinois"
-  info = "Technology driven value creation for mid market SaaS"
+  info = "Helping founders and investors navigate difficult decisions"
   description = "Ardonio Ltd."
-  keywords = "blog,value creation, Private Equity,CTO coaching, CEO coaching"
+  keywords = "blog,value creation, Private Equity,CTO coaching, CEO coaching, edtech advisor"
   avatarurl = "images/avatar.jpg"
 
   faviconSVG = "/img/favicon.svg"
