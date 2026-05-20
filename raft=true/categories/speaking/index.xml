@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speaking on Ardonio Ltd.</title>
+    <link>http://localhost:1313/categories/speaking/</link>
+    <description>Recent content in Speaking on Ardonio Ltd.</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 May 2026 09:59:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/speaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast guest on: Build and Break Through, a podcast for founders</title>
+      <link>http://localhost:1313/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</link>
+      <pubDate>Sun, 10 May 2026 09:59:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</guid>
+      <description>&lt;p&gt;Hunter Harris from &lt;a href=&#34;https://huntersoftwareconsulting.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hunter Software Consulting&lt;/a&gt; and I sat down to shoot the breeze. Like me, Hunter is focused on helping companies navigate growing pains. Too small to be big, too big to be small.&lt;/p&gt;&#xA;&lt;h1 id=&#34;topics&#34;&gt;&#xA;  Topics&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#topics&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t meant to be purely about AI, but inevitably these days we ended up dedicating a good bit of our conversation to it.&lt;/p&gt;&#xA;&lt;p&gt;Besides AI we also touched on&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podcast guest on: AI Builder Series</title>
+      <link>http://localhost:1313/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</link>
+      <pubDate>Thu, 12 Mar 2026 09:33:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</guid>
+      <description>&lt;p&gt;Sean from &lt;a href=&#34;https://www.kerno.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerno&lt;/a&gt; was kind enough to put up with me for a good 40 minutes. Kerno moves behavior and integration testing from CI to the developer&amp;rsquo;s machine, giving AI agents an instant feedback loop to catch and fix what they broke in every session.&lt;/p&gt;&#xA;&lt;p&gt;I like what the team at Kerno is doing. Philosophically we&amp;rsquo;re very aligned on thinking that the key to using LLM for coding is in the harness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podcast guest on: A geek leader</title>
+      <link>http://localhost:1313/posts/podcastguest-a-geek-leader/</link>
+      <pubDate>Fri, 01 Nov 2024 09:59:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/podcastguest-a-geek-leader/</guid>
+      <description>&lt;p&gt;Sat down with John for an episode on &amp;ldquo;a Geek Leader&amp;rdquo;. The podcast typically covers the more human elements of leadership, so we obviously had lots to talk about.&lt;/p&gt;&#xA;&lt;p&gt;Full episode here: &lt;a href=&#34;https://www.ageekleader.com/agl-389-klaas-ardinois/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ageekleader.com/agl-389-klaas-ardinois/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;we-talked-about&#34;&gt;&#xA;  We talked about&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#we-talked-about&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;We covered a lot of ground in a short space&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CTO leadership&lt;/li&gt;&#xA;&lt;li&gt;Keeping the lights on (BAU) and How Technology drives the business forward&lt;/li&gt;&#xA;&lt;li&gt;Trends in Technology&lt;/li&gt;&#xA;&lt;li&gt;What is the role of the CEO?&lt;/li&gt;&#xA;&lt;li&gt;Culture&#xA;&lt;ul&gt;&#xA;&lt;li&gt;People come in to do a good job… have faith and trust in people&lt;/li&gt;&#xA;&lt;li&gt;Develop people&lt;/li&gt;&#xA;&lt;li&gt;Output is valuable&lt;/li&gt;&#xA;&lt;li&gt;Career perspective&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Your Job as CTO, and interacting with your peers in the leadership team&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
