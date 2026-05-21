@@ -2,7 +2,7 @@
 draft = false
 date = 2026-05-20T11:17:36+01:00
 title = "PE operates one deal at a time, AI works on aggregate"
-description = "Why AI adoption in private equity is targeting the wrong constraint — and how to rewire your investment process around judgment instead of speed."
+description = "Why AI adoption in private equity is targeting the wrong constraint, and how to rewire your investment process around judgment instead of speed."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []

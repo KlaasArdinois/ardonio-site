@@ -51,7 +51,8 @@ The transition from public to private ownership was liberating in many ways. Not
 I left CloudCall in the summer of 2023.
 
 ### CommVision, starting and stopping my own "AI" startup
-After some advisory work in late 2023 I decided to start my own SaaS business in spring 2024.  
+On the side of my advisory work I decided to start my own SaaS business in spring 2024.  
+
 The idea: IT Service Providers need a way of truly understanding the relationship with their customers. And the data that matters is hidden in conversations on phonecalls, tickets and digital meetings. So let's use language models to extract the data that matters, and provide upsell, churn and retention signals.  
 Ultimately, the business didn't manage to attract enough capital to take the post-MVP step and gain commercial traction. 
 
@@ -61,6 +62,7 @@ As far as battle scars go, I've learned a lot about the importance of **clarity 
 I'm working as a **strategic advisor** and at times **hands-on change agent**.  
 
 While I can't name names, I can list results:
-* Restructured the product&engineering org for a Nasdaq listed media company to reduce cash burn. They're now **sustainbly cash flow positive** and the market has rewarded them with a share price that has gone 4x in the 12 months after I completed my work.
-* Stepped in for a short term stabilization after a CTO unexpectedly quit a series A business. The focus was on bringing **structure** and **process** to the engineering org, as well as advise on broader **fundraise strategy**. 
-* Mentored several CEO and CTO in EdTech as part of my **Coaching** role at the [WISE accelerator](https://www.wise-qatar.org/wise-works/wise-accelerator/)
+* Restructured the product&engineering org for a Nasdaq listed **media company** to reduce cash burn. They're now **sustainbly cash flow positive** and the market has rewarded them with a share price that has gone 4x in the 12 months after I completed my work.
+* Stepped in for a short term **stabilization** after a CTO unexpectedly quit a series A business. The focus was on bringing **structure** and **process** to the engineering org, as well as advise on broader **fundraise strategy**. 
+* Continued engagement with edtech clients, helping non techical founders making the best technical decisions and think through them in terms of commercial impact. Where's the ROI? How much would you bet on this range of outcomes? I love to bring options thinking to decision making.
+* Mentored several CEO and CTO in **EdTech** as part of my **Coaching** role at the [WISE accelerator](https://www.wise-qatar.org/wise-works/wise-accelerator/)
