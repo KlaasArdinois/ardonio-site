@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-20T11:17:36+01:00</lastmod>
+    <lastmod>2026-05-25T14:33:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-05-25T14:33:18+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
     <lastmod>2026-05-20T11:17:36+01:00</lastmod>
@@ -12,9 +15,6 @@
     <lastmod>2026-05-20T11:17:36+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/private-equity-and-ai-use-for-investment/</loc>
-    <lastmod>2026-05-20T11:17:36+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-05-20T11:17:36+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/engineering-capex-opex/</loc>

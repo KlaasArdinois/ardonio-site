@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 11:17:36 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 14:33:18 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 3 body problem in EdTech</title>
+      <link>http://localhost:1313/posts/edtech-three-constituency-problem/</link>
+      <pubDate>Sun, 24 May 2026 14:33:18 +0100</pubDate>
+      <guid>http://localhost:1313/posts/edtech-three-constituency-problem/</guid>
+      <description>&lt;p&gt;Picture this: your edtech product is loved by students. They&amp;rsquo;re interacting with it daily on their phones, willingly rather than teacher enforced. Teachers give you positive feedback about their experience with the backoffice. It&amp;rsquo;s easy to use, actually saves them real time, and they can see student outcomes improve.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re also targeting the African market, so your product is built for featurephones, poor connectivity, and a myriad other technical issues you&amp;rsquo;ve had to overcome.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PE operates one deal at a time, AI works on aggregate</title>
       <link>http://localhost:1313/posts/private-equity-and-ai-use-for-investment/</link>
