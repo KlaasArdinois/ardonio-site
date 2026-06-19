@@ -6,8 +6,15 @@
     <description>Recent content on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 May 2026 14:33:18 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 12:12:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Broke Software&#39;s Best Trick</title>
+      <link>http://localhost:1313/posts/ai-broke-software-marginal-cost/</link>
+      <pubDate>Thu, 18 Jun 2026 12:12:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ai-broke-software-marginal-cost/</guid>
+      <description>&lt;p&gt;Software ate the world, per Andreessen. And it did so on one particular economic pillar: zero marginal cost. In simple terms: the cost of producing an extra copy of your application is effectively zero. Compared to the cost of coding the application, shipping a few floppy disks is effectively zero cost. These days, SaaS software has replaced that shipping cost with compute cost. But the relative equation holds. One extra user of your product carries a negligible cost compared to creating that product.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The 3 body problem in EdTech</title>
       <link>http://localhost:1313/posts/edtech-three-constituency-problem/</link>

@@ -6,8 +6,22 @@
     <description>Recent content in Klaas Ardinois on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 11:17:36 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 12:12:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/authors/klaas-ardinois/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Broke Software&#39;s Best Trick</title>
+      <link>http://localhost:1313/posts/ai-broke-software-marginal-cost/</link>
+      <pubDate>Thu, 18 Jun 2026 12:12:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ai-broke-software-marginal-cost/</guid>
+      <description>&lt;p&gt;Software ate the world, per Andreessen. And it did so on one particular economic pillar: zero marginal cost. In simple terms: the cost of producing an extra copy of your application is effectively zero. Compared to the cost of coding the application, shipping a few floppy disks is effectively zero cost. These days, SaaS software has replaced that shipping cost with compute cost. But the relative equation holds. One extra user of your product carries a negligible cost compared to creating that product.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The 3 body problem in EdTech</title>
+      <link>http://localhost:1313/posts/edtech-three-constituency-problem/</link>
+      <pubDate>Sun, 24 May 2026 14:33:18 +0100</pubDate>
+      <guid>http://localhost:1313/posts/edtech-three-constituency-problem/</guid>
+      <description>&lt;p&gt;Picture this: your edtech product is loved by students. They&amp;rsquo;re interacting with it daily on their phones, willingly rather than teacher enforced. Teachers give you positive feedback about their experience with the backoffice. It&amp;rsquo;s easy to use, actually saves them real time, and they can see student outcomes improve.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re also targeting the African market, so your product is built for featurephones, poor connectivity, and a myriad other technical issues you&amp;rsquo;ve had to overcome.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PE operates one deal at a time, AI works on aggregate</title>
       <link>http://localhost:1313/posts/private-equity-and-ai-use-for-investment/</link>
