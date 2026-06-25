@@ -25,6 +25,9 @@ style = "github-dark"
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
+  touchicon = "/img/apple-touch-icon.png"
+  mask_icon = "/img/safari-pinned-tab.svg"
+  mask_icon_color = "#1E5BFF"
 
   since = 2019
 

@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ardonio Ltd.</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:64944/</link>
     <description>Recent content on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Jun 2026 12:12:30 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64944/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Surface war</title>
-      <link>http://localhost:1313/posts/ai-surface-wars-local-llm/</link>
+      <link>http://localhost:64944/posts/ai-surface-wars-local-llm/</link>
       <pubDate>Wed, 24 Jun 2026 12:12:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/ai-surface-wars-local-llm/</guid>
+      <guid>http://localhost:64944/posts/ai-surface-wars-local-llm/</guid>
       <description>&lt;p&gt;Local inference solves the operating cost problem of frontier Labs, by making the customer effectively pay the hardware bill. And between consumer hardware and small model improvements that&amp;rsquo;s becoming an increasingly realistic option for many day to day tasks. That&amp;rsquo;s what I argued in &lt;a href=&#34;../ai-broke-software-marginal-cost/&#34; &gt;an earlier post&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Perhaps the most clear indicator in that direction is the path Apple has been following with Apple Silicon. Increasingly, neural processing (the core of LLM inference) is running on apple silicon, with an offload to a frontier model (openAI). And it&amp;rsquo;s exposed to developers through an Apple controlled layer in core AI (local inference), Core ML (classic machine learning) and Apple Intelligence (for Siri interactions).&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Broke Software&#39;s Best Trick</title>
-      <link>http://localhost:1313/posts/ai-broke-software-marginal-cost/</link>
+      <link>http://localhost:64944/posts/ai-broke-software-marginal-cost/</link>
       <pubDate>Thu, 18 Jun 2026 12:12:30 +0100</pubDate>
-      <guid>http://localhost:1313/posts/ai-broke-software-marginal-cost/</guid>
+      <guid>http://localhost:64944/posts/ai-broke-software-marginal-cost/</guid>
       <description>&lt;p&gt;Software ate the world, per Andreessen. And it did so on one particular economic pillar: zero marginal cost. In simple terms: the cost of producing an extra copy of your application is effectively zero. Compared to the cost of coding the application, shipping a few floppy disks is effectively zero cost. These days, SaaS software has replaced that shipping cost with compute cost. But the relative equation holds. One extra user of your product carries a negligible cost compared to creating that product.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 3 body problem in EdTech</title>
-      <link>http://localhost:1313/posts/edtech-three-constituency-problem/</link>
+      <link>http://localhost:64944/posts/edtech-three-constituency-problem/</link>
       <pubDate>Sun, 24 May 2026 14:33:18 +0100</pubDate>
-      <guid>http://localhost:1313/posts/edtech-three-constituency-problem/</guid>
+      <guid>http://localhost:64944/posts/edtech-three-constituency-problem/</guid>
       <description>&lt;p&gt;Picture this: your edtech product is loved by students. They&amp;rsquo;re interacting with it daily on their phones, willingly rather than teacher enforced. Teachers give you positive feedback about their experience with the backoffice. It&amp;rsquo;s easy to use, actually saves them real time, and they can see student outcomes improve.&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re also targeting the African market, so your product is built for featurephones, poor connectivity, and a myriad other technical issues you&amp;rsquo;ve had to overcome.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PE operates one deal at a time, AI works on aggregate</title>
-      <link>http://localhost:1313/posts/private-equity-and-ai-use-for-investment/</link>
+      <link>http://localhost:64944/posts/private-equity-and-ai-use-for-investment/</link>
       <pubDate>Wed, 20 May 2026 11:17:36 +0100</pubDate>
-      <guid>http://localhost:1313/posts/private-equity-and-ai-use-for-investment/</guid>
+      <guid>http://localhost:64944/posts/private-equity-and-ai-use-for-investment/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Alpha comes from idiosyncratic risk&amp;rdquo;.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s the opposite of buying an index fund, where you own a bit of everything and ride the big trend. And that principle holds no matter if you&amp;rsquo;re investing in public markets, credit, venture capital or private equity.&lt;/p&gt;&#xA;&lt;p&gt;Which leads to this version for Private Equity:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Private equity runs on single deals, not deals in the aggregate&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;And single deals really come down to a handful of specific decisions and assumptions. Not a portfolio of averages.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why engineering capex tracking doesn&#39;t have to be a mess</title>
-      <link>http://localhost:1313/posts/engineering-capex-opex/</link>
+      <link>http://localhost:64944/posts/engineering-capex-opex/</link>
       <pubDate>Tue, 12 May 2026 11:55:28 +0100</pubDate>
-      <guid>http://localhost:1313/posts/engineering-capex-opex/</guid>
+      <guid>http://localhost:64944/posts/engineering-capex-opex/</guid>
       <description>&lt;p&gt;Engineering capex tracking often rests on one of two options:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Ignored. Viable path if you&amp;rsquo;re a small startup. It shows a fairer burn on the PnL and no arguments around the shelf-life of your pre product-market fit work.&lt;/li&gt;&#xA;&lt;li&gt;Hourly tracking of engineers. Despised by all and producing data nobody particularly trusts. Even worse if it&amp;rsquo;s started with estimated hours, but that&amp;rsquo;s a debate for a different time.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Over the years I&amp;rsquo;ve implemented a 3rd way that is good enough for financial purposes AND light enough to not become a burden. And we all know, things that are easy to measure are more likely to be consistently measured.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My view on Anthropic and OpenAI setting up Joint Ventures with PE firms</title>
-      <link>http://localhost:1313/posts/anthropic-openai-new-joint-venture-with-private-equity/</link>
+      <link>http://localhost:64944/posts/anthropic-openai-new-joint-venture-with-private-equity/</link>
       <pubDate>Sun, 10 May 2026 14:33:31 +0100</pubDate>
-      <guid>http://localhost:1313/posts/anthropic-openai-new-joint-venture-with-private-equity/</guid>
+      <guid>http://localhost:64944/posts/anthropic-openai-new-joint-venture-with-private-equity/</guid>
       <description>&lt;p&gt;&lt;em&gt;note: A slightly modified, and simplified, version of this post appeared on my partner&amp;rsquo;s newsletter &lt;a href=&#34;https://www.2ndorderthinkers.com/p/private-equitys-ai-locked-in&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2nd order thinkers&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;On May 4th &lt;a href=&#34;https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthropic announced it launched an Enterprise AI services firm&lt;/a&gt;. The new company is a combination of Anthropic and several well known Private Equity investment firms.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The company will serve as an accelerant in bringing AI solutions to mid-size companies, helping to drive adoption across an initial customer base of both portfolio companies of the investment firms and independent companies that can benefit from the platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podcast guest on: Build and Break Through, a podcast for founders</title>
-      <link>http://localhost:1313/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</link>
+      <link>http://localhost:64944/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</link>
       <pubDate>Sun, 10 May 2026 09:59:04 +0100</pubDate>
-      <guid>http://localhost:1313/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</guid>
+      <guid>http://localhost:64944/posts/podcastguest-build-and-break-through-podcast-with-klaas-ardinois/</guid>
       <description>&lt;p&gt;Hunter Harris from &lt;a href=&#34;https://huntersoftwareconsulting.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hunter Software Consulting&lt;/a&gt; and I sat down to shoot the breeze. Like me, Hunter is focused on helping companies navigate growing pains. Too small to be big, too big to be small.&lt;/p&gt;&#xA;&lt;h1 id=&#34;topics&#34;&gt;&#xA;  Topics&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#topics&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;It wasn&amp;rsquo;t meant to be purely about AI, but inevitably these days we ended up dedicating a good bit of our conversation to it.&lt;/p&gt;&#xA;&lt;p&gt;Besides AI we also touched on&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podcast guest on: AI Builder Series</title>
-      <link>http://localhost:1313/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</link>
+      <link>http://localhost:64944/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</link>
       <pubDate>Thu, 12 Mar 2026 09:33:52 +0100</pubDate>
-      <guid>http://localhost:1313/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</guid>
+      <guid>http://localhost:64944/posts/podcastguest-ai-builder-podcast-with-klaas-ardinois/</guid>
       <description>&lt;p&gt;Sean from &lt;a href=&#34;https://www.kerno.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerno&lt;/a&gt; was kind enough to put up with me for a good 40 minutes. Kerno moves behavior and integration testing from CI to the developer&amp;rsquo;s machine, giving AI agents an instant feedback loop to catch and fix what they broke in every session.&lt;/p&gt;&#xA;&lt;p&gt;I like what the team at Kerno is doing. Philosophically we&amp;rsquo;re very aligned on thinking that the key to using LLM for coding is in the harness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Venture Capital says NO to your startup</title>
-      <link>http://localhost:1313/posts/why-venture-capital-says-no-to-your-startup/</link>
+      <link>http://localhost:64944/posts/why-venture-capital-says-no-to-your-startup/</link>
       <pubDate>Fri, 28 Nov 2025 11:12:12 +0100</pubDate>
-      <guid>http://localhost:1313/posts/why-venture-capital-says-no-to-your-startup/</guid>
+      <guid>http://localhost:64944/posts/why-venture-capital-says-no-to-your-startup/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;re a founder considering venture capital, stop thinking of VCs as mystical &amp;ldquo;investors&amp;rdquo; and start thinking of them as business owners. They&amp;rsquo;re running their own company, it just happens that their business involves selecting startups to fund with the goal of making significantly more money in return.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;So why are they talking to you at all?&lt;/strong&gt; We&amp;rsquo;ll come back to that crucial question.&lt;/p&gt;&#xA;&lt;p&gt;First, let&amp;rsquo;s demystify what a &amp;ldquo;VC&amp;rdquo; actually is by following the money. This explanation focuses on the UK system, but the fundamental principles apply globally.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3 Best Books on Business Strategy</title>
-      <link>http://localhost:1313/posts/3-best-books-on-business-strategy/</link>
+      <link>http://localhost:64944/posts/3-best-books-on-business-strategy/</link>
       <pubDate>Mon, 28 Jul 2025 14:39:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/3-best-books-on-business-strategy/</guid>
+      <guid>http://localhost:64944/posts/3-best-books-on-business-strategy/</guid>
       <description>&lt;p&gt;Picture this: a man lounges by his swimming pool as the last of the summer sun sets. In the distance is a town getting ready for evening ruckus. But here, poolside, the only noise is the low hum of the pool&amp;rsquo;s waterfilter pump accentuated by the occasional rustling of the man turning a page in his book. &lt;br&gt;&#xA;That is me on holiday.&lt;/p&gt;&#xA;&lt;p&gt;Which leads to the next question: what am I reading?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>http://localhost:64944/services/</link>
       <pubDate>Wed, 16 Jul 2025 10:40:06 +0100</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>http://localhost:64944/services/</guid>
       <description></description>
     </item>
     <item>
       <title>The 4 Stages of a CTO</title>
-      <link>http://localhost:1313/posts/4-stages-of-a-cto/</link>
+      <link>http://localhost:64944/posts/4-stages-of-a-cto/</link>
       <pubDate>Wed, 16 Jul 2025 10:40:06 +0100</pubDate>
-      <guid>http://localhost:1313/posts/4-stages-of-a-cto/</guid>
+      <guid>http://localhost:64944/posts/4-stages-of-a-cto/</guid>
       <description>&lt;p&gt;&amp;ldquo;The CTO you want, or the CTO you need?&amp;rdquo;.&lt;br&gt;&#xA;It&amp;rsquo;s a question I have asked many CEO over the years. Sometimes I was referring to myself, sometimes a co-founder, sometimes their existing CTO, or a candidate hire.&lt;/p&gt;&#xA;&lt;p&gt;Like most executive roles, the CTO role changes with the business. But for clarity, when I think of a CTO, I think of the person who is accountable for everything that goes on in the technology organization. The part of your business that decides what you&amp;rsquo;re going to build, how you&amp;rsquo;re going to build it, and how you&amp;rsquo;ll deal with it when it&amp;rsquo;s live.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Story</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:64944/about/</link>
       <pubDate>Wed, 16 Jul 2025 10:40:06 +0100</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:64944/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Fundraising for Founders, strategies for investment</title>
-      <link>http://localhost:1313/posts/fundraising-for-founders-navigating-investment-ecosystem/</link>
+      <link>http://localhost:64944/posts/fundraising-for-founders-navigating-investment-ecosystem/</link>
       <pubDate>Tue, 29 Apr 2025 10:28:24 +0100</pubDate>
-      <guid>http://localhost:1313/posts/fundraising-for-founders-navigating-investment-ecosystem/</guid>
+      <guid>http://localhost:64944/posts/fundraising-for-founders-navigating-investment-ecosystem/</guid>
       <description>&lt;p&gt;Money is the only problem a founder has. You&amp;rsquo;re either trying to figure out where to best spend it or how to get it from customers. And if the gap between spending and receiving is too big, you&amp;rsquo;re trying to get investors to pick up the difference.&lt;/p&gt;&#xA;&lt;p&gt;In this article, I&amp;rsquo;m going to focus on strategies for investment for early stage companies. And since I&amp;rsquo;m writing this in 2025 where investor money is less free flowing than it was a decade ago; the equation has changed. We live in unprecedented times indeed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The no nonsense ceo intro to AI, ML, LLM and genAI</title>
-      <link>http://localhost:1313/posts/the-no-nonsense-ceo-intro-to-ai-ml-llm-genai/</link>
+      <link>http://localhost:64944/posts/the-no-nonsense-ceo-intro-to-ai-ml-llm-genai/</link>
       <pubDate>Tue, 15 Apr 2025 14:22:13 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-no-nonsense-ceo-intro-to-ai-ml-llm-genai/</guid>
-      <description>&lt;p&gt;I love a good onion diagram when something has layers! So here&amp;rsquo;s my gen-AI onion.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-gen-ai-onion&#34;&gt;&#xA;  The Gen AI Onion&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-gen-ai-onion&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/AI-Onion.png&#34; alt=&#34;Onion Diagram showing the layers of AI&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;artificial-intelligence-ai--agi&#34;&gt;&#xA;  Artificial Intelligence (AI) &amp;amp; AGI&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#artificial-intelligence-ai--agi&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;In computer science AI is a broad umbrella term. It’s any technology that helps mimic cognitive functions. That can range from seeing (i.e. classifying objects in an image, or recognizing handwriting), and hearing (“speech to text” transcriptions) to more abstract tasks such as responding to a question or applying a series of logical rules. AI is not really a technology in itself, but a group of techniques that help computer programs “learn” how to perform these functions.&lt;/p&gt;</description>
+      <guid>http://localhost:64944/posts/the-no-nonsense-ceo-intro-to-ai-ml-llm-genai/</guid>
+      <description>&lt;p&gt;I love a good onion diagram when something has layers! So here&amp;rsquo;s my gen-AI onion.&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-gen-ai-onion&#34;&gt;&#xA;  The Gen AI Onion&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-gen-ai-onion&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:64944/images/posts/AI-Onion.png&#34; alt=&#34;Onion Diagram showing the layers of AI&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;artificial-intelligence-ai--agi&#34;&gt;&#xA;  Artificial Intelligence (AI) &amp;amp; AGI&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#artificial-intelligence-ai--agi&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;In computer science AI is a broad umbrella term. It’s any technology that helps mimic cognitive functions. That can range from seeing (i.e. classifying objects in an image, or recognizing handwriting), and hearing (“speech to text” transcriptions) to more abstract tasks such as responding to a question or applying a series of logical rules. AI is not really a technology in itself, but a group of techniques that help computer programs “learn” how to perform these functions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Agent (r)evolution and the future of SaaS</title>
-      <link>http://localhost:1313/posts/the-agent-revolution-and-the-end-of-saas/</link>
+      <link>http://localhost:64944/posts/the-agent-revolution-and-the-end-of-saas/</link>
       <pubDate>Fri, 07 Mar 2025 14:17:57 +0100</pubDate>
-      <guid>http://localhost:1313/posts/the-agent-revolution-and-the-end-of-saas/</guid>
+      <guid>http://localhost:64944/posts/the-agent-revolution-and-the-end-of-saas/</guid>
       <description>&lt;p&gt;For the longest time we&amp;rsquo;ve gone to our CRM for customer data, and our HR portal to book a holiday, and pulled product and pricing data into a spreadsheet for our own analysis.&lt;/p&gt;&#xA;&lt;p&gt;And with the likes of zapier, paragon, mulesoft etc we&amp;rsquo;ve created a choreographed dance of today&amp;rsquo;s systems. This is about to give way to something far more profound. What we currently call &amp;ldquo;agents&amp;rdquo; – LLMs wrapped in API calls following predetermined paths – represent merely the opening act in a transformation that could rival the internet and cloud computing in its impact on software economics. As systems evolve from stateless token generators to reasoning frameworks with persistent memory and autonomous goal-setting capabilities, SaaS businesses face an uncomfortable question: what happens when your carefully designed user experience becomes an unnecessary middleman between data and decision?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podcast guest on: A geek leader</title>
-      <link>http://localhost:1313/posts/podcastguest-a-geek-leader/</link>
+      <link>http://localhost:64944/posts/podcastguest-a-geek-leader/</link>
       <pubDate>Fri, 01 Nov 2024 09:59:04 +0100</pubDate>
-      <guid>http://localhost:1313/posts/podcastguest-a-geek-leader/</guid>
+      <guid>http://localhost:64944/posts/podcastguest-a-geek-leader/</guid>
       <description>&lt;p&gt;Sat down with John for an episode on &amp;ldquo;a Geek Leader&amp;rdquo;. The podcast typically covers the more human elements of leadership, so we obviously had lots to talk about.&lt;/p&gt;&#xA;&lt;p&gt;Full episode here: &lt;a href=&#34;https://www.ageekleader.com/agl-389-klaas-ardinois/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ageekleader.com/agl-389-klaas-ardinois/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;we-talked-about&#34;&gt;&#xA;  We talked about&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#we-talked-about&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;We covered a lot of ground in a short space&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CTO leadership&lt;/li&gt;&#xA;&lt;li&gt;Keeping the lights on (BAU) and How Technology drives the business forward&lt;/li&gt;&#xA;&lt;li&gt;Trends in Technology&lt;/li&gt;&#xA;&lt;li&gt;What is the role of the CEO?&lt;/li&gt;&#xA;&lt;li&gt;Culture&#xA;&lt;ul&gt;&#xA;&lt;li&gt;People come in to do a good job… have faith and trust in people&lt;/li&gt;&#xA;&lt;li&gt;Develop people&lt;/li&gt;&#xA;&lt;li&gt;Output is valuable&lt;/li&gt;&#xA;&lt;li&gt;Career perspective&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Your Job as CTO, and interacting with your peers in the leadership team&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
