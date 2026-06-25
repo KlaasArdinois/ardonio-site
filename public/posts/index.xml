@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ardonio Ltd.</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 12:12:30 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 12:12:30 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Surface war</title>
+      <link>http://localhost:1313/posts/ai-surface-wars-local-llm/</link>
+      <pubDate>Wed, 24 Jun 2026 12:12:30 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ai-surface-wars-local-llm/</guid>
+      <description>&lt;p&gt;Local inference solves the operating cost problem of frontier Labs, by making the customer effectively pay the hardware bill. And between consumer hardware and small model improvements that&amp;rsquo;s becoming an increasingly realistic option for many day to day tasks. That&amp;rsquo;s what I argued in &lt;a href=&#34;../ai-broke-software-marginal-cost/&#34; &gt;an earlier post&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Perhaps the most clear indicator in that direction is the path Apple has been following with Apple Silicon. Increasingly, neural processing (the core of LLM inference) is running on apple silicon, with an offload to a frontier model (openAI). And it&amp;rsquo;s exposed to developers through an Apple controlled layer in core AI (local inference), Core ML (classic machine learning) and Apple Intelligence (for Siri interactions).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Broke Software&#39;s Best Trick</title>
       <link>http://localhost:1313/posts/ai-broke-software-marginal-cost/</link>

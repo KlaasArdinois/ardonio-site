@@ -1,9 +1,9 @@
 +++ 
 draft = false
-date = 2026-06-18T12:12:30+01:00
-title = "AI Broke Software's Best Trick"
-description = "Generative AI shattered the zero marginal cost model that made software economics so attractive. Here's why local inference is the only structural fix — and what it means for the labs."
-slug = "ai-broke-software-marginal-cost"
+date = 2026-06-24T12:12:30+01:00
+title = "AI Surface war"
+description = "OS players are positioning to own the consumer AI surface. What the TomTom playbook tells us about where frontier labs end up."
+slug = "AI-surface-wars-local-LLM"
 authors = ["Klaas Ardinois"]
 tags = []
 categories = []
@@ -11,49 +11,81 @@ externalLink = ""
 series = []
 +++
 
+Local inference solves the operating cost problem of frontier Labs, by making the customer effectively pay the hardware bill. And between consumer hardware and small model improvements that's becoming an increasingly realistic option for many day to day tasks. That's what I argued in [an earlier post](../ai-broke-software-marginal-cost/).
 
-Software ate the world, per Andreessen. And it did so on one particular economic pillar: zero marginal cost. In simple terms: the cost of producing an extra copy of your application is effectively zero. Compared to the cost of coding the application, shipping a few floppy disks is effectively zero cost. These days, SaaS software has replaced that shipping cost with compute cost. But the relative equation holds. One extra user of your product carries a negligible cost compared to creating that product. 
+Perhaps the most clear indicator in that direction is the path Apple has been following with Apple Silicon. Increasingly, neural processing (the core of LLM inference) is running on apple silicon, with an offload to a frontier model (openAI). And it's exposed to developers through an Apple controlled layer in core AI (local inference), Core ML (classic machine learning) and Apple Intelligence (for Siri interactions).
 
-**genAI is different**. Every user, every question/response, every nano banana image, ... every interaction carries a significant direct cost. And the more a user engages, the higher the cost to the company. And it turns out that providing that service is pretty expensive, since you need high end datacenter hardware to run the computations that produce the output. 
+And outside the Apple ecosystem, Qualcomm Snapdragon X1 and X2 are now powering "AI" laptops from the usual suspects. Dell has an X1 based lattitude (the business oriented dell we all love) around £1200. That's getting towards mass market territory.
 
-_The traditional "scale your way out of it" doesn't work if you're not profitable on a per-user basis._ It just digs the hole faster.
+And on the not-apple software side, microsoft has Phi and is clearly pushing hard to get copilot as this generation's clippy.
 
-Oops...
+The trend I'm seeing is that increasingly the local players are setting up to own the consumer, rather than the frontier labs.
 
-And of course, nobody sat around wanting "AI". The models are only interesting to the extent we can **do something of value** with them. For some that might be entertainment (like asking a model how to get a peanut butter sandwich out of the VCR in the style of the King James bible ... we've all tried that, right?). For others that might look more productive, like trying to get a handle on sales data. And whether or not that task ends up being done reliably really depends on the task in question.
+# What I didn't say last time: how the labs make money going forward
+When moving inference locally what's the point of your claude subscription, you might rightfully ask. Are we just going back to the good old days where I pay once, install something on my machine and then run it forever? Remember those days?
 
-Broadly speaking, we currently use AI on high value and low value tasks. 
-* **High ROI tasks**. Think about coding, complex agent workflows, ... . The sort of task where the cost and token burn is probably justifiable. And exactly the sort of tasks where new frontier models are still meaningful steps forward. The difference between what Fable (when it was available) could code vs Opus 4.8 is significant.
-* **Low ROI tasks**. Summarizing a meeting, drafting an email from your bullet points, scheduling a task through calendar access. The ROI on "draft this email" is hard to justify at unsubsidized LLM pricing. I'm not saying there's no value to it, but rather that the economics break. For $20 / month I'll happily have claude write and rewrite summaries. At $200 / month ... nah, my trusty manual notes in obsidian will do. 
+I see a few ways forward for the frontier labs in this world, keeping in mind that the real frontier models won't run locally ([as I said, the frontier will always be the frontier](../ai-broke-software-marginal-cost/#the-frontier-will-always-be-the-frontier)). So that part of their business remains protected, and billable (and presumably eventually no longer subsidized).
 
+The likely candidates in my view are:
+* Become a player in the local-model space and sell an "installable" version of their models. More or less how you run claude as a desktop app today, but with a local model included; and probably a router to offload hard things to cloud. 
+* License frontier models for others to distill into local models. 
+* Become the fallback for other companies to offload their hard questions to the frontier
+* Exit the consumer tier altogether and focus purely on the frontier
 
-# A broken model in three parts
-First, as I just mentioned, cost grows in line with usage AND current subscriptions don't cover cost. And yes, the saas subscription pricing is normally set so that a few net-loss power users get subsidized by a long tail of net-profitable users. SemiAnalysis and others have pointed out that a user using 25% of their token limits is _at best_ a negative 25% margin. Or the more aggressive side of the calculus by Ed Zitron, 3 power users need at least 2000 low-end users to break even. Econ101: this is not how you get to a profitable product.
+My thesis is that eventually the frontier labs will have a lesser, or even non-existent, role in local inference. And they'll end up initially probably as a fallback for the OS/consumer players and eventually possibly entirely replaced (we'll get to that in a second). 
 
-The second thread I want to quickly pull is amortization. Training a frontier model carries a cost in the 100s of millions to produce the asset (and let's assume it's all capex for simplicity), and projections are that this will keep growing as bigger models need more compute time to train and more data to ingest. On the flip side, let's look at the lifetime of these models. Flagship models, major versions, ship roughly every 12-18 months with minor upgrades in between. And when a new model comes out the early adopters switch, and the laggards wait for it to become the default setting, which is typically quite quickly as well. So let's say that the first 25% (power users) switches more or less right away, and the remaining gets swept up over the next 6 months as it becomes the default model. So you've got a 100+ million asset with, generously a 2yr shelf life, and you're stacking a new asset of that size every year-ish. Sure, technically it will get written off over a longer life than its real practical use but in reality every model has about a year to make a profit.
+So yes, I am saying that claude and openAI might not be the powerhouse consumer businesses they pretend to be. And they're, if anything, in a race against their own partners. A race I think they are likely to lose as time goes on.
 
-But hey, token costs are coming down. This is the third place the economics break. Token costs are objectively coming down, however increasingly reasoning models consume more tokens to get to an answer (and FYI, reasoning tokens are considered output tokens; the expensive kind). Tokens are a poor proxy measure anyway of course, see all the "tokenmaxxing" backlash. The thing that really matters is **task completion, the economically relevant result**. And as models get more capable between reasoning and longer context windows, and we start sticking them in skills and workflows which burn more tokens as well, we're actually driving the bill "per result" up, despite token costs coming down right now. 
+# Friction beats capability
+Right now, my average interaction with claude involves an awful lot of copy and pasting things. Or I may have to struggle through some clumsy MCP connectors (looking at you gmail) or letting it "do things" in my browser. I've long been a fan of taking my notes in markdown, so at least I'm text-first already (shoutout to [obsidian](https://obsidian.md/)) which has helped a lot. But I also use a myriad of other apps that are either poorly accessible to Claude (apple mail) or need me to install specific extensions to get claude to do something in the app (like excel).
 
-# Solving the economics
-Since we're in a world where the users consume more of the product than they pay for, there are only 2 simple levers to pull
-1. **Charge more**. This works in the high ROI tier of tasks. Though as we've seen with recent API pricing, even that isn't as clear cut as you'd hope, in part because it's hard to tie "code" directly to "revenue" in most cases.
-2. **Cost less**. This is extending the life of old models by routing "simple" tasks to lower models. The frontier labs are doing this under the hood already. And while it helps, it does little to the marginal cost per query. Older models still incur COGS and take up datacenter capacity. So while routing can be a partial offset, it's not a clean solution.
+I'm not saying this is unusable, we muddle through, but the duct-tape is regularly visible and irritating.
 
-The bar to summarize an email of course isn't really getting higher over time, nor does summarizing a meeting or drafting the powerpoint bullets. This "everyday task" tier has a pretty fixed threshold, and we've crossed that bar some time ago to the point where **evolution in frontier models doesn't make that much of a difference anymore for this kind of task**. So while we can debate whether there is a plateau for LLM, and how close or far we are from it, we're at a point where "good enough" is reached for a number of tasks.
+Compare this to what the developers of your operating system could do if you play in their sandbox. You could have OS-level indexing of documents (already happens anyway), software libraries for developer to call that with OS level permissions built-in, and deep integration in their own tools. 
 
-The clean solution is therefore more akin to the days of floppy disks, rather than clouds. Send the user a copy of your software and let their hardware do the heavy work while they use it. So your marginal cost becomes one of distribution, but no longer one of usage. At which point a small license fee can certainly become profitable. I'm going to call this the *market-natural* solution, as it restores software economics that will allow scaling their way to profitability.
+Take apple mail as an example (or any other mail client). The pre-drafted email appears right in your mail client, based on (a) the conversation it's in and (b) other emails you've had with this contact and (c) your writing style seen over all the emails you've sent. Compare that to the "hey claude, help me draft a reply to this email" copy and paste. Could I get Claude to get all that context? Technically, yes. In practice: I just need a quick email drafted, don't make it hard.
 
-Now I know that on 2026 hardware we're not quite in a position to run a full model on a $500 laptop, and we're more limited by memory and memory bandwidth than we are by raw compute. I'll go into more of this in the next post, but the crux here is that a combination of small model + aggressive retrieval + OS level context management is a direction that is (a) happening and (b) economically a different challenge.
+# So, why doesn't openAI pay Apple to be the default? 
+Pull a Google, basically. Pay Apple a large amount of money so they route every LLM inference query to open AI. Sadly, the business model doesn't work that way (yet). First because inference actually costs openAI significant amounts of money, and second because they don't have a business model yet where another revenue source can fill this in.
 
-# The frontier will always be the frontier
-Before closing out, I want to take a quick sidestep about the evolution of the frontier. Back when gpt2 was released, it was fun but not very useful. It lacked attention (ironically), and would drift off into irrelevant nonsense in 2-3 turns. GPT 3 was far better and felt like it actually crossed a bridge into "useful", for some definition of useful. And as I mentioned before, more recently the difference between Fable and Opus was another leap.
+Compared to Google who would buy the traffic because the eyeballs that came with that traffic were very valuable to their advertisers. And I'm aware openAI is looking at advertising and other avenues of not having to make money. But right now, they would simply be paying Apple for the privilege of then paying cost for the inference, with no obvious revenue in return. 
 
-The interesting question is what happens behind that frontier. As frontier models get quantized (reduce the number of bits used to store the model weights, at the cost of accuracy in the calculation) and distilled ("summarized" into a smaller model). Both actions have the net effect that a smaller model can do an approximation of the frontier capability. And smaller models of course can do with lesser hardware. 
+# We've seen this before
+Back in my days at TomTom I have seen this exact playbook before from Apple when maps on phones were the new thing. Here's what that looks like
 
-So think of this as a conveyor belt. The frontier permanently occupies the leading edge of what is possible in all its glory. And behind it, tasks that were previously frontier become available to "lesser" models with lesser hardware requirements. What GPT3 could only do on the edge, I can easily do better today on my 3 year old macbook air with a local model.
+1. **Launch with a supplier**. Apple Maps v1 was partially built on TomTom's data. And while imperfect in many ways, it was simply shipped to displace the then-default Google. That was more or less the Siri+openAI spiel we saw. Side note, there was in fact talk of TomTom being acquired by Apple.
+2. **Rebuild first-party underneath**. Apple then apologized and went quiet on maps while they rebuilt a lot from the ground up. The public kept the data from the 3rd party supplier, internally though things are shaking. If that sounds familiar, think apple silicon and their focus on NPU.
+3. **The Apple ecosystem**. I will never again underestimate the power of this. In time maps stopped being an app and become a feature of the OS. Handoff, navigation, calendar integration, watch, ... . Sure, technically it's still an app, but the routes into it are so tied into using the device you're on it's easy to forget. This is where we're heading with apple AI. It'll stop being a destination and just become part of the fabric.
+4. **Apple doesn't need to make money from the feature**. Because of step 3, it stops being a solo thing to monetize. You don't buy maps, you simply buy an iDevice because it all plays nicely together. Apple monetizes the ecosystem as a whole, not the point solution.
 
-And that's exactly where I'll leave it today. The economics point to a release valve that solves the economics of the frontier labs, with capability shifting to local.
+So what happened to TomTom during this playbook? Well, our consumer business got crushed by Apple (and Google) removing all the friction of a dedicated device for navigation. The phone in your pocket hit the bar for "good enough + low friction" over "higher quality extra device". And TomTom got relegated to the B2B afterlife, licensing its data to others at a fraction of the revenue.
 
-However, that release valve comes with quite different plumbing. Because when you're running the model local the lab no longer sees the queries, the results nor the system in which it runs. 
+And to put that fractin of revenue in context 
+€1,364M (FY06) → €1,737M (FY07 - iphone released) → €1,748M (FY08, peak - iphone now has GPS) → €1,273M (FY11) → €1,057M (FY12 - apple maps released) → €860M (FY18) → €585M (FY23) → €574M (FY24). 
 
-The release valve works by offloading the cost, but at what price to the labs? That's where I'm going with the next article.
+That's Peak-to-present: ~67% revenue decline over sixteen years.
+
+And the company's valuation dropped close to 90% between 2007 and 2009. The market clearly repricing TomTom on the credibility of the threat of phone+map, rather than the slow confirmation through revenues.
+
+That is the important lesson for openAI and Anthropic. The moment a credible path opens up for displacement, in my mind local inference dominated by OS-level players, the market will likely reprice the frontier labs. And the real question is what the labs place in that new world would be. 
+
+When people started looking at their phones for navigation, Apple started to learn a lot. Every path, every walk, every drive, ... became an anonymous trace. And putting all those on top of each other showed where the map was deficient vs the real world, where and when traffic bottlenecks occur, etc. Data that had little to do with the process of making the map, but a feedback loop that was incredibly helpful to point out where to improve.
+
+If you map this to LLM usage. Right now, Claude can generate your email but doesn't actually know what you send. If you have the OS level view (or at least baked into the mail client) you get visibility on exactly how edited the item in the sent folder is from the draft. Even if you can't use the actual draft (privacy reasons of course), the telemetry from knowing that edit behavior is another means of measuring if your model update is better or worse in this situation. 
+
+Apple is of course notorious for its closed system. But Microsoft isn't that far behind. They own the corporate office stack, that's not going anywhere. Windows + MS Office + Teams is the default in the vast majority of white collar workers' lives. Add to that Snapdragon X series becoming mainstream, Phi as a local model and the inevitable CoPilot and you've got the same cocktail. And through their stake in openAI, arguably they also have a finger in the pie for the fallback routing on the frontier.
+
+# The Bull case
+If you're with me so far, you might think I'm writing off frontier labs. But in some way, the TomTom example shows the bull case: niche B2B. TomTom lost a lot of earnings from their consumer business, but underneath was a capability (producing high quality map data) that was still value to other businesses. 
+
+So the path that I see that would save the frontier labs is in the domain specific high ROI frontier applications. In other words, how many more "claude code" niches exist, where there is a true ROI for frontier. "Claude Legal", "Claude finance", "Claude biotech", ... .
+
+If those niches keep existing (or are created) and adopted faster than local capability catches up, that's the bull case in a nutshell here. 
+
+# So?
+Summing up across these 2 articles
+* Local inference is becoming viable, and helps the labs towards a usable business
+* High ROI tasks (e.g. coding) will become the battleground for frontier labs
+* Lower ROI tasks are technically capable of shifting towards local hardware
+* The local inference approach favors a lower friction user experience. This end-user surface is where the battle is, and in my opinion favors the Operating Systems.
+* Value will accrue to the winners of that end-user surface battle. LLM capability will become an input, not a moat.

@@ -36,7 +36,7 @@ And does the wider team know what the plan is?
 This is a **half or full day workshop** where we'll discuss your technology strategy and how it aligns with your business goals.
 
 Best enjoyed with **CEO & CTO together**.  
-The goal here is to **create clarity**, not technolgoy.
+The goal here is to **create clarity**, not technology.
 
 -------
 ## CTO Coaching
