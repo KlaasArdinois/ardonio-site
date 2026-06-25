@@ -1,0 +1,3 @@
+# Hugo build output (rebuilt on every deploy)
+/public/
+/.hugo_build.lock
