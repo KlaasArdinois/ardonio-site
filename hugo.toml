@@ -30,8 +30,8 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  colorScheme = "light"
+  hidecolorschemetoggle = true
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]

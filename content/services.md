@@ -1,64 +1,35 @@
 +++
+title = "Services"
+type = "services"
 date = '2025-07-16T10:40:06+01:00'
 draft = false
-title = ''
 author = ["Klaas Ardinois"]
+label = "How can I help"
+heading = "Working with me is cheaper than the mistakes I'll help you avoid."
+pitch = "Plain and simple. Discuss how I could help you."
+
+[[services]]
+name = "Problem solving session"
+desc = "What will break when you scale your team quickly? Best if you already know your key problem and want experienced, outside perspective on the solutions."
+duration = "90 min · 1 problem"
+
+[[services]]
+name = "Strategy alignment workshop"
+desc = "Is your technology getting you where the business plan says you're going? Best enjoyed with CEO & CTO together — the goal is clarity, not technology."
+duration = "Half / full day"
+
+[[services]]
+name = "CTO coaching"
+desc = "Every CTO has a different path to becoming a business leader. We identify the gaps using my [4-stages framework](/posts/4-stages-of-a-cto/) and build a 6-month schedule around it."
+duration = "6 months"
+
+[[services]]
+name = "Interim & transformation work"
+desc = "Sometimes you need an outsider to get you over the hurdle. I've led technology restructures, process implementations and strategy re-alignment, grounded in business strategy."
+duration = "Project-based"
+
+[[services]]
+name = "Advisory retainer"
+desc = "I've been in many rooms where difficult decisions get made. Tap into the experience anytime you have a question — before you pull the trigger."
+duration = "Ongoing"
 +++
-
-# How can I help?
-Working with me will be **cheaper than making the mistakes** I'll help you avoid. Plain and simple.
-
-Discuss how I could help you? 
-
-**[Book 30 minutes](https://cal.com/klaas-ardinois/30min).**
-
-# More details?
-
--------
-
-## Problem Solving Session
-What will break when you scale up your team quickly?  
-Worried your tech burn is too high and you're not sure about the outcomes delivered?  
-Concerned about the quality of your product but no clear way of defining what's good?  
-Conversations with your CTO are stuck in technical detail without clarity of impact on the business?
-
-This format is best if you already know your key problem, but are looking for someone with experience to bring a new perspective on solutions.
-
-In **90 minutes** we'll discuss **actions** you can take for your **1 key problem**
-
--------
-## Strategy Alignment Workshop
-You probably have a plan for the business. But are you sure your technology is getting you there?  
-Are you getting value for money from your product delivery function?  
-How would you measure that?  
-And does the wider team know what the plan is?  
-
-This is a **half or full day workshop** where we'll discuss your technology strategy and how it aligns with your business goals.
-
-Best enjoyed with **CEO & CTO together**.  
-The goal here is to **create clarity**, not technology.
-
--------
-## CTO Coaching
-Every CTO has a journey to become a business leader, and every CTO has a different path.  
-But a little help along the way can make a big difference.  
-
-We will identify the key gaps to address, based on my [4 stages framework](/posts/4-stages-of-a-cto/) and your CTO's profile, and create a 6 month coaching schedule for your CTO.
-
-During these **6 months** we'll have regular scheduled sessions designed to bridge the gap between technology leadership and business expectations. So CTO learn to communicate better, clearer and in a language fit for the boardroom. 
-A clear focus on **improving your CTO's business thinking** and **developing their leadership skills**.
-
--------
-## Interim & Transformation work
-Sometimes you need an outsider to come in and help you over that hurdle.  
-Let me be your experienced catalyst for driving big changes. 
-
-I've led **technology restructures**, **process implementations**, **strategy re-alignment** all driven by a strong foundation in the business strategy.
-
--------
-## Advisory retainer
-I've been in many rooms where difficult decisions need to be made. Sometimes you want someone outside the circle to bounce ideas around and ask for feedback before pulling the trigger. 
-
-The offer is simple:  
-I've been there and done that.  
-Tap into my experience anytime you have a question.

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -10415,24 +10414,30 @@ html {
   font-size: 62.5%; }
 
 body {
-  color: #212121;
-  background-color: #fafafa;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-  font-size: 1.8em;
+  color: #5a5d63;
+  background-color: #ffffff;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.65em;
   font-weight: 400;
-  line-height: 1.8em; }
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
   @media only screen and (max-width: 768px) {
     body {
-      font-size: 1.6em;
-      line-height: 1.6em; } }
+      font-size: 1.6em; } }
+::selection {
+  background: #1e5bff;
+  color: #ffffff; }
+
 iframe[src*="disqus"] {
   color-scheme: light; }
 
 a {
   font-weight: 500;
-  color: #1565c0;
+  color: #1e5bff;
   text-decoration: none;
-  transition: all 0.25s ease-in; }
+  transition: color 0.15s ease; }
   a:focus, a:hover {
     text-decoration: underline; }
 
@@ -10447,9 +10452,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-  font-weight: 600;
-  color: #000;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #111214;
   margin: 4rem 0 2.5rem 0; }
   h1:hover .heading-link,
   h2:hover .heading-link,
@@ -10464,7 +10470,7 @@ h6 {
   h4 .heading-link,
   h5 .heading-link,
   h6 .heading-link {
-    color: #1565c0;
+    color: #1e5bff;
     font-weight: inherit;
     text-decoration: none;
     font-size: 80%;
@@ -10481,18 +10487,17 @@ h6 {
 
 h1 {
   font-size: 3.2rem;
-  line-height: 3.6rem; }
+  line-height: 1.15;
+  letter-spacing: -0.03em; }
   @media only screen and (max-width: 768px) {
     h1 {
-      font-size: 3rem;
-      line-height: 3.4rem; } }
+      font-size: 3rem; } }
 h2 {
-  font-size: 2.8rem;
-  line-height: 3.2rem; }
+  font-size: 2.2rem;
+  line-height: 1.25; }
   @media only screen and (max-width: 768px) {
     h2 {
-      font-size: 2.6rem;
-      line-height: 3rem; } }
+      font-size: 2.1rem; } }
 h3 {
   font-size: 2.4rem;
   line-height: 2.8rem; }
@@ -10534,7 +10539,7 @@ strong {
 
 pre {
   display: block;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
@@ -10548,22 +10553,25 @@ pre {
     color: inherit; }
 
 code {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
-  font-size: 1.6rem;
+  font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 1.5rem;
   font-weight: 400;
   border-radius: 0.6rem;
-  padding: 0.3rem 0.6rem;
-  background-color: #ccc;
-  color: #212121; }
+  padding: 0.2rem 0.5rem;
+  background-color: #f1f2f4;
+  color: #111214; }
   @media only screen and (max-width: 768px) {
     code {
-      font-size: 1.5rem; } }
+      font-size: 1.4rem; } }
 blockquote {
-  border-left: 2px solid #e0e0e0;
+  border-left: 1px solid #1e5bff;
   padding-left: 2rem;
-  line-height: 2.2rem;
-  font-weight: 400;
-  font-style: italic; }
+  margin: 3.2rem 0;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #111214; }
 
 * {
   -webkit-tap-highlight-color: transparent; }
@@ -10577,7 +10585,7 @@ table {
 
 table td,
 table th {
-  border: 2px solid #000; }
+  border: 2px solid #111214; }
 
 table tr:first-child th {
   border-top: 0; }
@@ -10616,12 +10624,15 @@ figure {
   width: 100%; }
 
 .container {
-  margin: 1rem auto;
-  max-width: 90rem;
+  margin: 0 auto;
+  max-width: 104rem;
   width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem; }
-
+  padding-left: 4rem;
+  padding-right: 4rem; }
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding-left: 2.4rem;
+      padding-right: 2.4rem; } }
 .fab {
   font-weight: 400; }
 
@@ -10679,26 +10690,79 @@ figure {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
-  .content .post .post-title {
-    margin-bottom: 0.75em; }
-  .content .post .post-meta i {
-    text-align: center;
-    width: 1.6rem;
-    margin-left: 0;
-    margin-right: 0.5rem; }
-  .content .post .post-meta .date .posted-on {
-    margin-left: 0;
-    margin-right: 1.5rem; }
-  .content .post .post-meta .tags .tag {
-    display: inline-block;
-    padding: 0.3rem 0.6rem;
-    background-color: #e0e0e0;
-    border-radius: 0.6rem;
-    line-height: 1.5em; }
-    .content .post .post-meta .tags .tag a {
-      color: #212121; }
-    .content .post .post-meta .tags .tag a:active {
-      color: #212121; }
+  .content .post {
+    max-width: 76rem;
+    padding-bottom: 6rem; }
+    .content .post header {
+      margin-top: 4.8rem;
+      margin-bottom: 0; }
+    .content .post .post-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #8a8d93; }
+      .content .post .post-back:hover, .content .post .post-back:focus {
+        color: #1e5bff;
+        text-decoration: none; }
+    .content .post .post-date {
+      display: block;
+      margin: 2.4rem 0 1.6rem;
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #1e5bff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em; }
+    .content .post .post-title {
+      margin-bottom: 0; }
+      .content .post .post-title .title {
+        margin: 0 0 4.8rem;
+        font-size: clamp(3rem, 4.5vw, 4.2rem);
+        line-height: 1.15;
+        letter-spacing: -0.03em;
+        font-weight: 500;
+        color: #111214; }
+    .content .post .post-content p {
+      text-align: left;
+      max-width: 68rem;
+      margin: 0 0 2.2rem;
+      color: #5a5d63; }
+    .content .post .post-content h2 {
+      font-size: 2.2rem;
+      margin: 4.8rem 0 1.6rem;
+      color: #111214; }
+    .content .post .post-content h3 {
+      margin: 3.6rem 0 1.2rem;
+      color: #111214; }
+    .content .post .post-meta {
+      margin-top: 2.4rem;
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      line-height: 1.5; }
+      .content .post .post-meta .categories,
+      .content .post .post-meta .tags {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.6rem;
+        margin: 0 0 0.6rem; }
+      .content .post .post-meta .meta-key {
+        color: #8a8d93;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-right: 0.2rem; }
+      .content .post .post-meta .separator {
+        color: #8a8d93; }
+      .content .post .post-meta a {
+        color: #5a5d63;
+        font-weight: 400; }
+        .content .post .post-meta a:hover, .content .post .post-meta a:focus {
+          color: #1e5bff;
+          text-decoration: none; }
   .content figure {
     margin: 0;
     padding: 0; }
@@ -10737,11 +10801,11 @@ figure {
     .list ul li .title {
       font-size: 1.8rem;
       flex: 2;
-      color: #212121;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+      color: #5a5d63;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
-        color: #1565c0; }
+        color: #1e5bff; }
 
 @media only screen and (min-width: 768.1px) {
   .list ul:not(.pagination) li {
@@ -10772,13 +10836,13 @@ figure {
         display: inline-block;
         position: relative; }
         .centered .about ul li a {
-          color: #212121;
+          color: #5a5d63;
           text-transform: uppercase;
           margin-left: 1rem;
           margin-right: 1rem;
           font-size: 1.6rem; }
           .centered .about ul li a:hover, .centered .about ul li a:focus {
-            color: #1565c0; }
+            color: #1e5bff; }
           @media only screen and (max-width: 768px) {
             .centered .about ul li a {
               font-size: 1.5rem; } }
@@ -10798,6 +10862,510 @@ figure {
       @media only screen and (max-width: 768px) {
         .centered .error h2 {
           font-size: 2.8rem; } }
+.content:has(> .home) {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.content:has(.home) + .footer {
+  margin-top: 0; }
+
+.home {
+  width: 100%; }
+  .home .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5.6rem 0 0; }
+    .home .section-head .label {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #1e5bff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em; }
+    .home .section-head .count {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      color: #8a8d93; }
+  .home .section-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #111214;
+    margin: 1.4rem 0 4.8rem; }
+    @media only screen and (max-width: 768px) {
+      .home .section-title {
+        font-size: 2.6rem; } }
+.hero {
+  border-bottom: 1px solid #e8e9eb; }
+  .hero .hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 14rem 0 9.6rem; }
+    @media only screen and (max-width: 768px) {
+      .hero .hero-inner {
+        display: block;
+        padding: 8.8rem 0 6.4rem; } }
+  .hero .hero-text {
+    flex: 1 1 auto;
+    min-width: 0; }
+  .hero .hero-figure {
+    flex: 0 0 auto; }
+    @media only screen and (max-width: 768px) {
+      .hero .hero-figure {
+        display: none; } }
+    .hero .hero-figure .avatar {
+      margin: 0; }
+    .hero .hero-figure .avatar img {
+      display: block;
+      width: clamp(22rem, 24vw, 34rem);
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 50%; }
+  .hero .eyebrow {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #1e5bff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2.8rem; }
+  .hero .hero-name {
+    font-size: clamp(4rem, 5.5vw, 6.4rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    color: #111214;
+    max-width: 68rem;
+    margin: 0 0 2rem; }
+  .hero .hero-role {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #5a5d63;
+    max-width: 48rem;
+    margin: 0 0 4rem; }
+  .hero .hero-actions {
+    display: flex;
+    width: fit-content;
+    border: 1px solid #111214; }
+    @media only screen and (max-width: 480px) {
+      .hero .hero-actions {
+        flex-direction: column;
+        width: 100%; } }
+  .hero .btn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1.4rem 2.6rem;
+    transition: all 0.15s ease; }
+    .hero .btn:hover, .hero .btn:focus {
+      text-decoration: none; }
+    .hero .btn.primary {
+      background: #111214;
+      color: #ffffff; }
+      .hero .btn.primary:hover, .hero .btn.primary:focus {
+        background: #1e5bff; }
+    .hero .btn.ghost {
+      border-left: 1px solid #111214; }
+      .hero .btn.ghost:hover, .hero .btn.ghost:focus {
+        color: #1e5bff; }
+      @media only screen and (max-width: 480px) {
+        .hero .btn.ghost {
+          border-left: 0;
+          border-top: 1px solid #111214; } }
+.home-services .services-pitch {
+  font-size: 1.9rem;
+  line-height: 1.6;
+  color: #5a5d63;
+  max-width: 56rem;
+  margin: 0 0 3.6rem; }
+
+.home-services .cal-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  border: 1px solid #111214;
+  padding: 2rem 2.4rem;
+  margin-bottom: 5.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #111214;
+  transition: all 0.15s ease; }
+  .home-services .cal-cta:hover, .home-services .cal-cta:focus {
+    border-color: #1e5bff;
+    color: #1e5bff;
+    text-decoration: none; }
+  .home-services .cal-cta .arrow {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    transition: transform 0.15s ease; }
+  .home-services .cal-cta:hover .arrow, .home-services .cal-cta:focus .arrow {
+    transform: translateX(4px); }
+
+.postlist-head {
+  margin-bottom: 4rem; }
+  .postlist-head .head-meta {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; }
+
+.postlist-eyebrow {
+  font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1e5bff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em; }
+
+.postlist-count {
+  font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 1.2rem;
+  color: #8a8d93; }
+
+.postlist-pagetitle {
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: #111214;
+  margin: 1.2rem 0 0; }
+  @media only screen and (max-width: 768px) {
+    .postlist-pagetitle {
+      font-size: 2.6rem; } }
+.postlist-intro {
+  color: #5a5d63;
+  margin-top: 1.6rem; }
+
+.taxonomy-list {
+  max-width: 76rem;
+  padding-top: 3.2rem;
+  padding-bottom: 6rem; }
+  .taxonomy-list .term-cloud {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; }
+    .taxonomy-list .term-cloud li {
+      margin: 0; }
+  .taxonomy-list .term-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.2rem;
+    color: #1e5bff;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border: 1px solid #e8e9eb;
+    padding: 0.8rem 1.4rem;
+    transition: border-color 0.15s ease; }
+    .taxonomy-list .term-chip:hover, .taxonomy-list .term-chip:focus {
+      border-color: #1e5bff;
+      text-decoration: none; }
+    .taxonomy-list .term-chip .term-count {
+      font-size: 1.1rem;
+      color: #8a8d93; }
+
+.postlist {
+  max-width: 76rem;
+  padding-top: 3.2rem;
+  padding-bottom: 6rem; }
+  .postlist .postlist-group {
+    margin-bottom: 6.4rem; }
+    .postlist .postlist-group:last-child {
+      margin-bottom: 0; }
+  .postlist .postlist-month {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1e5bff;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 1rem; }
+  .postlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .postlist .postlist-item {
+    border-top: 1px solid #e8e9eb; }
+    .postlist .postlist-item:last-child {
+      border-bottom: 1px solid #e8e9eb; }
+    .postlist .postlist-item a {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 3.2rem;
+      padding: 2.4rem 0; }
+      .postlist .postlist-item a:hover, .postlist .postlist-item a:focus {
+        text-decoration: none; }
+        .postlist .postlist-item a:hover .postlist-title, .postlist .postlist-item a:focus .postlist-title {
+          color: #1e5bff; }
+  .postlist .postlist-title {
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    color: #111214;
+    transition: color 0.15s ease; }
+  .postlist .postlist-date {
+    flex: 0 0 auto;
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #8a8d93;
+    white-space: nowrap; }
+  @media only screen and (max-width: 768px) {
+    .postlist .postlist-item a {
+      flex-direction: column;
+      gap: 0.6rem;
+      padding: 2rem 0; }
+    .postlist .postlist-date {
+      order: -1; } }
+.about-page {
+  max-width: 88rem;
+  padding-bottom: 7rem; }
+  .about-page .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 4.8rem 0 0; }
+    .about-page .section-head .label {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #1e5bff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em; }
+    .about-page .section-head .count {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      color: #8a8d93; }
+  .about-page .about-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #111214;
+    margin: 1.4rem 0 2.4rem; }
+    @media only screen and (max-width: 768px) {
+      .about-page .about-title {
+        font-size: 2.6rem; } }
+  .about-page .about-lede {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    color: #111214;
+    max-width: 62rem;
+    margin: 0 0 6rem; }
+    .about-page .about-lede strong,
+    .about-page .about-lede b {
+      font-weight: 600; }
+
+.record {
+  border-top: 1px solid #e8e9eb; }
+  .record:last-of-type {
+    border-bottom: 1px solid #e8e9eb; }
+  .record .record-head {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+    align-items: baseline;
+    padding: 2.4rem 0;
+    cursor: pointer;
+    list-style: none; }
+    .record .record-head::-webkit-details-marker {
+      display: none; }
+    .record .record-head:focus-visible {
+      outline: 2px solid #1e5bff;
+      outline-offset: 2px; }
+  .record .record-period {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.3rem;
+    color: #8a8d93; }
+  .record .record-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1.6rem;
+    padding-right: 0.4rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #111214;
+    transition: color 0.15s ease; }
+  .record .record-toggle {
+    flex: 0 0 auto;
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.4rem;
+    color: #1e5bff;
+    transition: transform 0.2s ease; }
+  .record:hover .record-title,
+  .record .record-head:focus-visible .record-title {
+    color: #1e5bff; }
+  .record[open] .record-toggle {
+    transform: rotate(45deg); }
+  .record .record-body {
+    padding-left: 14rem; }
+  .record .record-body-inner {
+    max-width: 60rem;
+    padding: 0 0 2.8rem; }
+    .record .record-body-inner p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+      color: #5a5d63;
+      margin: 0 0 1.4rem;
+      text-align: left; }
+    .record .record-body-inner a {
+      color: #1e5bff; }
+      .record .record-body-inner a:hover, .record .record-body-inner a:focus {
+        text-decoration: underline; }
+    .record .record-body-inner ul {
+      list-style: none;
+      margin: 1.4rem 0 0;
+      padding: 0; }
+    .record .record-body-inner li {
+      font-size: 1.45rem;
+      line-height: 1.55;
+      color: #5a5d63;
+      padding: 0.7rem 0 0.7rem 1.6rem;
+      border-left: 1px solid #e8e9eb;
+      margin-bottom: 0.1rem; }
+      .record .record-body-inner li p {
+        margin: 0; }
+  .record .record-tags {
+    margin-top: 1.4rem; }
+  .record .tag {
+    display: inline-block;
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.1rem;
+    color: #1e5bff;
+    border: 1px solid #e8e9eb;
+    padding: 0.4rem 1rem;
+    margin: 0 0.4rem 0.6rem 0; }
+  @media only screen and (max-width: 768px) {
+    .record .record-head {
+      grid-template-columns: 1fr; }
+    .record .record-period {
+      margin-bottom: 0.6rem; }
+    .record .record-body {
+      padding-left: 0; } }
+.about-page .cal-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  max-width: 48rem;
+  margin-top: 5.6rem;
+  border: 1px solid #111214;
+  padding: 2rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #111214;
+  transition: all 0.15s ease; }
+  .about-page .cal-cta:hover, .about-page .cal-cta:focus {
+    border-color: #1e5bff;
+    color: #1e5bff;
+    text-decoration: none; }
+  .about-page .cal-cta .arrow {
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    transition: transform 0.15s ease; }
+  .about-page .cal-cta:hover .arrow, .about-page .cal-cta:focus .arrow {
+    transform: translateX(4px); }
+
+.services-page {
+  max-width: 88rem;
+  padding-bottom: 7rem; }
+  .services-page .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 4.8rem 0 0; }
+    .services-page .section-head .label {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #1e5bff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em; }
+    .services-page .section-head .count {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      color: #8a8d93; }
+  .services-page .services-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #111214;
+    max-width: 62rem;
+    margin: 1.4rem 0 2.4rem; }
+    @media only screen and (max-width: 768px) {
+      .services-page .services-title {
+        font-size: 2.6rem; } }
+  .services-page .services-pitch {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    color: #5a5d63;
+    max-width: 56rem;
+    margin: 0 0 3.6rem; }
+  .services-page .cal-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    border: 1px solid #111214;
+    padding: 2rem 2.4rem;
+    margin-bottom: 6.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #111214;
+    transition: all 0.15s ease; }
+    .services-page .cal-cta:hover, .services-page .cal-cta:focus {
+      border-color: #1e5bff;
+      color: #1e5bff;
+      text-decoration: none; }
+    .services-page .cal-cta .arrow {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      transition: transform 0.15s ease; }
+    .services-page .cal-cta:hover .arrow, .services-page .cal-cta:focus .arrow {
+      transform: translateX(4px); }
+  .services-page .svc-table {
+    border-top: 1px solid #e8e9eb; }
+  .services-page .svc-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 12rem;
+    gap: 3.2rem;
+    padding: 2.8rem 0;
+    border-bottom: 1px solid #e8e9eb;
+    align-items: start; }
+    .services-page .svc-row h3 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.35;
+      color: #111214;
+      margin: 0; }
+    .services-page .svc-row .svc-desc {
+      font-size: 1.4rem;
+      line-height: 1.55;
+      color: #5a5d63; }
+      .services-page .svc-row .svc-desc a {
+        color: #1e5bff; }
+        .services-page .svc-row .svc-desc a:hover, .services-page .svc-row .svc-desc a:focus {
+          text-decoration: underline; }
+    .services-page .svc-row .dur {
+      font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-size: 1.2rem;
+      color: #8a8d93;
+      text-align: right;
+      white-space: nowrap; }
+    @media only screen and (max-width: 768px) {
+      .services-page .svc-row {
+        grid-template-columns: 1fr;
+        gap: 0.8rem; }
+        .services-page .svc-row .dur {
+          text-align: left; } }
 .notice {
   border-radius: 0.2rem;
   position: relative;
@@ -10809,7 +11377,7 @@ figure {
     font-weight: 700;
     margin: 0 -0.75rem;
     padding: 0.2rem 3.5rem;
-    border-bottom: 1px solid #fafafa; }
+    border-bottom: 1px solid #ffffff; }
     .notice .notice-title i {
       position: absolute;
       top: 50%;
@@ -10869,61 +11437,86 @@ figure {
       color: #e53935; }
 
 .navigation {
-  height: 6rem;
-  width: 100%; }
+  position: relative;
+  height: 7.2rem;
+  width: 100%;
+  border-bottom: 1px solid #e8e9eb; }
+  .navigation .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
   .navigation a,
   .navigation span {
     display: inline;
-    font-size: 1.7rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-    font-weight: 600;
-    color: #212121; }
+    font-size: 1.3rem;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
+    color: #5a5d63; }
   .navigation a:hover, .navigation a:focus {
-    color: #1565c0; }
+    color: #1e5bff;
+    text-decoration: none; }
   .navigation .navigation-title {
-    letter-spacing: 0.1rem;
-    text-transform: uppercase; }
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: #111214; }
+    .navigation .navigation-title::before {
+      content: "";
+      width: 0.9rem;
+      height: 0.9rem;
+      background: #1e5bff;
+      flex: 0 0 auto; }
+    .navigation .navigation-title:hover, .navigation .navigation-title:focus {
+      color: #1e5bff;
+      text-decoration: none; }
   .navigation .navigation-list {
-    float: right;
+    display: flex;
     list-style: none;
-    margin-bottom: 0;
-    margin-top: 0; }
+    margin: 0;
+    padding: 0; }
     @media only screen and (max-width: 768px) {
       .navigation .navigation-list {
-        position: relative;
-        top: 2rem;
+        position: absolute;
+        top: 7.2rem;
+        left: 0;
         right: 0;
         z-index: 5;
+        flex-direction: column;
         visibility: hidden;
         opacity: 0;
         padding: 0;
         max-height: 0;
-        width: 100%;
-        background-color: #fafafa;
-        border-top: solid 2px #e0e0e0;
-        border-bottom: solid 2px #e0e0e0;
+        overflow: hidden;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e8e9eb;
         transition: opacity 0.25s, max-height 0.15s linear; } }
     .navigation .navigation-list .navigation-item {
-      float: left;
       margin: 0;
       position: relative; }
       @media only screen and (max-width: 768px) {
         .navigation .navigation-list .navigation-item {
-          float: none !important;
           text-align: center; }
           .navigation .navigation-list .navigation-item a,
           .navigation .navigation-list .navigation-item span {
-            line-height: 5rem; } }
+            line-height: 5rem;
+            border-left: 0; } }
       .navigation .navigation-list .navigation-item a,
       .navigation .navigation-list .navigation-item span {
-        margin-left: 1rem;
-        margin-right: 1rem; }
+        display: block;
+        margin: 0;
+        padding: 0.8rem 1.8rem;
+        border-left: 1px solid #e8e9eb; }
     @media only screen and (max-width: 768px) {
       .navigation .navigation-list .separator {
         display: none; } }
     @media only screen and (max-width: 768px) {
       .navigation .navigation-list .menu-separator {
-        border-top: 2px solid #212121;
+        border-top: 1px solid #e8e9eb;
         margin: 0 8rem; }
         .navigation .navigation-list .menu-separator span {
           display: none; } }
@@ -10943,7 +11536,7 @@ figure {
         position: relative;
         visibility: hidden; }
         .navigation #menu-toggle:checked + label > i {
-          color: #e0e0e0; }
+          color: #1e5bff; }
         .navigation #menu-toggle:checked + label + ul {
           visibility: visible;
           opacity: 1;
@@ -10956,22 +11549,23 @@ figure {
       .navigation .menu-button {
         position: relative;
         display: block;
-        font-size: 2.4rem;
-        font-weight: 400; } }
+        font-size: 2rem;
+        font-weight: 400;
+        color: #5a5d63; } }
     .navigation .menu-button i:hover, .navigation .menu-button i:focus {
-      color: #000; }
+      color: #1e5bff; }
   .navigation i {
-    color: #212121;
+    color: #5a5d63;
     cursor: pointer; }
     .navigation i:hover, .navigation i:focus {
-      color: #1565c0; }
+      color: #1e5bff; }
 
 .pagination {
   display: flex;
   justify-content: center;
   margin-top: 6rem;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; }
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;
@@ -11003,8 +11597,8 @@ figure {
   .tabs input.tab-input {
     display: none; }
   .tabs label.tab-label {
-    background-color: #e0e0e0;
-    border-color: #ccc;
+    background-color: #e8e9eb;
+    border-color: #f1f2f4;
     border-radius: 4px 4px 0px 0px;
     border-style: solid;
     border-bottom-style: hidden;
@@ -11017,10 +11611,10 @@ figure {
     top: 1px;
     user-select: none; }
   .tabs input.tab-input:checked + label.tab-label {
-    background-color: #fafafa; }
+    background-color: #ffffff; }
   .tabs .tab-content {
-    background-color: #fafafa;
-    border-color: #ccc;
+    background-color: #ffffff;
+    border-color: #f1f2f4;
     border-style: solid;
     border-width: 1px;
     display: none;
@@ -11039,24 +11633,55 @@ figure {
 .taxonomy .taxonomy-element {
   display: block;
   padding: 0.3rem 0.9rem;
-  background-color: #e0e0e0;
+  background-color: #e8e9eb;
   border-radius: 0.6rem; }
   .taxonomy .taxonomy-element a {
-    color: #212121; }
+    color: #5a5d63; }
   .taxonomy .taxonomy-element a:active {
-    color: #212121; }
+    color: #5a5d63; }
 
 .footer {
   width: 100%;
-  text-align: center;
-  font-size: 1.6rem;
-  line-height: 2rem;
-  margin-bottom: 1rem; }
-  @media only screen and (max-width: 768px) {
-    .footer {
-      font-size: 1.5rem; } }
-  .footer a {
-    color: #1565c0; }
+  margin-top: 4rem;
+  padding: 5.6rem 0 6.4rem;
+  border-top: 1px solid #e8e9eb; }
+  .footer .signoff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid #e8e9eb;
+    margin-bottom: 2.4rem; }
+    .footer .signoff .big {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #111214; }
+    .footer .signoff .cta {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #1e5bff;
+      border-bottom: 1px solid #1e5bff;
+      padding-bottom: 0.2rem; }
+      .footer .signoff .cta:hover, .footer .signoff .cta:focus {
+        text-decoration: none;
+        opacity: 0.7; }
+  .footer .meta-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    font-family: "JetBrains Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    font-size: 1.1rem;
+    color: #8a8d93; }
+    .footer .meta-row a {
+      color: #8a8d93;
+      font-weight: 400; }
+      .footer .meta-row a:hover, .footer .meta-row a:focus {
+        color: #1e5bff;
+        text-decoration: none; }
 
 .float-container {
   bottom: 2rem;
@@ -11070,17 +11695,17 @@ figure {
     width: 3rem;
     height: 3rem;
     font-size: 2rem;
-    color: #000;
-    background-color: #e0e0e0;
+    color: #111214;
+    background-color: #e8e9eb;
     border-radius: 0.2rem;
     opacity: 0.5;
     transition: all 0.25s ease-in; }
     .float-container a:hover, .float-container a:focus {
-      color: #1565c0;
+      color: #1e5bff;
       opacity: 1; }
       @media only screen and (max-width: 768px) {
         .float-container a:hover, .float-container a:focus {
-          color: #000;
+          color: #111214;
           opacity: 0.5; } }
     .float-container a i {
       position: absolute;
