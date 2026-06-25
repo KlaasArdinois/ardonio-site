@@ -1,0 +1,19 @@
+<footer class="footer">
+  <section class="container">
+    <div class="signoff">
+      <div class="big">Let&rsquo;s talk.</div>
+      <a class="cta" href="https://cal.com/klaas-ardinois/30min" target="_blank" rel="noopener">book 30 minutes &rarr;</a>
+    </div>
+    <div class="meta-row">
+      <span>
+        &copy;
+        {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}{{ .Site.Params.since }}&ndash;{{ end }}{{ now.Year }}
+        {{ with .Site.Params.author }}{{ . }}{{ end }}
+      </span>
+      <span><a href="mailto:info@ardonio.com">info@ardonio.com</a></span>
+      {{ if (and .Site.Params.commit .GitInfo) }}
+        <span><a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a></span>
+      {{ end }}
+    </div>
+  </section>
+</footer>

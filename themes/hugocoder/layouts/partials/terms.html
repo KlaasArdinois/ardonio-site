@@ -1,0 +1,22 @@
+<section class="container taxonomy-list">
+  <div class="postlist-head">
+    <div class="head-meta">
+      <span class="postlist-eyebrow">Browse</span>
+    </div>
+    <h1 class="postlist-pagetitle">{{ i18n (lower .Title) | default .Title | title }}</h1>
+    {{ with .Content }}<div class="postlist-intro">{{ . }}</div>{{ end }}
+  </div>
+
+  <ul class="term-cloud">
+    {{ $type := .Type }}
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+      {{ $name := .Name }}
+      {{ $count := .Count }}
+      {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+        <li>
+          <a class="term-chip" href="{{ .Permalink }}">{{ .Name }}<span class="term-count">{{ $count }}</span></a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>

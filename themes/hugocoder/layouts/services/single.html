@@ -1,0 +1,32 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container services-page">
+    <div class="section-head">
+      <span class="label">{{ .Params.label }}</span>
+      {{ with .Params.services }}<span class="count">{{ printf "%02d formats" (len .) }}</span>{{ end }}
+    </div>
+    <h1 class="services-title">{{ .Params.heading | default .Title }}</h1>
+    {{ with .Params.pitch }}
+      <p class="services-pitch">{{ $.RenderString (dict "display" "inline") . }}</p>
+    {{ end }}
+
+    <a class="cal-cta" href="https://cal.com/klaas-ardinois/30min" target="_blank" rel="noopener">
+      Book 30 minutes
+      <span class="arrow">&rarr;</span>
+    </a>
+
+    {{ with .Params.services }}
+      <div class="svc-table">
+        {{ range . }}
+          <div class="svc-row">
+            <h3>{{ .name }}</h3>
+            <div class="svc-desc">{{ $.RenderString (dict "display" "inline") .desc }}</div>
+            <div class="dur">{{ .duration }}</div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

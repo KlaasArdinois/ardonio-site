@@ -1,0 +1,29 @@
+<section class="container postlist">
+  <div class="postlist-head">
+    <div class="head-meta">
+      {{ if eq .Kind "term" }}
+        <span class="postlist-eyebrow">{{ .Data.Singular }}</span>
+      {{ else }}
+        <span class="postlist-eyebrow">Index</span>
+      {{ end }}
+      {{ with .Pages }}<span class="postlist-count">{{ printf "%02d posts" (len .) }}</span>{{ end }}
+    </div>
+    <h1 class="postlist-pagetitle">{{ i18n (lower .Title) | default .Title | title }}</h1>
+    {{ with .Content }}<div class="postlist-intro">{{ . }}</div>{{ end }}
+  </div>
+
+  <ul>
+    {{ range .Pages }}
+      <li class="postlist-item">
+        <a href="{{ .Params.externalLink | default .RelPermalink }}"{{ with .Params.externalLink }} target="_blank" rel="noopener"{{ end }}>
+          <span class="postlist-title">{{ .Title }}</span>
+          <span class="postlist-date">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+          </span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+
+  {{ partial "pagination.html" . }}
+</section>

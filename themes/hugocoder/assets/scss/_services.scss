@@ -1,0 +1,134 @@
+// Services — how can I help (concept B)
+
+.services-page {
+  max-width: 88rem;
+  padding-bottom: 7rem;
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 4.8rem 0 0;
+
+    .label {
+      font-family: $code-font-family;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: $blue;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .count {
+      font-family: $code-font-family;
+      font-size: 1.2rem;
+      color: $gray;
+    }
+  }
+
+  .services-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: $ink;
+    max-width: 62rem;
+    margin: 1.4rem 0 2.4rem;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 2.6rem;
+    }
+  }
+
+  .services-pitch {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    color: $gray-dark;
+    max-width: 56rem;
+    margin: 0 0 3.6rem;
+  }
+
+  .cal-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    border: 1px solid $ink;
+    padding: 2rem 2.4rem;
+    margin-bottom: 6.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $ink;
+    transition: all 0.15s ease;
+
+    &:hover,
+    &:focus {
+      border-color: $blue;
+      color: $blue;
+      text-decoration: none;
+    }
+
+    .arrow {
+      font-family: $code-font-family;
+      transition: transform 0.15s ease;
+    }
+
+    &:hover .arrow,
+    &:focus .arrow {
+      transform: translateX(4px);
+    }
+  }
+
+  .svc-table {
+    border-top: 1px solid $hair;
+  }
+
+  .svc-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 12rem;
+    gap: 3.2rem;
+    padding: 2.8rem 0;
+    border-bottom: 1px solid $hair;
+    align-items: start;
+
+    h3 {
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.35;
+      color: $ink;
+      margin: 0;
+    }
+
+    .svc-desc {
+      font-size: 1.4rem;
+      line-height: 1.55;
+      color: $gray-dark;
+
+      a {
+        color: $blue;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .dur {
+      font-family: $code-font-family;
+      font-size: 1.2rem;
+      color: $gray;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 0.8rem;
+
+      .dur {
+        text-align: left;
+      }
+    }
+  }
+}

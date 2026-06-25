@@ -1,0 +1,182 @@
+.navigation {
+  position: relative;
+  height: 7.2rem;
+  width: 100%;
+  border-bottom: 1px solid $hair;
+
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  a,
+  span {
+    display: inline;
+    font-size: 1.3rem;
+    font-family: $font-family;
+    font-weight: 500;
+    color: $gray-dark;
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  .navigation-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: $ink;
+
+    &::before {
+      content: "";
+      width: 0.9rem;
+      height: 0.9rem;
+      background: $blue;
+      flex: 0 0 auto;
+    }
+
+    &:hover,
+    &:focus {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+
+  .navigation-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @media only screen and (max-width: 768px) {
+      position: absolute;
+      top: 7.2rem;
+      left: 0;
+      right: 0;
+      z-index: 5;
+      flex-direction: column;
+      visibility: hidden;
+      opacity: 0;
+      padding: 0;
+      max-height: 0;
+      overflow: hidden;
+      background-color: $paper;
+      border-bottom: 1px solid $hair;
+      transition: opacity 0.25s, max-height 0.15s linear;
+    }
+
+    .navigation-item {
+      margin: 0;
+      position: relative;
+
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+
+        a,
+        span {
+          line-height: 5rem;
+          border-left: 0;
+        }
+      }
+
+      a,
+      span {
+        display: block;
+        margin: 0;
+        padding: 0.8rem 1.8rem;
+        border-left: 1px solid $hair;
+      }
+    }
+
+    .separator {
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .menu-separator {
+      @media only screen and (max-width: 768px) {
+        border-top: 1px solid $hair;
+        margin: 0 8rem;
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #dark-mode-toggle {
+    margin: 1.7rem 0;
+    font-size: 2.4rem;
+    line-height: inherit;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 100;
+    position: fixed;
+  }
+
+  #menu-toggle {
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+      display: initial;
+      position: relative;
+      visibility: hidden;
+
+      &:checked + label > i {
+        color: $blue;
+      }
+
+      &:checked + label + ul {
+        visibility: visible;
+        opacity: 1;
+        max-height: 100rem;
+      }
+
+      &:focus-visible + label {
+        outline-style: auto;
+      }
+    }
+  }
+
+  .menu-button {
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+      position: relative;
+      display: block;
+      font-size: 2rem;
+      font-weight: 400;
+      color: $gray-dark;
+    }
+
+    i {
+      &:hover,
+      &:focus {
+        color: $blue;
+      }
+    }
+  }
+
+  i {
+    color: $gray-dark;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $blue;
+    }
+  }
+}

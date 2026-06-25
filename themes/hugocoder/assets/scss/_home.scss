@@ -1,0 +1,212 @@
+// Home page (concept B) — hero + services teaser
+
+.content:has(> .home) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// The footer's top border is the divider between the services teaser
+// and the footer on the home — keep it, just drop the extra top margin.
+.content:has(.home) + .footer {
+  margin-top: 0;
+}
+
+.home {
+  width: 100%;
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5.6rem 0 0;
+
+    .label {
+      font-family: $code-font-family;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: $blue;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .count {
+      font-family: $code-font-family;
+      font-size: 1.2rem;
+      color: $gray;
+    }
+  }
+
+  .section-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: $ink;
+    margin: 1.4rem 0 4.8rem;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+// ---------- HERO ----------
+.hero {
+  border-bottom: 1px solid $hair;
+
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+    padding: 14rem 0 9.6rem;
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+      padding: 8.8rem 0 6.4rem;
+    }
+  }
+
+  .hero-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .hero-figure {
+    flex: 0 0 auto;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+
+    .avatar {
+      margin: 0;
+    }
+
+    .avatar img {
+      display: block;
+      width: clamp(22rem, 24vw, 34rem);
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .eyebrow {
+    font-family: $code-font-family;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $blue;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2.8rem;
+  }
+
+  .hero-name {
+    font-size: clamp(4rem, 5.5vw, 6.4rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    color: $ink;
+    max-width: 68rem;
+    margin: 0 0 2rem;
+  }
+
+  .hero-role {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $gray-dark;
+    max-width: 48rem;
+    margin: 0 0 4rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    width: fit-content;
+    border: 1px solid $ink;
+
+    @media only screen and (max-width: 480px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .btn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1.4rem 2.6rem;
+    transition: all 0.15s ease;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &.primary {
+      background: $ink;
+      color: $paper;
+
+      &:hover,
+      &:focus {
+        background: $blue;
+      }
+    }
+
+    &.ghost {
+      border-left: 1px solid $ink;
+
+      &:hover,
+      &:focus {
+        color: $blue;
+      }
+
+      @media only screen and (max-width: 480px) {
+        border-left: 0;
+        border-top: 1px solid $ink;
+      }
+    }
+  }
+}
+
+// ---------- SERVICES TEASER ----------
+.home-services {
+  .services-pitch {
+    font-size: 1.9rem;
+    line-height: 1.6;
+    color: $gray-dark;
+    max-width: 56rem;
+    margin: 0 0 3.6rem;
+  }
+
+  .cal-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+    border: 1px solid $ink;
+    padding: 2rem 2.4rem;
+    margin-bottom: 5.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: $ink;
+    transition: all 0.15s ease;
+
+    &:hover,
+    &:focus {
+      border-color: $blue;
+      color: $blue;
+      text-decoration: none;
+    }
+
+    .arrow {
+      font-family: $code-font-family;
+      transition: transform 0.15s ease;
+    }
+
+    &:hover .arrow,
+    &:focus .arrow {
+      transform: translateX(4px);
+    }
+  }
+}

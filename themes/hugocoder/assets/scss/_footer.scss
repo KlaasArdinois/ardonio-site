@@ -1,0 +1,59 @@
+.footer {
+  width: 100%;
+  margin-top: 4rem;
+  padding: 5.6rem 0 6.4rem;
+  border-top: 1px solid $hair;
+
+  .signoff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid $hair;
+    margin-bottom: 2.4rem;
+
+    .big {
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: $ink;
+    }
+
+    .cta {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: $blue;
+      border-bottom: 1px solid $blue;
+      padding-bottom: 0.2rem;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    font-family: $code-font-family;
+    font-size: 1.1rem;
+    color: $gray;
+
+    a {
+      color: $gray;
+      font-weight: 400;
+
+      &:hover,
+      &:focus {
+        color: $blue;
+        text-decoration: none;
+      }
+    }
+  }
+}

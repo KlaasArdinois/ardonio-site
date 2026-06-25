@@ -1,0 +1,38 @@
+<div class="home">
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="eyebrow">Strategic advisor &mdash; based in London</div>
+        <h1 class="hero-name">{{ .Site.Params.author }}</h1>
+        {{ with .Site.Params.info }}
+          <p class="hero-role">{{ . | markdownify }}</p>
+        {{ end }}
+        <div class="hero-actions">
+          <a class="btn primary" href="https://cal.com/klaas-ardinois/30min" target="_blank" rel="noopener">Book 30 minutes</a>
+          <a class="btn ghost" href="{{ "/posts/" | relLangURL }}">Read latest thoughts</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        {{ partialCached "home/avatar.html" . }}
+      </div>
+    </div>
+  </section>
+
+  <section class="home-services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">How can I help</span>
+      </div>
+      <h2 class="section-title">Working with me is cheaper than the mistakes I&rsquo;ll help you avoid.</h2>
+      <p class="services-pitch">Plain and simple. Discuss how I could help you.</p>
+      <a class="cal-cta" href="https://cal.com/klaas-ardinois/30min" target="_blank" rel="noopener">
+        Book 30 minutes
+        <span class="arrow">&rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  {{ partialCached "home/extensions.html" . }}
+
+</div>

@@ -1,0 +1,46 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container about-page">
+    <div class="section-head">
+      <span class="label">{{ .Params.label }}</span>
+      {{ with .Params.records }}<span class="count">{{ printf "%02d entries" (len .) }}</span>{{ end }}
+    </div>
+    <h1 class="about-title">{{ .Params.heading | default .Title }}</h1>
+    {{ with .Params.lede }}
+      <p class="about-lede">{{ $.RenderString (dict "display" "inline") . }}</p>
+    {{ end }}
+
+    <div class="records">
+      {{ range .Params.records }}
+        <details class="record"{{ if .open }} open{{ end }}>
+          <summary class="record-head">
+            <span class="record-period">{{ .period }}</span>
+            <span class="record-title">{{ .title }}<span class="record-toggle" aria-hidden="true">+</span></span>
+          </summary>
+          <div class="record-body">
+            <div class="record-body-inner">
+              {{ with .body }}{{ $.RenderString . }}{{ end }}
+              {{ with .list }}
+                <ul>
+                  {{ range . }}<li>{{ $.RenderString (dict "display" "inline") . }}</li>{{ end }}
+                </ul>
+              {{ end }}
+              {{ with .tags }}
+                <div class="record-tags">
+                  {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </details>
+      {{ end }}
+    </div>
+
+    <a class="cal-cta about-cta" href="https://cal.com/klaas-ardinois/30min" target="_blank" rel="noopener">
+      Book 30 minutes
+      <span class="arrow">&rarr;</span>
+    </a>
+  </section>
+{{ end }}

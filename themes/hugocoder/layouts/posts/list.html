@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container postlist">
+    {{ range (.Pages.GroupByDate "January 2006") }}
+      <section class="postlist-group">
+        <h2 class="postlist-month">{{ .Key }}</h2>
+        <ul>
+          {{ range .Pages.ByDate.Reverse }}
+            <li class="postlist-item">
+              <a href="{{ .Params.externalLink | default .RelPermalink }}"{{ with .Params.externalLink }} target="_blank" rel="noopener"{{ end }}>
+                <span class="postlist-title">{{ .Title }}</span>
+                <span class="postlist-date">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</time>
+                </span>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+  </section>
+{{ end }}
