@@ -17,9 +17,10 @@ style = "github-dark"
 
 [params]
   author = "Klaas Ardinois"
-  info = "Helping founders and investors navigate difficult decisions"
-  description = "Ardonio Ltd."
-  keywords = "blog,value creation, Private Equity,CTO coaching, CEO coaching, edtech advisor"
+  HeadTitle = "Klaas Ardinois — Transformation & Value Creation for Mid-Market Tech"
+  info = "A hands-on technology operator for transformation and turnaround in the mid-market. I take on the situations without an obvious playbook — and get the business back on plan."
+  description = "Klaas Ardinois — technology transformation, turnaround and value creation for mid-market companies. Brought in when growth stalls, cash burn outruns returns, and the value-creation plan isn't landing."
+  keywords = "technology transformation, turnaround, value creation, interim CTO, private equity, mid-market, CTO advisory, board advisor"
   avatarurl = "images/avatar.jpg"
 
   faviconSVG = "/img/favicon.svg"

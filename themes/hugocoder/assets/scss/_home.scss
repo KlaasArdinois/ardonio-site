@@ -169,6 +169,49 @@
   }
 }
 
+// ---------- WHERE I COME IN ----------
+.situations {
+  border-bottom: 1px solid $hair;
+
+  .section-title {
+    margin-bottom: 3.2rem;
+  }
+
+  .situation-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+
+    li {
+      display: flex;
+      align-items: baseline;
+      gap: 1.2rem;
+      padding: 1.8rem 0;
+      border-top: 1px solid $hair;
+      font-size: 1.6rem;
+      line-height: 1.4;
+      color: $ink;
+
+      &::before {
+        content: "";
+        flex: 0 0 auto;
+        width: 0.8rem;
+        height: 0.8rem;
+        background: $blue;
+        position: relative;
+        top: 0.2rem;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
 // ---------- SERVICES TEASER ----------
 .home-services {
   .services-pitch {

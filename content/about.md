@@ -74,13 +74,9 @@ body = """
 Industry expertise in EdTech, media and telco. I can't name names, but I can list results:
 """
 list = [
-  "Mentored several CEO and CTO in EdTech and a long time Coaching role at the WISE accelerator",
-  "Restructured the product&engineering org for a Nasdaq listed media company to reduce cash burn. They’re now sustainbly cash flow positive and the market has rewarded them with a share price that has gone 4x in the 12 months after I completed my work.",
-  "Stepped in for a short term stabilization after a CTO unexpectedly quit a series A business. The focus was on bringing structure and process to the engineering org, as well as advise on broader fundraise strategy.",
-  "Longrunning advisor & board member roles focused on helping non techical founders making the best technical decisions and think through them in terms of commercial impact. Where’s the ROI? How much would you bet on this range of outcomes? I love to bring options thinking to decision making.",
-  "Restructured the product & engineering org for a Nasdaq-listed media company — now sustainably cash flow positive, share price up 4x in the 12 months after",
-  "Stabilized a Series A business after a CTO unexpectedly quit — structure, process, and fundraise strategy",
-  "Long-running advisor & board roles helping non-technical founders weigh technical decisions in commercial terms",
-  "CTO/CEO mentoring in EdTech, and a coaching role at the [WISE accelerator](https://www.wise-qatar.org/wise-works/wise-accelerator/)",
+  "Restructured the product & engineering org for a Nasdaq-listed media company to cut burn — now sustainably cash-flow positive, with the share price up 4x in the 12 months after.",
+  "Stabilised a Series A business after the CTO quit without warning — structure, process, and a broader fundraise strategy.",
+  "Long-running advisor and board roles helping non-technical founders weigh technical decisions in commercial terms: where's the ROI, and how much would you bet on this range of outcomes?",
+  "CTO and CEO mentoring in EdTech, and a coaching role at the [WISE accelerator](https://www.wise-qatar.org/wise-works/wise-accelerator/).",
 ]
 +++
