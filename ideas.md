@@ -32,27 +32,33 @@ Angle for the whole batch: each post reads like a problem the reader is living *
 
 ---
 
-## Cornerstone: "Tales from an operator" — _war stories, added 2026-07-08_
+## Tales from an operator
 
-**The gap it fills:** the About timeline is the sanitised CV — titles and outcomes. It proves _accomplished_, not _unflappable_. The proof of "been there, not fazed, just another day" lives in the messy, political, human situations the CV sands off. It can't be bullet-pointed — compression kills the texture, and a list of hard things survived reads as either bragging or a confidentiality breach. So the container is **long-form**.
+_Cornerstone piece, and likely its own category. Added 2026-07-08._
 
-**Register:** first person, flat, anonymised. No heroics, no adjectives, no names. Judgment plus a dry last line. Never "hire me" — "here's how it actually plays out." The _pattern recognition_ pulled out of the story is the product, not the war story itself. Told this way it's teaching, not bragging.
+**What these are.** Short, anonymised accounts of situations I've been in. The point is that a reader recognises their own situation in one of them and thinks "he's seen this before." They carry breadth: evidence that I've sat in a lot of difficult rooms.
 
-**Likely a category in itself** — "Tales from an operator." There are many of these; the cornerstone piece is the first, and the format can recur.
+**What these are not.** Not "and then Klaas saved the day," and not a showcase of exceptional ability. They pass no judgment on the people in them, and they don't cast me as the hero. The confidence is meant to come from telling the story calmly, never from a claim inside it.
 
-**Once live → link it from the home page.** Add the quiet pointer under the "an experienced hand is cheap" services heading (home teaser + `/services/`), e.g. _"Some of what I've seen →"_. That replaces the unresolved "second line of confidence" with one-click proof instead of an assertion.
+**The frame.** Think of the bard in a D&D party who says "I have a story about that." The story carries lore and experience, not applause. Flat, first person, no names.
 
-**Raw material to draw from** (Klaas's own — expand each into a proper telling):
+**What they sell.** Straight back to "when the decision is expensive, an experienced hand is cheap." The stories are the evidence behind that line: proof of judgment and decision-making in difficult situations. The promise stays quiet. I come in, I've seen this shape of problem before, I do the job.
+
+**Likely its own category.** There are many of these. The cornerstone piece is the first; the format recurs.
+
+**Once live: link it from the home page.** Add a quiet pointer under the "an experienced hand is cheap" heading (home teaser and `/services/`), for example "Some of what I've seen". It replaces the unresolved second line with one click to the evidence, rather than an assertion.
+
+**Raw material to draw from** (expand each into a proper telling, anonymised):
 
 - An exit where the debt holders kept forming and re-forming coalitions to seize control of the business.
-- A PE board that destroyed a company by installing the wrong operator.
-- Acquiring a company with a different culture — re-aligning it, not absorbing it.
+- A PE board that took a company down by installing the wrong operator.
+- Acquiring a company with a different culture, and the work of re-aligning it rather than absorbing it.
 - A founder who binned the strategy everyone had agreed the week before, because of an article he'd just read.
-- Sending back half a McKinsey deck on "measuring engineering" that the board took as gospel — because the metrics it championed would have quietly optimised for exactly the wrong behaviour, and the non-technical directors couldn't see it.
+- A board treating a big consultancy's "measuring engineering" deck as gospel, without seeing what those metrics would actually reward.
 
-**Voice sample** (the McKinsey one, to lock the register):
+**Voice sample** (register anchor, judgment-free):
 
-> A board once put a McKinsey deck on "measuring engineering" in front of me, ready to run the company by it. Half of it I sent back — not because the numbers were wrong, but because the metrics it championed would have quietly optimised for exactly the wrong behaviour. The engineering was never the hard part. The hard part was explaining to non-technical directors why the thing they'd paid good money for was going to cost them.
+> I've watched a board take a big consultancy's deck on "measuring engineering" as gospel. The uncomfortable part is that most of these frameworks measure something that looks like productivity and quietly reward the opposite. The engineering is rarely the hard part. The hard part is a room that has already decided the deck is the answer, and a set of metrics that will faithfully deliver whatever they incentivise.
 
 ---
 

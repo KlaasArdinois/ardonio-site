@@ -10,7 +10,7 @@ pitch = "Plain and simple. Discuss how I could help you."
 
 [[services]]
 name = "Interim & turnaround"
-desc = "Drop me in as the experienced catalyst when the situation needs one — technology restructures, process implementations, strategy re-alignment, all grounded in the business plan."
+desc = "Drop me in as the experienced catalyst when the situation needs one. Technology restructures, process implementations, strategy re-alignment, all grounded in the business plan."
 duration = "Project-based"
 
 [[services]]
@@ -20,12 +20,12 @@ duration = "90 min · 1 problem"
 
 [[services]]
 name = "Strategy alignment workshop"
-desc = "Is your technology getting you where the business plan says you're going? Best enjoyed with CEO & CTO together — the goal is clarity, not technology."
+desc = "Is your technology getting you where the business plan says you're going? Designed to discuss with CEO & CTO together. The goal is clarity, not technology."
 duration = "Half / full day"
 
 [[services]]
 name = "Advisory retainer"
-desc = "I've been in many rooms where difficult decisions get made. Tap into the experience anytime you have a question — before you pull the trigger."
+desc = "I've been in many rooms where difficult decisions get made. Tap into the experience anytime you have a question, before you pull the trigger."
 duration = "Ongoing"
 
 [[services]]
