@@ -36,13 +36,19 @@ Angle for the whole batch: each post reads like a problem the reader is living *
 
 _Cornerstone piece, and likely its own category. Added 2026-07-08._
 
-**What these are.** Short, anonymised accounts of situations I've been in. The point is that a reader recognises their own situation in one of them and thinks "he's seen this before." They carry breadth: evidence that I've sat in a lot of difficult rooms.
+**What these are.** Short, anonymised accounts of the day-to-day operating situations that don't fit a CV timeline. Proof of operations. The point is that a reader recognises their own situation in one of them and thinks "he's seen this before." They carry breadth: evidence that I've sat in a lot of difficult rooms.
+
+**Why they matter: the referral substitute.** They are the closest thing to a warm intro that a cold reader can get. A referral carries weight because someone who has watched me operate vouches for it. A tale hands the reader that same signal directly: here is what it looks like when I operate. Warm intros and referrals are first best. Tales are the next best thing, and unlike a referral they scale.
+
+**How they sit next to the record.** The record (About) is the verifiable public trajectory: pedigree and earned scope, twenty years of expanding roles, the proof that I didn't wake up one day and decide to be an executive advisor. It shows the altitude and how it was earned. Tales show the operating. Two different jobs.
 
 **What these are not.** Not "and then Klaas saved the day," and not a showcase of exceptional ability. They pass no judgment on the people in them, and they don't cast me as the hero. The confidence is meant to come from telling the story calmly, never from a claim inside it.
 
 **The frame.** Think of the bard in a D&D party who says "I have a story about that." The story carries lore and experience, not applause. Flat, first person, no names.
 
 **What they sell.** Straight back to "when the decision is expensive, an experienced hand is cheap." The stories are the evidence behind that line: proof of judgment and decision-making in difficult situations. The promise stays quiet. I come in, I've seen this shape of problem before, I do the job.
+
+**Anonymised, and kept separate from the record.** The About timeline names companies and periods. The Tales must not, and must never be linked to it. Wiring a tale to a named record (a "read the CloudCall story" link) de-anonymises it instantly and defeats the point: the reader can no longer read their own situation into it, and the confidentiality is gone. Two separate bodies of proof. The record is what can be named; the Tales are what can't. Write each tale so it can't be pinned to a specific entry in the timeline (blend or omit the fingerprint details).
 
 **Likely its own category.** There are many of these. The cornerstone piece is the first; the format recurs.
 

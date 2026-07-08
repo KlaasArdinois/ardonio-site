@@ -6,7 +6,6 @@ draft = false
 author = ["Klaas Ardinois"]
 label = "The record"
 heading = "Built, scaled, acquired, divested, exited."
-lede = "Paid the price, learned the lessons, and now I'm here to help you avoid the mistakes. When people say **\"a techie with a business brain,\"** I'm what they mean."
 
 [[records]]
 period = "~1995"
