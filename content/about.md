@@ -8,7 +8,7 @@ label = "The record"
 heading = "Built, scaled, acquired, divested, exited."
 
 [[records]]
-period = "~1995"
+period = "1980s & 1990s"
 title = "How it all began"
 body = """
 "More cows than humans" is the perfect description for the distinctly low-tech village in Belgium I grew up in. But despite that, I grew up in a house filled with technology: 4Mb of RAM, original Gameboys, no internet, and my dad programming his own low-level printer drivers.
