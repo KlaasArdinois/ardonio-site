@@ -73,6 +73,58 @@ Frame cost around the decision, the stakes, or the situation, not the reader's c
 
 ---
 
+## Content architecture
+
+Two classes of writing, and no more. The test for a separate section is not "different topic" but "different job and different rules." Only one class passes it, so the site stays simple.
+
+**1. Tales get their own top-level nav.**
+"Tales from an operator" sit at the same level as The Story and Services in the main navigation. They keep the tone and function set out in Voice & Tone: anonymised, flat, first person, pattern recognition as the payload, never Klaas as the hero. They are the referral substitute and a separate body of proof from the named record, so they must never link back to it. The working list and rules live under "Tales from an operator" in `ideas.md`.
+
+**2. Everything else sits in one stream.**
+All other writing shares a single stream (currently "posts" / "Latest Thoughts"). Operating guides, frameworks, and timely commentary are not split into separate sections. They do the same job (show how Klaas thinks, in his own name, freely linkable) and differ only in shelf-life, which does not earn a wall.
+
+**Cornerstone guides are featured, not filed.**
+The evergreen operating-model pieces (for example The 4 Stages of a CTO, the engineering-measurement framework) are the SEO and credibility hubs. They earn prominence through structure inside the stream, not a section of their own:
+- Hub posts link to their related spoke posts, and the spokes link back. This hub-and-spoke linking is the underlying SEO structure.
+- Tag each hub with a category (working name `playbook`) so the cornerstones can be recalled and curated later (for example a "Start here" list) without adding navigation.
+
+Resulting nav: Home · Services · The Story · Latest Thoughts · Tales.
+
+---
+
+## SEO checklist
+
+Every new post follows this. The theme already handles the plumbing (OpenGraph, Twitter cards, canonical tag, sitemap, RSS), so these are the content-side rules that need human attention.
+
+### Required frontmatter
+- **`title`**: the primary topic near the front, under about 60 characters so search results do not truncate it.
+- **`description`**: hand-written, 140 to 160 characters. This is the search snippet and the social-card text. Never leave it blank. A blank description falls back to an auto-generated summary, which reads like a cut-off intro.
+- **`slug`**: short, keyword-led, lowercase, hyphenated. Set it on publish and never change it afterwards. If a slug ever has to change, add the old path to `aliases` so the old URL redirects instead of 404ing.
+- **`date`** and **`authors`**: always set.
+
+### Structure
+- **One H1 per page.** The theme renders the title as the H1, so body section headings start at `##`, never `#`. Subsections go `###`.
+- **Front-load the answer.** State the topic in the first two sentences. This is the same instinct as the "say the thing once" writing rule.
+- **One post, one primary query.** Do not publish two posts chasing the same phrase.
+
+### Internal links (the hub-and-spoke)
+- Link with Hugo's `{{< relref "target.md" >}}` shortcode, not raw `../slug/` paths. `relref` resolves at build time and fails the build if the target moves, instead of shipping a silent broken link.
+- Anchor text is the target's topic (for example "the four stages of a CTO"), never "here" or "this post".
+- Every post links up to its hub; each hub links down to its spokes. Tag hubs with the `playbook` category.
+
+### Images
+- Every image needs descriptive `alt` text.
+- Give posts a share image (a default brand image at minimum) so social cards are not blank.
+
+### Tags and categories
+- Reserve `playbook` for cornerstone hubs. Use categories only for real groupings (for example `podcasts`). Avoid tag sprawl: thin taxonomy pages hurt more than they help. Empty `tags` is fine.
+
+### Site-level (one-time, not per post)
+- JSON-LD structured data: `Article` on posts, `Person` / `Organization` on About, `BreadcrumbList`. A theme partial, still to add.
+- A `static/robots.txt` pointing at the generated sitemap.
+
+---
+
 ## Colour Palette
 
 | Name | Hex | Usage |

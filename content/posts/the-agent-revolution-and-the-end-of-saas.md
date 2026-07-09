@@ -2,7 +2,7 @@
 draft = false
 date = 2025-03-07T14:17:57+01:00
 title = "The Agent (r)evolution and the future of SaaS"
-description = ""
+description = "As AI agents evolve from scripted workflows into reasoning systems with memory, what happens to SaaS when its interface becomes an unnecessary middleman?"
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -14,8 +14,8 @@ series = []
 For the longest time we've gone to our CRM for customer data, and our HR portal to book a holiday, and pulled product and pricing data into a spreadsheet for our own analysis.
 
 And with the likes of zapier, paragon, mulesoft etc we've created a choreographed dance of today's systems. This is about to give way to something far more profound. What we currently call "agents" – LLMs wrapped in API calls following predetermined paths – represent merely the opening act in a transformation that could rival the internet and cloud computing in its impact on software economics. As systems evolve from stateless token generators to reasoning frameworks with persistent memory and autonomous goal-setting capabilities, SaaS businesses face an uncomfortable question: what happens when your carefully designed user experience becomes an unnecessary middleman between data and decision?
-# The current state
-## Where are we now?
+## The current state
+### Where are we now?
 * Highly choreographed workflows, with minimal agency or adaptability by the agent. 
 * Heavy influence on prompt engineering. Which often leads to over fitting to a known problem, rather than open exploration or ability to handle variation.
 * "reasoning" in reality is "just more text to interpret" heavily influenced by the prompts (system & user prompts), which in turn play on the attention mechanism
@@ -30,7 +30,7 @@ But it's also often really just chaining an LLM with a wrapper over a bunch of A
 
 The primary innovation in my perspective is that we moved the control plane closer to natural language. The flipside is most of the tools that came with our old software/code control plane no longer work.
 
-## Prompt Theater
+### Prompt Theater
 
 * System prompts can encode certain characteristics such as "work through step by step" or "consider alternatives", creating a veneer of reasoning but in reality is setting up a rail to generate tokens. Much like writing the outline of a book before filling in the details, it forces a structure that constrains.
 * So while agents may appear to choose a path/solution/direction, they're often more influenced by prompts than we credit. And because the prompt comes before the output, the prompt _causes_ (or at least severely tunes) the result, rather than independent reasoning.
@@ -38,7 +38,7 @@ The primary innovation in my perspective is that we moved the control plane clos
 * The second element with those prompts is that they also do not generate any permanence in terms of identity. Underneath it is a contextless stateless system at heart. So you need to load in this behavior every time. Which then goes back to suffering from the attention/amnesia problems.
 * Even if prompts are the same, the output will not be deterministic. Which means that the executed plan (first look at X, then Y, then do Z) is not guaranteed consistent between runs.
 
-## Determinism
+### Determinism
 The entire world (of software) is built on deterministic execution. Code does what code says it does. Every time. If it fails, it fails all the time in the same way. (note, we may struggle to reproduce the _exact_ scenario, but at heart given the exact same input you get the exact same output).
 
 genAI based systems are non-deterministic. This does not make the answers they generate necessarily wrong, there is often more than one correct answer to a question after all. And equally, humans aren't deterministic either. But I will put that the boundaries in which humans provide non-deterministic answers to a question are far more narrow than current genAI models.
@@ -59,7 +59,7 @@ And the idea that these systems will always be "correct" goes against their inhe
 
 So the slow step in this won't be developing agents, but rather establishing a new set of tools for this new control plane. Which is inevitably a much slower process.
 
-# The future Agent
+## The future Agent
 * Autonomous goal decomposition. Break down high-level goals into executable sub-goals without human guidance (or over-reliance on system prompts), while maintaining goal consistency across execution paths.
 * Implicit context recognition. Understand unspoken requirements and context, or be aware of the context under which a request is received (or even who makes the request and what that implies)
 * Evolving context models. Not just raw memory storage but ability to evolve conceptual understanding of domain models, stakeholders. 
@@ -68,7 +68,7 @@ So the slow step in this won't be developing agents, but rather establishing a n
 
 In other words: an Agent isn't just persistent software that completes a task; but rather a reasoning framework that can navigate ambiguity while maintaining a coherent goal in mind. And in practice you'll probably have many of these trained on particular domain knowledge. Even potentially down to a full agent model trained on your proprietary knowledge that has never been in the public domain ever.
 
-# A customer perspective
+## A customer perspective
 I'll come back later to what needs to be true for those agents to exist. For now, let's assume they're real and what that means for the current crop of SaaS businesses.
 
 We've all been told that a good SaaS business is one that uniquely solves a (narrow) problem for a user. And the economic efficiencies sit in the software model, where  marginal costs for new users are low. The value exchange is a user renting this solution for a fraction of the cost of an in-house build and maintained system. And it all gets hosted centrally in a multi-tenant setup with a vendor controlled update/improvement cycle and accessed over a public internet connection, taking the operational hassle of running live systems away.
@@ -109,7 +109,7 @@ Because ultimately the flip side for most companies will be using genAI to creat
 Which incidentally will also make them truly owners of their data again, unencumbered by SaaS vendor opinions on what that data should look like. Anyone who's ever worked with data and data analysis will tell you, your system is only ever as good as the quality of your data. 
 Whether companies are ready for the operational fallout of running all this tech in-house and building crucial business processes on top of them is another matter, but it likely won't stop some of them trying.
 
-# Are we there yet?
+## Are we there yet?
 Not yet.
 
 There are a number of critical pieces missing to enable the agents of the future. Critical pieces that aren't just evolution of today, but represent a significant step change in technology.
@@ -145,7 +145,7 @@ Some of these challenges will be solved outside of "AI", and border in large par
 I've alluded to this earlier but we do have the problem of non-determinism. An agent will produce output when told to do so. Whether that's hallucination, correct or creative genius is really your interpretation. The words produced are ultimately merely the result of a statistical system. And there are use cases where "hallucination" is a very desirable feature, for instance in deepmind's work in protein folding or drafting marketing copy.
 It's a less desirable feature when a transcript accidentally picked up "police" instead of "policy". The engineering meeting summary became "discussing a recent event involving police action, possibly a stop or arrest, that the team refers to as a 'dot' in the discussion. It is implied that the police action was deemed successful in some way. .... The conversation lacks formal details but indicates a positive outcome following a police-related incident".  The actual discussion was a 2 minute conversation about a new policy that was successfully implemented for one of our notetaker bots. Imagine the action points an Agent would take from that... *(that's a real example btw)*
 
-# So, SaaS is dead?
+## So, SaaS is dead?
 I'm aware that a large number of resources are aimed at this and it's a field evolving at a rapid pace. Some of the areas we need are actively worked on. And we're coming at them both with foundational scientific research and practical engineering "good enough" solutions.
 At the same time a large number of big voices in the market have their own, usually commercial, reasons for making statements which the media happily strips into soundbites without any nuance. From Sam Altman who needs a story that fits the kind of money he hopes to raise, to Nadella who released Magnetic-one and has a substantial stake in openAI, to every VC who's trying to get an LP to allocate money to their new AI fund, or even every founder who hopes to tap into some VC capital. There's truth in all of those statements, there's also a lot of valuable nuance outside the hype train.
 
@@ -169,7 +169,7 @@ And on the COGS side, each user creates a small marginal cogs increase. So in th
 Agents of course have the exact opposite dynamic if you looked at them as a "user". One agent is likely to cause a comparatively big increase in cogs but only a single license. Ask yourself this though: is one agent really providing 1 user's worth of value to your customer?
 Maybe it's time to rethink how we price SaaS products and hone in on the actual value delivered; rather than taking a "user" as a proxy for value. Fundamentally cost structures will no longer scale with seats, but rather with consumption and outcomes. We already have consumption pricing models (telco minutes, dropbox storage, cloud styled metered compute, ... ) which are detached from seats and aligned with underlying cogs. What we don't understand yet is the consumption-value link when an Agent is in the mix, and whether the underlying cogs for an agent (both running the agent and accessing the data) are worth it.
 
-# Conclusion
+## Conclusion
 As often in the the real world, it won't be a binary "deterministic or not", or "automator vs true agency", "mini-saas in house vs 3rd party saas". 
 
 We will operate on a spectrum between the extremes. We will have things we call Agents, and we'll eventually find a good use for them once the novelty wears off. 

@@ -2,7 +2,7 @@
 draft = false
 date = 2025-04-29T10:28:24+01:00
 title = "Fundraising for Founders, strategies for investment"
-description = ""
+description = "Fundraising strategies for early-stage founders in a tighter market: where you are on the journey, what capital actually buys, and how to raise it."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -15,31 +15,31 @@ Money is the only problem a founder has. You're either trying to figure out wher
 
 In this article, I'm going to focus on strategies for investment for early stage companies. And since I'm writing this in 2025 where investor money is less free flowing than it was a decade ago; the equation has changed. We live in unprecedented times indeed.
 
-# Where are you?
+## Where are you?
 Let's start with you, the founder, and where you are on your journey and what money buys you
 
-## Idea stage
+### Idea stage
 you have an idea, a hunch, perhaps some experience in the industry. Maybe you've written a business plan and did some napkin financials. But beyond the initial vision and idea, you have not put the wheels in motion.
 
 **Any extra money is to start building**.
 
-## Something Tangible
+### Something Tangible
 I'm leaving this broad by design. At this stage you perhaps made a prototype, or you have real potential customers who gave you in-depth feedback, maybe they even showed interest in buying your product later. It's really the difference between an idea, and starting to validate it's a good idea worth executing.
 
 **Money here is for proving your business is possible**.
 
-## Almost a business
+### Almost a business
 You are close to selling something. The idea has evolved into something usable enough for others to try, at least in beta. You also have a go-to-market approach and some idea of the cost of running the operation.
 
 **Your funds now are for the finishing touches**.
 
-## First revenue
+### First revenue
 At least one customer paid you, and you delivered. Your problem set now shifts to finding more of these.
 
 Obviously this is by far not the end of the journey, but it is **where I draw the line for "early stage"**. 
 The common thread before this stage is that decisions are mainly about where to spend money, and very little with receiving it. 
 
-# Of risk and reward
+## Of risk and reward
 Let's turn to how investment evaluates startup risks. Understanding your investors mindset will help you see who's more aligned with you.
 
 First, and most obvious, is **use your own savings or start as a side-hustle**.
@@ -65,7 +65,7 @@ They will co-build with you, or at least provide you with a lot of coaching and 
 And they're usually quite well connected for guiding you into the next stage of growth. That does however cost a 5%-15% stake in your company in exchange for all that assistance.
 Like Venture Capital, they'll take a similar approach to timeline and expectations of you as a founder. The main difference is that they be actively involved to help you on your way.
 
-# Navigating this market
+## Navigating this market
 So, where do you go from here?
 
 First, realize that the economic perspective of every investor has moved to some degree. We're out of the "growth fixes everything" thinking, and more concerned with good basic economics of sustainable operations.
@@ -82,7 +82,7 @@ And lastly, think about the kind of business you want. If you're after a lifesty
 
 If you do decide to raise capital. Start with networking long before you need it. The worst time to raise money is when you're running out and desperately need cash. Be prepared to raise for 18 to 24 months of runway, despite what people tell you. Cash in the bank, and the optionality from that is the most important thing right now.
 
-# Bonus: VC Jargon Buster
+## Bonus: VC Jargon Buster
 Venture capital comes with its own language, so here’s a quick, founder-friendly guide to the jargon you’ll hear in every funding conversation.
 
 * GP/LP: a partnership between limited partners (investors in the fund) and general partners (VC, managing the fund). The basic structure of most VC funds.
@@ -95,5 +95,5 @@ Venture capital comes with its own language, so here’s a quick, founder-friend
 * Anti-Dilution: the mechanics get complex, but sometimes investors will have terms that protect their share of the pie; typically these only activate in down rounds.
 * liquidation preference (commonly referred to as "pref"): a common way for VC to protect their investment by setting a minimum hurdle rate (1 or more times initial investment usually). This hurdle is paid out before other investors get paid. As a founder, you are usually in the "other investors" category.
 
-## note
+### note
 I wrote this post originally as a [guest post](https://www.collectivelybetter.com/why-do-vcs-say-no-a-founders-guide/) for the team at Collectively Better, who I work with from time to time advising early stage companies in their portfolio.

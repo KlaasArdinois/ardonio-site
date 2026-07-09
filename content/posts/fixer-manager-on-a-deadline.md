@@ -19,7 +19,7 @@ And yet only about a quarter of tech workers rate their manager as highly effect
 
 Read that twice: **the most powerful retention lever in tech is also the one almost nobody is pulling.** That gap — most important, most neglected — is the reason an entire category of work exists. But before we get to that, a harder question hides inside the survey: effective at *what*?
 
-# What an effective manager actually is
+## What an effective manager actually is
 
 In my book, an effective manager is a combination of two things that don't always live in the same person.
 
@@ -31,13 +31,13 @@ And with engineers specifically, there's a third property that matters more than
 
 Hold those together — warmth, decisiveness, consistency — and you have the thing the survey is measuring but never defines. Now, back to the gap.
 
-# The most neglected lever, and why a crisis can't wait
+## The most neglected lever, and why a crisis can't wait
 
 The number never budges because good management is slow to grow and easy to defer. You promote your best engineer, hand them a team, give them no support, and call it a management layer. In steady state you can just about get away with developing your way there over years.
 
 In a crisis, you can't. A departed CTO, a demoralised team, a runway that's ticking — that's precisely the window where the manager gap does the most damage and takes the longest to close on its own. Which is the whole reason a fixer exists: **a fixer is a good manager on a deadline.**
 
-# What the job actually looked like
+## What the job actually looked like
 
 Let me make it concrete.
 
@@ -49,9 +49,9 @@ So I came in to hold the middle, and the work sorted into three things. Notably,
 
 **Build a baseline of process.** Not bureaucracy — structure. A rudderless team isn't suffering from too few rules, it's suffering from no shared sense of how decisions get made. A lightweight, dependable cadence gives people something solid to stand on while the bigger questions get answered. Structure, for humans, is a form of reassurance.
 
-**Help the founder see the shape of the next CTO.** This is the one that sets up the exit. The founder didn't need me to *be* the next CTO — they needed help understanding what the next CTO should *look like* for the company they were becoming, not the one they'd been. That profile is the most valuable thing I left behind. _(this is the same idea as [The 4 Stages of a CTO](../4-stages-of-a-cto/) — the leader a company needs changes with its phase, and hiring for the last phase is how you end up back in this room in two years.)_
+**Help the founder see the shape of the next CTO.** This is the one that sets up the exit. The founder didn't need me to *be* the next CTO — they needed help understanding what the next CTO should *look like* for the company they were becoming, not the one they'd been. That profile is the most valuable thing I left behind. _(this is the same idea as [The 4 Stages of a CTO]({{< relref "4-stages-of-a-cto.md" >}}) — the leader a company needs changes with its phase, and hiring for the last phase is how you end up back in this room in two years.)_
 
-# The exit is the point, and you plan it on day one
+## The exit is the point, and you plan it on day one
 
 Three months later, I was out. The founder had a clear plan: the VP Eng could hold the fort while they raised their next round and ran a proper search for the CTO the company actually needed.
 
@@ -61,7 +61,7 @@ A fixer is not an evergreen role. The engagement has an end built into it from t
 
 The failure mode here has a name: the fixer who overstays. The intensity that stabilises a frightened team turns corrosive once the team is calm — you become the person manufacturing urgency nobody needs. A fixer who doesn't build their own replacement hasn't fixed anything; they've just made themselves load-bearing, which is the exact dependency trap you were brought in to remove. Knowing when to leave is part of the craft, not an afterthought to it.
 
-# Same craft, different weather
+## Same craft, different weather
 
 It's tempting to hear all this and conclude that fixers and steady-state leaders are two different tiers of manager. They're not. A fixer has to clear exactly the same bar I set out earlier — warmth, earned opinion, consistency — and if anything has to clear it under *more* pressure, because a team in crisis needs effective management more, not less. A fixer who isn't a genuinely good manager isn't a fixer; they're an arsonist with a job title. This is not BAU-manager versus fixer, as if one were the lesser version. It's the same craft.
 

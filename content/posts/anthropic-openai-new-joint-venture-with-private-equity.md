@@ -2,7 +2,7 @@
 draft = false
 date = 2026-05-10T14:33:31+01:00
 title = "My view on Anthropic and OpenAI setting up Joint Ventures with PE firms"
-description = ""
+description = "Anthropic and OpenAI are both launching enterprise-AI joint ventures with private equity firms. What these deals signal about AI reaching the mid-market."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []

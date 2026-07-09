@@ -1,0 +1,60 @@
+{{/*
+  Structured data (JSON-LD). Overrides the theme's empty head/extensions.html stub,
+  which head.html already calls. Objects are built with dict and rendered with
+  jsonify so quotes/apostrophes in titles and descriptions escape correctly.
+*/}}
+
+{{- /* Reusable nested objects (no @context; that is added only when emitted standalone) */ -}}
+{{- $org := dict
+  "@type" "Organization"
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "logo" (absURL "img/favicon-512x512.png")
+-}}
+{{- $person := dict
+  "@type" "Person"
+  "name" .Site.Params.author
+  "url" (absURL "about/")
+  "jobTitle" .Site.Params.info
+  "worksFor" $org
+  "sameAs" (slice "https://www.linkedin.com/in/klaasardinois/")
+-}}
+
+{{- if .IsHome -}}
+  {{- $website := dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL -}}
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+  <script type="application/ld+json">{{ (merge (dict "@context" "https://schema.org") $org) | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and .IsPage (eq .Section "posts") -}}
+  {{- $img := "" -}}
+  {{- with .Params.images -}}{{ $img = index . 0 | absURL }}{{- end -}}
+  {{- if not $img -}}{{ with .Site.Params.images -}}{{ $img = index . 0 | absURL }}{{- end -}}{{- end -}}
+  {{- $article := dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" .Title
+    "description" (.Description | default .Summary | plainify)
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" $person
+    "publisher" $org
+    "mainEntityOfPage" .Permalink
+    "url" .Permalink
+  -}}
+  {{- if $img -}}{{ $article = merge $article (dict "image" $img) }}{{- end -}}
+  {{- $crumbs := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL)
+      (dict "@type" "ListItem" "position" 2 "name" "Latest Thoughts" "item" (absURL "posts/"))
+      (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink))
+  -}}
+  <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+  <script type="application/ld+json">{{ $crumbs | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if eq .RelPermalink "/about/" -}}
+  <script type="application/ld+json">{{ (merge (dict "@context" "https://schema.org") $person) | jsonify | safeJS }}</script>
+{{- end -}}

@@ -2,7 +2,7 @@
 draft = false
 date = 2025-04-15T14:22:13+01:00
 title = "The no nonsense ceo intro to AI, ML, LLM and genAI"
-description = ""
+description = "A no-nonsense guide for CEOs to the layers of AI: how machine learning, LLMs and generative AI actually relate, explained without the jargon."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -13,10 +13,10 @@ series = []
 
 I love a good onion diagram when something has layers! So here's my gen-AI onion.
 
-# The Gen AI Onion
+## The Gen AI Onion
 ![Onion Diagram showing the layers of AI](/images/posts/AI-Onion.png)
 
-# Artificial Intelligence (AI) & AGI
+## Artificial Intelligence (AI) & AGI
 In computer science AI is a broad umbrella term. It’s any technology that helps mimic cognitive functions. That can range from seeing (i.e. classifying objects in an image, or recognizing handwriting), and hearing (“speech to text” transcriptions) to more abstract tasks such as responding to a question or applying a series of logical rules. AI is not really a technology in itself, but a group of techniques that help computer programs “learn” how to perform these functions.
 
 *Narrow AI vs AGI (Artificial General Intelligence, aka strong AI)*
@@ -31,7 +31,7 @@ It might be tempting to think that AGI is the sum of a set of Narrow AI, but unf
 * When vendors claim "AI", make them spell out what they’re actually doing. It’s important to ask \- do they have proprietary trained models? How much do they know about error rates of their underlying model? How does adding “AI” make a demonstrable difference to your goal with them?   
 * AGI and anything approaching ongoing self-learning or broad autonomy are still mainly theory and areas of fundamental research; rather than ready-made products or solutions. Despite the fact there has been significant progress in the field of AI
 
-# Machine Learning (ML)
+## Machine Learning (ML)
 
 Now we’re getting into how software actually accumulates information and “learns”. Machine learning is the application of statistical techniques to analyze existing data. It’s asking the question: are there relevant patterns and correlations in this dataset? And then use those to make inferences (\~ ”predictions”) about new data.
 
@@ -47,7 +47,7 @@ In a trivial example, think of it as drawing a trendline on data in excel. And t
 * Many common ML use cases (customer segmentation, recommendations, … ) have near off the shelf providers. Your problem is likely not unique, even if your data is  
 * If you go down the custom model path, be prepared to keep investing. As your business and data changes, your model will drift and need retraining
 
-# Deep Learning (DL) & Generative AI
+## Deep Learning (DL) & Generative AI
 
 A subset of ML techniques that use **neural networks** for learning. While some of the initial concepts developed in the 1950s&1960s are inspired by our understanding of the human brain at that time, deep learning has little to do with neurobiology. It’s a refinement on the statistical approaches used to “learn” in the broader ML landscape. 
 
@@ -64,7 +64,7 @@ Deep Learning, as the name suggests, is all about how models learn. **Generative
 * Best suited for complex pattern recognition in unstructured data (images, audio, natural language).   
 * Unless models are your core business, bring in a specialist 3rd party and/or use off the shelf models for as long as possible. Focus the team on minimizing switching costs of models, as they evolve incredibly quickly
 
-# Large Language Models (LLMs)
+## Large Language Models (LLMs)
 
 LLMs are *deep learning models* trained on huge amounts of text. They’re why tools like ChatGPT can write emails, code, FAQs, and even strategic plans that sound plausible. Feel free to take “text” very broad to include transcripts of movies and youtube videos, digital copies of classic books, everything on social media, press releases, earnings calls, radio interviews … you name it. 
 
@@ -79,7 +79,7 @@ The key differentiator between today’s LLM and earlier predictive-text models 
 * Focus on integrating LLMs into existing workflows rather than complete automation  
 * This is a field that is highly in flux right now with very little best practices. Be prepared for anything you build to overnight stop working or be outdated. Make small bets, no tight coupling, no critical functions.
 
-# Models and Agents
+## Models and Agents
 
 However you got it trained, the goal of a model is to be able to predict output based on unseen input data. It doesn’t matter if that prediction is an image for your website, a summary of your meeting notes, a recommendation on your checkout page,... . It’s just an engine that’s been tuned to deliver an output based on patterns it has learned. 
 
@@ -96,7 +96,7 @@ There is however a huge caveat in AI agentic systems and autonomy. Underneath it
 * Extreme caution when you let a model interact with customers directly or let it sit in business critical situations.
 
 
-# Buyer Beware
+## Buyer Beware
 
 AI is a field that has seen waves of huge advances alternated with periods of neglect. As hardware advances, so does the research it enables. The goal of AI, as a field looking for systems that can perform tasks requiring human level intelligence, hasn’t really significantly changed since the 1950s. Yet by the 1950s standard, a lot of what we take for granted today would be considered AI. Think about your netflix recommendations, phone and meeting transcripts, advanced spreadsheet functions, automatically tagging a friend in a picture, … . 
 

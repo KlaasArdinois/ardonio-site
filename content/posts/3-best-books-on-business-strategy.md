@@ -17,7 +17,7 @@ Which leads to the next question: what am I reading?
 
 Well no matter what I'm reading this August, the following are worth reading at any point. And because AI is the new digital transformation, I'm adding in my thoughts on that too.
 
-# Good Strategy, Bad Strategy - Rumelt
+## Good Strategy, Bad Strategy - Rumelt
 The essence of a good strategy is based on a kernel: a **specific challenge** that is diagnosed.  
 From that diagnosis you can start working out a **focused approach**. In other words, which angle of attack will you take to the diagnosed problem.  
 And lastly, once you have decided on the approach, lay out a set of **coordinated actions** that together can overcome the challenge.  
@@ -31,7 +31,7 @@ Ask yourself: where would leveraging AI really create a competitive advantage? W
 
 In other words: understand **systems first**, and then add in **AI as the leverage on focused action**.
 
-# Competition Demystified - Greenwald
+## Competition Demystified - Greenwald
 Greenwald argues that most businesses fail because they compete in markets without sustainable competitive advantages. On the other hand, **successful companies identify and exploit structural barriers that keep competitors out**. There's a hint of blue ocean strategy in that of course. But tracing the roots back even further you end up, as so often, with Porter's 5 forces.
 The key insight here is that by focusing on the "barriers to entry" aspect of the 5 forces you can set yourself apart more than by focusing on the other 4. By building a strong moat, you avoid the strategic collapse that comes from too many competitors chasing operational efficiency for marginal gains.  
 And ultimately, any strong competitive advantage comes from the interplay of only 3 sources: 
@@ -47,7 +47,7 @@ The advantage won't come from "AI" itself, but rather from the solution to the p
 * Does it make it harder for customers to leave? 
 * And does it build up capabilities in the organization that take years of data and experience to replicate?
 
-# Good to Great - Collins
+## Good to Great - Collins
 Interesting, perhaps, for a book about strategy is the focus it puts on the people. Decide who you want on the bus, and then figure out together where the bus is going. If you select people who are driven, passionate, and competent they are capable of making the best decisions. That will beat anything else in Collin's view.  
 With the right people on the bus you focus on "**the hedgehog concept**", concentrating on the intersection of existing advantages, sources of revenue and core values of the organization. The latter being a function of selecting the right people to begin with obviously.
 From that should come a culture of **self discipline** aka self direction. Think of it as automatic alignment with core values to guide decisions, rather than relying on a bureaucratic regime. And combine that discipline with a **flywheel effect of compounding small improvements** in the proper direction. As opposed to a doom loop of reacting to outside events all the time.  
@@ -55,12 +55,12 @@ As far as technology is concerned, **technology is not the driver** but instead 
 
 Taking this back to today's challenges with AI. The key is to avoid all-out transformation initiatives but instead focus on creating a flywheel. Take a disciplined approach to let small changes compound. Get the right people the right tools to make that happen and focus on **small experiments**. And the nature of experiments means **throw away what doesn't work** and **ignore the noise** of the outside.  
 
-# Valuation - Koller
+## Valuation - Koller
 This is more a reference manual than a book you'd read cover to cover. I wanted it on here because at heart a company's value is a function of its ability to generate cash beyond the cost of capital. Everything else is dress up and postponing the inevitable.
 
 If you decouple AI investment from some form of clear ROI calculation you're certainly at risk of making a wrong decision. It's one thing making an investment with delayed payoff, even if that is a wide range of possible returns. it's a whole other making an investment without any idea of the payoff!  
 
-# Closing thoughts
+## Closing thoughts
 Strategy is always rooted in choices. Making trade offs. And generally finding approaches to problems that are hard to replicate. All while being able to generate more cash than the cost of the investment, over an appropriate timeframe.  
 In that light, consider how and where AI can help your competitive position, what a focused approach would be and how you can gain momentum.
 

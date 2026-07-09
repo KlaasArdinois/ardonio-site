@@ -3,7 +3,7 @@ draft = true
 date = 2026-07-08T11:00:00+01:00
 title = "Engineering by the Numbers"
 description = "The scorecard I ran with my engineering managers. Not to replace their judgment, but to earn it a seat at the table. A practical system for making a team think in data without killing the narrative."
-slug = ""
+slug = "engineering-by-the-numbers"
 authors = ["Klaas Ardinois"]
 tags = []
 categories = []
@@ -15,7 +15,7 @@ Every month, my engineering managers walked into a room knowing they'd have to a
 
 I called it Engineering by the Numbers. And despite the name, it was never really about the numbers.
 
-# The two ways this usually goes wrong
+## The two ways this usually goes wrong
 
 Most engineering leadership sits at one of two extremes, and both are broken.
 
@@ -25,7 +25,7 @@ The second is worse: **management by dashboard**. Someone reads a blog about DOR
 
 I wanted neither. I wanted my managers' judgment — the in-the-moment read that only the person actually running the unit has. But I wanted it **backed by something**.
 
-# The thesis: the number buys you a seat, the story is what you do once you're sitting
+## The thesis: the number buys you a seat, the story is what you do once you're sitting
 
 Here's the whole idea in one line: **a number without a story is noise. A story without a number is a hope.**
 
@@ -33,7 +33,7 @@ The data was never the verdict. It was the ticket to the conversation. My manage
 
 "Cycle time doubled this month" is a fact. Whether that's because we took on a gnarly migration, lost a senior engineer, or quietly let quality slip — that's the judgment I was actually buying. The number just made sure we were talking about something real instead of a feeling.
 
-# Metrics per unit
+## Metrics per unit
 
 The mistake people make is picking one set of metrics for "engineering". But engineering isn't one thing. What "good" looks like for a product dev team is not what it looks like for the people keeping the lights on. So each unit had its own handful.
 
@@ -65,7 +65,7 @@ A handful. Not a wall. If you can't hold your unit's health in your head, you've
 
 You'll notice most of these are indicators, not targets. That's deliberate. They exist to provoke the question "why", not to be gamed into green.
 
-# What rolls up — and what deliberately doesn't
+## What rolls up — and what deliberately doesn't
 
 Only a subset climbed into my exec and board scorecard. Most of it stayed inside engineering, on purpose.
 
@@ -78,9 +78,9 @@ The board doesn't need cycle time. They need to know the machine is reliable, th
 
 Everything else was operational detail that would have been noise at board altitude. Part of the job is knowing which numbers are for running the unit and which are for governing the company. Confusing the two is how you end up with a board debating story-point estimation. _(sidenote: I've watched it happen. Do not let it happen.)_
 
-This also ties back to how I think about [engineering capex and opex](../why-engineering-capex-tracking-doesnt-have-to-be-a-mess/) — the scorecard and the cost tracking are two views of the same underlying discipline.
+This also ties back to how I think about [engineering capex and opex]({{< relref "engineering-capex-opex.md" >}}) — the scorecard and the cost tracking are two views of the same underlying discipline.
 
-# Protecting the narrative
+## Protecting the narrative
 
 This is the part everyone gets wrong, so I'll be blunt about it.
 
@@ -95,7 +95,7 @@ I protected against it with a few simple rules:
 
 The point of all this was never to turn managers into analysts. It was to make sure that when they told me what they thought — and I genuinely wanted to know what they thought — it was grounded in something I could stand behind one level up.
 
-# How to actually roll this out
+## How to actually roll this out
 
 If you're a CTO or VP Eng at a maturing company and you want to introduce this without your team feeling a stopwatch over their shoulder:
 

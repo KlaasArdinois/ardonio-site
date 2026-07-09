@@ -2,7 +2,7 @@
 draft = false
 date = 2025-11-28T11:12:12+01:00
 title = "Why Venture Capital says NO to your startup"
-description = ""
+description = "Stop treating VCs as mystical investors. Follow the money through the UK venture model to understand why venture capital says no to your startup."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -17,7 +17,7 @@ If you're a founder considering venture capital, stop thinking of VCs as mystica
 
 First, let's demystify what a "VC" actually is by following the money. This explanation focuses on the UK system, but the fundamental principles apply globally.
 
-# The business behind Venture Capital
+## The business behind Venture Capital
 When VCs talk about their "fund," they're referring to a legal partnership between two key groups:
 
 **Limited Partners (LPs)** - These are the real money behind the scenes. Think pension funds, wealthy individuals, family offices, and institutional investors. They provide the capital but stay hands-off. And legally speaking their liability is limited, hence LP. Which in practice means they can only lose what they put in, nothing more.
@@ -26,14 +26,14 @@ When VCs talk about their "fund," they're referring to a legal partnership betwe
 
 To handle the day-to-day investment work, GPs set up a separate management company. This company finds and manages investments for the partnership, or more than one of those partnerships. Since investment management is regulated activity they must also comply with financial regulations (in the UK, that's set by the FCA, in the US that's the SEC and state specific legislature).
 
-# How VCs make money: The "2 and 20" model
+## How VCs make money: The "2 and 20" model
 Like any business, the VC management company has operating costs. Nothing exceptional, things like email, office, basic salaries, saas subscriptions, accountants & lawyers, etc. To cover these, they charge the fund 2% annually of the total fund size.
 
 _Example_: If LPs have invested £10 million in a fund, the management company takes £200,000 per year—regardless of investment performance. This isn't profit; it's just the cost of keeping the lights on for the management company.
 
 The real money comes from successful investments. VCs typically receive 20% of the gains they create, but only after investors get their original money back (and sometimes a minimum return on top). **This profit share is called "the carry".**
 
-# Averages & Homeruns
+## Averages & Homeruns
 Venture capital is intentionally high-risk, high-reward. Here's what a typical early-stage startup portfolio looks like:
 
 * 50-60% will fail completely or sell for pennies
@@ -59,7 +59,7 @@ Spread the risk more by investing in more companies means a homerun requires an 
 
 On the other hand, concentrate the risk more by investing a larger amount in fewer companies, and the bar for homerun lowers but you get less at bats, so to speak. That's the balance a VC tries to manage.
 
-# What this means for you as a founder
+## What this means for you as a founder
 Now we can come back to that opening question: Why are they talking to you?
 
 **VCs are looking for that single company that can return their entire fund, and then some**. This directly shapes how they evaluate your startup:
@@ -76,7 +76,7 @@ Ever wonder why VCs obsess over your "total addressable market"? Now you know. *
 
 It's not just about having a good idea—it's about having a good idea at the right time in the right market. VCs naturally gravitate toward the biggest growing trends not because they're chasing hype, but because they're stacking the odds in their favor for the kind of valuations they need in 5-10 years time.
 
-# And finally it's about you, the founder(s)
+## And finally it's about you, the founder(s)
 Assuming you're building something in a massive, growing market, the remaining question is whether you can execute at scale. VCs are evaluating:
 
 * Can you navigate the journey from startup to billion-dollar company?
@@ -88,7 +88,7 @@ Understanding VC math changes how you approach fundraising. VCs aren't being unr
 
 If you can't envision your company reaching those valuations, venture capital might not be the right funding path. But if you can, now you understand exactly what VCs are looking for and why.
 
-# Bonus: VC Jargon Buster
+## Bonus: VC Jargon Buster
 Venture capital comes with its own language, so here’s a quick, founder-friendly guide to the jargon you’ll hear in every funding conversation.
 
 * GP/LP: a partnership between limited partners (investors in the fund) and general partners (VC, managing the fund). The basic structure of most VC funds.
@@ -101,5 +101,5 @@ Venture capital comes with its own language, so here’s a quick, founder-friend
 * Anti-Dilution: the mechanics get complex, but sometimes investors will have terms that protect their share of the pie; typically these only activate in down rounds.
 * Liquidation preference (commonly referred to as "pref"): a common way for VC to protect their investment by setting a minimum hurdle rate (1 or more times initial investment usually). This hurdle is paid out before other investors get paid. As a founder, you are usually in the "other investors" category.
 
-## note
+### note
 I wrote this post originally as a [guest post](https://www.collectivelybetter.com/why-do-vcs-say-no-a-founders-guide/) for the team at Collectively Better, who I work with from time to time advising early stage companies in their portfolio.

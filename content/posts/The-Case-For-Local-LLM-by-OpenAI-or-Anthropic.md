@@ -21,7 +21,7 @@ And on the not-apple software side, microsoft has Phi and is clearly pushing har
 
 The trend I'm seeing is that increasingly the local players are setting up to own the consumer, rather than the frontier labs.
 
-# What I didn't say last time: how the labs make money going forward
+## What I didn't say last time: how the labs make money going forward
 When moving inference locally what's the point of your claude subscription, you might rightfully ask. Are we just going back to the good old days where I pay once, install something on my machine and then run it forever? Remember those days?
 
 I see a few ways forward for the frontier labs in this world, keeping in mind that the real frontier models won't run locally ([as I said, the frontier will always be the frontier](../ai-broke-software-marginal-cost/#the-frontier-will-always-be-the-frontier)). So that part of their business remains protected, and billable (and presumably eventually no longer subsidized).
@@ -36,7 +36,7 @@ My thesis is that eventually the frontier labs will have a lesser, or even non-e
 
 So yes, I am saying that claude and openAI might not be the powerhouse consumer businesses they pretend to be. And they're, if anything, in a race against their own partners. A race I think they are likely to lose as time goes on.
 
-# Friction beats capability
+## Friction beats capability
 Right now, my average interaction with claude involves an awful lot of copy and pasting things. Or I may have to struggle through some clumsy MCP connectors (looking at you gmail) or letting it "do things" in my browser. I've long been a fan of taking my notes in markdown, so at least I'm text-first already (shoutout to [obsidian](https://obsidian.md/)) which has helped a lot. But I also use a myriad of other apps that are either poorly accessible to Claude (apple mail) or need me to install specific extensions to get claude to do something in the app (like excel).
 
 I'm not saying this is unusable, we muddle through, but the duct-tape is regularly visible and irritating.
@@ -45,12 +45,12 @@ Compare this to what the developers of your operating system could do if you pla
 
 Take apple mail as an example (or any other mail client). The pre-drafted email appears right in your mail client, based on (a) the conversation it's in and (b) other emails you've had with this contact and (c) your writing style seen over all the emails you've sent. Compare that to the "hey claude, help me draft a reply to this email" copy and paste. Could I get Claude to get all that context? Technically, yes. In practice: I just need a quick email drafted, don't make it hard.
 
-# So, why doesn't openAI pay Apple to be the default? 
+## So, why doesn't openAI pay Apple to be the default? 
 Pull a Google, basically. Pay Apple a large amount of money so they route every LLM inference query to open AI. Sadly, the business model doesn't work that way (yet). First because inference actually costs openAI significant amounts of money, and second because they don't have a business model yet where another revenue source can fill this in.
 
 Compared to Google who would buy the traffic because the eyeballs that came with that traffic were very valuable to their advertisers. And I'm aware openAI is looking at advertising and other avenues of not having to make money. But right now, they would simply be paying Apple for the privilege of then paying cost for the inference, with no obvious revenue in return. 
 
-# We've seen this before
+## We've seen this before
 Back in my days at TomTom I have seen this exact playbook before from Apple when maps on phones were the new thing. Here's what that looks like
 
 1. **Launch with a supplier**. Apple Maps v1 was partially built on TomTom's data. And while imperfect in many ways, it was simply shipped to displace the then-default Google. That was more or less the Siri+openAI spiel we saw. Side note, there was in fact talk of TomTom being acquired by Apple.
@@ -75,14 +75,14 @@ If you map this to LLM usage. Right now, Claude can generate your email but does
 
 Apple is of course notorious for its closed system. But Microsoft isn't that far behind. They own the corporate office stack, that's not going anywhere. Windows + MS Office + Teams is the default in the vast majority of white collar workers' lives. Add to that Snapdragon X series becoming mainstream, Phi as a local model and the inevitable CoPilot and you've got the same cocktail. And through their stake in openAI, arguably they also have a finger in the pie for the fallback routing on the frontier.
 
-# The Bull case
+## The Bull case
 If you're with me so far, you might think I'm writing off frontier labs. But in some way, the TomTom example shows the bull case: niche B2B. TomTom lost a lot of earnings from their consumer business, but underneath was a capability (producing high quality map data) that was still value to other businesses. 
 
 So the path that I see that would save the frontier labs is in the domain specific high ROI frontier applications. In other words, how many more "claude code" niches exist, where there is a true ROI for frontier. "Claude Legal", "Claude finance", "Claude biotech", ... .
 
 If those niches keep existing (or are created) and adopted faster than local capability catches up, that's the bull case in a nutshell here. 
 
-# So?
+## So?
 Summing up across these 2 articles
 * Local inference is becoming viable, and helps the labs towards a usable business
 * High ROI tasks (e.g. coding) will become the battleground for frontier labs

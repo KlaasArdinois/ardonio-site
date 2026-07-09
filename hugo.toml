@@ -23,6 +23,9 @@ style = "github-dark"
   keywords = "technology transformation, turnaround, value creation, interim CTO, private equity, mid-market, CTO advisory, board advisor"
   avatarurl = "images/avatar.jpg"
 
+  # Default social share image (1200x630). Posts may override via front-matter `images`.
+  images = ["images/og-default.png"]
+
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"

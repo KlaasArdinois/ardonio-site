@@ -24,7 +24,7 @@ That single perspective has enormous implications for how and where to use genAI
 
 With that mental model, it's easy to see how relying on a machine that generates averages while you are looking for situational specifics has some inherent contradictions. 
 
-# What PE actually underwrites
+## What PE actually underwrites
 The old Barbarians at the Gate days where value creation was mainly financial engineering and LBOs have faded. What PE really underwrites these days is usually an operational transformation thesis, financed by an aggressive capital structure. Importantly in that, the value doesn't come from the financial structure alone; but rather from the operational improvement baked into the thesis.
 
 Being able to build a good LBO model and deeply understanding cashflow are still crucial. But understanding the art of the possible relies more and more on industry depth, pattern matching previous operations, understanding that each company has its unique struggles and that operational reality is often threading the needle between contradicting facts.
@@ -52,7 +52,7 @@ Note that I didn't just say "broadly right", I also said "precisely wrong". Beca
 > A system that produces eloquent bs is still producing bs. Don't mistake fluency for signal 
 
 
-# Why judgment is irreducibly human
+## Why judgment is irreducibly human
 So, great you can get more information summarized faster. And you can get a broader surface covered, with some caveats that you shouldn't take it all at face value. Call that the side that is well-documented.
 
 
@@ -62,7 +62,7 @@ Case in point: you can feed any company policy into an LLM and have it rate, scr
 
 The edge from judgment lives in understanding and interpreting the gap between what's documented and what's true. And an LLM can't really access that gap. Even if you fed it a transcript of a management meeting, or of all the employee interviews. They'd still struggle to pick up those particularly human clues in a conversation. And by the way, that doesn't live in the training data either. 
 
-# The practical perspective
+## The practical perspective
 
 My bigger point is that the constraint in the investment process is judgment. And, as a good systems thinker, that means the best path is organizing the process around that constraint. 
 > Applying AI is not a task level exercise. Instead, think about rewiring a process for the new constraint
@@ -79,7 +79,7 @@ And while most people in this space are very comfortable with excel, and increas
 
 Those are from lived experience. The key is that all of them improve the conditions under which judgment is made; but none are replacing the judgment.
 
-# In summary
+## In summary
 Whatever your process is. The key in getting the most out of new tools is in identifying the constraint and then optimize around that, rather than blindly chasing tool adoption.
 
 Ironically perhaps, PE operators know exactly how to fix this. Identify the constraint, and underwrite the returns from operational transformation. It's time for PE to get the PE treatment.

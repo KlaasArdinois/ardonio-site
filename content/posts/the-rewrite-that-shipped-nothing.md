@@ -17,7 +17,7 @@ There's a call an operator gets more than any other. It starts with a version of
 
 So let's talk about rewrites. Not how to do them — there's plenty of that. Let's talk about the decision that actually matters: **whether to do one at all.**
 
-# "It's quick to build" is the most expensive sentence in engineering
+## "It's quick to build" is the most expensive sentence in engineering
 
 Let me tell you about a rewrite I killed.
 
@@ -35,7 +35,7 @@ So I asked the team to re-run their case with the maintenance line included — 
 
 The lesson generalises: **almost every doomed rewrite is costed as a build and lived as an ownership.** If the business case only survives when you ignore what it costs to *keep* the thing alive, it's not a business case. It's an enthusiasm.
 
-# Kill, box, or finish
+## Kill, box, or finish
 
 When I'm brought into a rewrite that's already in flight, there are only three outcomes, and the job is to work out which one honestly applies.
 
@@ -45,7 +45,7 @@ When I'm brought into a rewrite that's already in flight, there are only three o
 
 **Finish it.** Sometimes the thing really does need to happen and the team was just missing structure, not merit. In which case — and only in which case — you commit properly. Which brings me to the part everyone skips.
 
-# Why this is easier for an outsider to say
+## Why this is easier for an outsider to say
 
 There's a human factor here that's easy to wave away, and it matters enormously.
 
@@ -55,7 +55,7 @@ An outsider carries none of that. No scars, no sponsor to protect, no faction to
 
 Which is the quieter reason a CEO brings someone in. It isn't only the assessment — a capable internal team could probably produce that. It's that an independent recommendation makes a hard decision *possible*. The call stops being "the CEO overruling two years of their own team's work" and becomes "acting on a dispassionate outside read." That reframing is worth a great deal. It lets good people change course without anyone having to lose face.
 
-# Preparing for the rewrite is as important as the rewrite
+## Preparing for the rewrite is as important as the rewrite
 
 The rewrites that die didn't fail in the rewriting. They failed before a line was written, because nobody did the preparation.
 
@@ -68,15 +68,15 @@ Preparation is unglamorous, which is exactly why it gets skipped in the rush to 
 
 Do this work and the rewrite is almost boring. Skip it and you've bought yourself the exact call at the top of this post.
 
-# Cost is only half the conversation — value is the other half
+## Cost is only half the conversation — value is the other half
 
 Here's where operators earn their keep with a board.
 
-Engineers instinctively argue rewrites on cost and risk: "the old system is fragile, it'll cost us if it breaks." All true, and all unpersuasive, because a board can't act on "might be bad." You have to articulate the **value** — what does fixing this actually unlock or protect? Faster feature delivery? A compliance requirement that gates an enterprise deal? A cost curve that finally bends the right way? _(this is the same discipline as tracking [engineering capex](../why-engineering-capex-tracking-doesnt-have-to-be-a-mess/) — you're translating engineering reality into a language the board can allocate capital against.)_
+Engineers instinctively argue rewrites on cost and risk: "the old system is fragile, it'll cost us if it breaks." All true, and all unpersuasive, because a board can't act on "might be bad." You have to articulate the **value** — what does fixing this actually unlock or protect? Faster feature delivery? A compliance requirement that gates an enterprise deal? A cost curve that finally bends the right way? _(this is the same discipline as tracking [engineering capex]({{< relref "engineering-capex-opex.md" >}}) — you're translating engineering reality into a language the board can allocate capital against.)_
 
 And once you frame it as value rather than tidiness, something uncomfortable falls out: **for a lot of things, the value of fixing them is close to zero.**
 
-# Some fires are better left burning
+## Some fires are better left burning
 
 Not everything needs fixing.
 

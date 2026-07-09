@@ -25,7 +25,7 @@ Source a very different source of revenue. We turned to ESG players who could ef
 
 This case is just one example of something that holds true across nearly every EdTech company I've worked with: students are the reason EdTech exists, and the least consulted when it's bought, renewed, or killed.
 
-# Equilibirum in the 3 body problem
+## Equilibirum in the 3 body problem
 EdTech really has 3 constituents: students, teachers and procurement. 
 
 It's worth articulating them briefly
@@ -60,7 +60,7 @@ That's what a forgotten student populace looks like.
 
 And in both corporate and academic tooling the student cohort naturally rolls over. Student cohorts reset yearly, employees come and go, ... . The stable parties in this ecosystem are the teachers and procurement roles. That further erodes the voice of students when it comes to commercials.
 
-# In conclusion
+## In conclusion
 So back to that story in the intro. By spelling out the constituents and methodically addressing them, we realized we didn't need another feature or another learning outcome report. Instead, we had to rethink our approach to procurement.
 
 Perhaps perversely, student focus gets you in the conversation; it's teacher experience and a clean procurment story that will close the deal.

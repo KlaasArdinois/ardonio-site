@@ -2,7 +2,7 @@
 draft = false
 date = 2026-03-12T09:33:52+01:00
 title = "Podcast guest on: AI Builder Series"
-description = ""
+description = "Klaas joins the AI Builder Series to talk LLM-assisted coding, why the harness matters more than the model, and the feedback loop AI agents need."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -15,7 +15,7 @@ Sean from [Kerno](https://www.kerno.io/) was kind enough to put up with me for a
 
 I like what the team at Kerno is doing. Philosophically we're very aligned on thinking that the key to using LLM for coding is in the harness. 
 
-# Topics
+## Topics
 We've got 40 minutes, and we're covering quite a lot of ground:
 
 * AI adoption from startup to enterprise

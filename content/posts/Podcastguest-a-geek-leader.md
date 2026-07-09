@@ -2,7 +2,7 @@
 draft = false
 date = 2024-11-01T09:59:04+01:00
 title = "Podcast guest on: A geek leader"
-description = ""
+description = "Klaas on the A Geek Leader podcast: the human side of technology leadership, the CTO's evolving role, and leading engineering teams through change."
 slug = ""
 authors = ["Klaas Ardinois"]
 tags = []
@@ -15,7 +15,7 @@ Sat down with John for an episode on "a Geek Leader". The podcast typically cove
 
 Full episode here: https://www.ageekleader.com/agl-389-klaas-ardinois/
 
-# We talked about
+## We talked about
 We covered a lot of ground in a short space
 * CTO leadership
 * Keeping the lights on (BAU) and How Technology drives the business forward

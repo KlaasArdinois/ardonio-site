@@ -27,14 +27,14 @@ Broadly speaking, we currently use AI on high value and low value tasks.
 * **Low ROI tasks**. Summarizing a meeting, drafting an email from your bullet points, scheduling a task through calendar access. The ROI on "draft this email" is hard to justify at unsubsidized LLM pricing. I'm not saying there's no value to it, but rather that the economics break. For $20 / month I'll happily have claude write and rewrite summaries. At $200 / month ... nah, my trusty manual notes in obsidian will do. 
 
 
-# A broken model in three parts
+## A broken model in three parts
 First, as I just mentioned, cost grows in line with usage AND current subscriptions don't cover cost. And yes, the saas subscription pricing is normally set so that a few net-loss power users get subsidized by a long tail of net-profitable users. SemiAnalysis and others have pointed out that a user using 25% of their token limits is _at best_ a negative 25% margin. Or the more aggressive side of the calculus by Ed Zitron, 3 power users need at least 2000 low-end users to break even. Econ101: this is not how you get to a profitable product.
 
 The second thread I want to quickly pull is amortization. Training a frontier model carries a cost in the 100s of millions to produce the asset (and let's assume it's all capex for simplicity), and projections are that this will keep growing as bigger models need more compute time to train and more data to ingest. On the flip side, let's look at the lifetime of these models. Flagship models, major versions, ship roughly every 12-18 months with minor upgrades in between. And when a new model comes out the early adopters switch, and the laggards wait for it to become the default setting, which is typically quite quickly as well. So let's say that the first 25% (power users) switches more or less right away, and the remaining gets swept up over the next 6 months as it becomes the default model. So you've got a 100+ million asset with, generously a 2yr shelf life, and you're stacking a new asset of that size every year-ish. Sure, technically it will get written off over a longer life than its real practical use but in reality every model has about a year to make a profit.
 
 But hey, token costs are coming down. This is the third place the economics break. Token costs are objectively coming down, however increasingly reasoning models consume more tokens to get to an answer (and FYI, reasoning tokens are considered output tokens; the expensive kind). Tokens are a poor proxy measure anyway of course, see all the "tokenmaxxing" backlash. The thing that really matters is **task completion, the economically relevant result**. And as models get more capable between reasoning and longer context windows, and we start sticking them in skills and workflows which burn more tokens as well, we're actually driving the bill "per result" up, despite token costs coming down right now. 
 
-# Solving the economics
+## Solving the economics
 Since we're in a world where the users consume more of the product than they pay for, there are only 2 simple levers to pull
 1. **Charge more**. This works in the high ROI tier of tasks. Though as we've seen with recent API pricing, even that isn't as clear cut as you'd hope, in part because it's hard to tie "code" directly to "revenue" in most cases.
 2. **Cost less**. This is extending the life of old models by routing "simple" tasks to lower models. The frontier labs are doing this under the hood already. And while it helps, it does little to the marginal cost per query. Older models still incur COGS and take up datacenter capacity. So while routing can be a partial offset, it's not a clean solution.
@@ -45,7 +45,7 @@ The clean solution is therefore more akin to the days of floppy disks, rather th
 
 Now I know that on 2026 hardware we're not quite in a position to run a full model on a $500 laptop, and we're more limited by memory and memory bandwidth than we are by raw compute. I'll go into more of this in the next post, but the crux here is that a combination of small model + aggressive retrieval + OS level context management is a direction that is (a) happening and (b) economically a different challenge.
 
-# The frontier will always be the frontier
+## The frontier will always be the frontier
 Before closing out, I want to take a quick sidestep about the evolution of the frontier. Back when gpt2 was released, it was fun but not very useful. It lacked attention (ironically), and would drift off into irrelevant nonsense in 2-3 turns. GPT 3 was far better and felt like it actually crossed a bridge into "useful", for some definition of useful. And as I mentioned before, more recently the difference between Fable and Opus was another leap.
 
 The interesting question is what happens behind that frontier. As frontier models get quantized (reduce the number of bits used to store the model weights, at the cost of accuracy in the calculation) and distilled ("summarized" into a smaller model). Both actions have the net effect that a smaller model can do an approximation of the frontier capability. And smaller models of course can do with lesser hardware. 

@@ -34,7 +34,9 @@ Angle for the whole batch: each post reads like a problem the reader is living *
 
 ## Tales from an operator
 
-_Cornerstone piece, and likely its own category. Added 2026-07-08._
+_Cornerstone format. Added 2026-07-08._
+
+_Decision 2026-07-08: Tales get their own top-level nav entry (same level as The Story / Services), not just a category. Everything else stays in one stream; cornerstone guides get a `playbook` tag and hub-and-spoke links rather than a section. Canonical record in "Content architecture" in the brand styleguide._
 
 **What these are.** Short, anonymised accounts of the day-to-day operating situations that don't fit a CV timeline. Proof of operations. The point is that a reader recognises their own situation in one of them and thinks "he's seen this before." They carry breadth: evidence that I've sat in a lot of difficult rooms.
 

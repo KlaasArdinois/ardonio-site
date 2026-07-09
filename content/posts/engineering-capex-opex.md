@@ -2,7 +2,7 @@
 draft = false
 date = 2026-05-12T11:55:28+01:00
 title = "Why engineering capex tracking doesn't have to be a mess"
-description = ""
+description = "Engineering capex tracking is usually ignored or despised. A third way, good enough for finance and light enough that your team will actually keep it up."
 authors = ["Klaas Ardinois"]
 tags = []
 categories = []
@@ -17,7 +17,7 @@ Engineering capex tracking often rests on one of two options:
 Over the years I've implemented a 3rd way that is good enough for financial purposes AND light enough to not become a burden. And we all know, things that are easy to measure are more likely to be consistently measured.
 
 
-# The system
+## The system
 My system is pretty straightforward and relies on engineers self reporting at the end of the sprint. I usually ask my teams to embed it in their end of sprint ceremonies. Or in flow-based teams, we just agree to do it every other week on the Friday standup. The point is, pick a regular timeslot and institutionalize the practice.
 
 So what is the actual practice?
@@ -48,7 +48,7 @@ Admittedly, the line between a bugfix and a feature can get blurry at times. But
 
 Once the teams are used to this it takes roughly two minutes. And for clarity, it is done by the team rather than each individual. So the estimates reflect collective effort.
 
-# From effort to money
+## From effort to money
 Since the estimates are on a per-team basis, you need a per-team cost. Which, to nobody's surprise, is simply the salary of all the people who were in that team. And teams are quite stable, certainly within a 2 week period, so it's mostly a set and forget.
 
 And with that cost multiply through the self-reported percentages to get 
@@ -62,14 +62,14 @@ The CapEx/OpEx rules we agreed with our finance team:
 
 And finance and I keep a small list of "products" we use to allocate budget to for capex purposes. Think of this, by way of example, broadly as "3rd party integrations, core system, pipelines & tooling, billing engine, ... ". Things that are relatively stable in time and have meaningful value and ability to drive revenue. Owning this list is shared between finance and tech, but from experience keep it short.
 
-# The auditor question
+## The auditor question
 The natural concern is whether these self-reported estimates really hold up. In my experience: they do.
 
 However since you're likely running a ticket system in the background you will have some data to correlate. Spot checking a few sprints based on when tickets moved status is a good enough proxy. **You're aiming to be "correct on average"**, rather than "nail hours worked on every ticket".
 
 And for what its worth, our big 4 auditor did this and concluded our approach was acceptable.
 
-# Why it works
+## Why it works
 The two-minute constraint is a feature rather than a limitation. If you make the reporting burdensome, engineers will either game it or resent it. Two minutes means they'll actually do it, and the social dynamics of doing it as a team over a 2 week window rather than by task means the estimates are usually good enough without looking like surveillance.
 
 The goal is a defensible, consistent methodology that gives finance what they need and doesn't turn your engineering culture into a billable-hours shop. 
