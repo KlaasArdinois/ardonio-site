@@ -58,7 +58,7 @@ So, great you can get more information summarized faster. And you can get a broa
 
 Success however often lives in interpreting complex unstructured and incomplete information. Exactly the kind of material that is poorly documented, if at all.
 
-Case in point: you can feed any company policy into an LLM and have it rate, scrutinize and summarize it. And you can observe what actually happens with interviews and spot checks. Rarely are those 2 realities the same.
+Case in point: you can feed any company policy into an LLM and have it rate, scrutinize and summarize it. And you can observe what actually happens with interviews and spot checks. Rarely are those two realities the same.
 
 The edge from judgment lives in understanding and interpreting the gap between what's documented and what's true. And an LLM can't really access that gap. Even if you fed it a transcript of a management meeting, or of all the employee interviews. They'd still struggle to pick up those particularly human clues in a conversation. And by the way, that doesn't live in the training data either. 
 
@@ -67,7 +67,7 @@ The edge from judgment lives in understanding and interpreting the gap between w
 My bigger point is that the constraint in the investment process is judgment. And, as a good systems thinker, that means the best path is organizing the process around that constraint. 
 > Applying AI is not a task level exercise. Instead, think about rewiring a process for the new constraint
 
-An investment process isn't linear, but conceptually it helps if you imagine the situation as things that are input to judgement (i.e. upstream) and things that are outcomes of judgment (i.e. downstream). Feel free to apply that at various levels of abstraction.
+An investment process isn't linear, but conceptually it helps if you imagine the situation as things that are input to judgment (i.e. upstream) and things that are outcomes of judgment (i.e. downstream). Feel free to apply that at various levels of abstraction.
  
 The most obvious upstream benefit is the ability to get a broader perspective. Quickly sorting through historical precedents, sector patterns, universe screening. Again, they're about presenting you with a broader aggregate to judge on, not presenting you with a solution. That is the crucial nuance and where upstream meets judgment. You decide what is and isn't relevant, or which assumptions carry more weight than others.
 

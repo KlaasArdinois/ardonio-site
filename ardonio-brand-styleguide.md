@@ -9,6 +9,8 @@
 These are non-negotiable.
 
 - **Never use em dashes (`—`).** They now read as "written by AI," and the brand is boutique, not generic slop. Use a period, comma, colon, or parentheses instead. Restructure the sentence rather than reaching for a dash. (En dashes in number ranges, like `2008–12`, are fine and correct.)
+- **American spelling.** The audience is American. Write "organization", "judgment", "canceled", "smolder", "analyze", not "organisation", "judgement", "cancelled", "smoulder", "analyse". Don't make a reader stumble over a word they'd mark as a typo.
+- **Spell out numbers below ten.** "three outcomes", "a day or two", not "3 outcomes". Ten and above take numerals ("a 20-second load time"). This covers **ordinals** too: "a third way", "a third-party vendor", not "a 3rd way", "a 3rd party vendor". Exceptions that keep the numeral below ten: **units** (`$5m`, `5%`, `3km`), **decimals** (`2.5x`), **time references** (`the 90s`, `Q3`), and **set terms whose numeral is part of the name** (`Level 3 support`, `2 and 20`, `The 4 Stages of a CTO`). If spelling it out would make a reader stop and check they read it right, it's a set term. Leave it. Where an industry term is conventionally spelled out and capitalized, follow the convention: `Big Four`, not `big 4`.
 - **Sentence case in copy.** Not Title Case. (Proper nouns and the wordmark aside.)
 - **No superlatives without evidence** ("world-class", "leading", "best").
 - **Say the thing once.** No long preambles before the point.
@@ -64,7 +66,7 @@ Frame cost around the decision, the stakes, or the situation, not the reader's c
 > *"Built for the situations without an obvious playbook."*  
 > *"I can't name names, but I can list results."*
 
-**Depth lives in long-form.** The proof of "been there, unflappable" cannot be bullet-pointed and must never be bragged. It belongs in anonymised accounts (the **"Tales from an operator"** format), told flat and first-person, with the *pattern recognition* as the payload, not the heroics. They let a reader recognise their own situation. They never cast Klaas as the hero.
+**Depth lives in long-form.** The proof of "been there, unflappable" cannot be bullet-pointed and must never be bragged. It belongs in anonymized accounts (the **"Tales from an operator"** format), told flat and first-person, with the *pattern recognition* as the payload, not the heroics. They let a reader recognize their own situation. They never cast Klaas as the hero.
 
 **Avoid:**
 - Superlatives without evidence
@@ -78,7 +80,7 @@ Frame cost around the decision, the stakes, or the situation, not the reader's c
 Two classes of writing, and no more. The test for a separate section is not "different topic" but "different job and different rules." Only one class passes it, so the site stays simple.
 
 **1. Tales get their own top-level nav.**
-"Tales from an operator" sit at the same level as The Story and Services in the main navigation. They keep the tone and function set out in Voice & Tone: anonymised, flat, first person, pattern recognition as the payload, never Klaas as the hero. They are the referral substitute and a separate body of proof from the named record, so they must never link back to it. The working list and rules live under "Tales from an operator" in `ideas.md`.
+"Tales from an operator" sit at the same level as The Story and Services in the main navigation. They keep the tone and function set out in Voice & Tone: anonymized, flat, first person, pattern recognition as the payload, never Klaas as the hero. They are the referral substitute and a separate body of proof from the named record, so they must never link back to it. The working list and rules live under "Tales from an operator" in `ideas.md`.
 
 **2. Everything else sits in one stream.**
 All other writing shares a single stream (currently "posts" / "Latest Thoughts"). Operating guides, frameworks, and timely commentary are not split into separate sections. They do the same job (show how Klaas thinks, in his own name, freely linkable) and differ only in shelf-life, which does not earn a wall.
@@ -125,7 +127,7 @@ Every new post follows this. The theme already handles the plumbing (OpenGraph, 
 
 ---
 
-## Colour Palette
+## Color Palette
 
 | Name | Hex | Usage |
 |------|-----|-------|
@@ -137,7 +139,7 @@ Every new post follows this. The theme already handles the plumbing (OpenGraph, 
 | **Paper** | `#FFFFFF` | Page background |
 | **Surface** | `#F1F2F4` | Subtle card / code backgrounds |
 
-**Primary brand colour: Blue `#1E5BFF`.** Use it sparingly: one key element per slide or page (a mono label, a CTA, the mark, a highlighted data point). Overuse dilutes impact.
+**Primary brand color: Blue `#1E5BFF`.** Use it sparingly: one key element per slide or page (a mono label, a CTA, the mark, a highlighted data point). Overuse dilutes impact.
 
 ---
 
@@ -241,7 +243,7 @@ Order deliberately leads with turnaround/interim and closes with coaching.
 | Problem solving session | 90 min · 1 problem |
 | Strategy alignment workshop | Half or full day |
 | Advisory retainer | Ongoing |
-| CTO coaching | 6-month programme |
+| CTO coaching | 6-month program |
 
 ---
 
@@ -267,10 +269,11 @@ Focus: the founder-CTO ceiling, structure and process, decisions framed in comme
 ## What to avoid
 
 - Em dashes (see Writing rules)
+- British spelling, and bare numerals below ten (see Writing rules)
 - Gimmicks, slogans, jokes-as-strategy, or anything trying too hard
 - Copy that implies the client is incompetent (point cost at the situation, not at them)
 - Dark backgrounds (the brand is light / paper; dark only for a deliberate contrast moment)
-- Multiple accent colours (Blue is the only accent)
+- Multiple accent colors (Blue is the only accent)
 - Rounded corners anywhere except the favicon
 - Decorative fonts, script typefaces, decorative icons
 - Dense slides with small text; jargon that obscures the outcome
