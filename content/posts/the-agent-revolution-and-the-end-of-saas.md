@@ -63,7 +63,7 @@ So the slow step in this won't be developing agents, but rather establishing a n
 * Autonomous goal decomposition. Break down high-level goals into executable sub-goals without human guidance (or over-reliance on system prompts), while maintaining goal consistency across execution paths.
 * Implicit context recognition. Understand unspoken requirements and context, or be aware of the context under which a request is received (or even who makes the request and what that implies)
 * Evolving context models. Not just raw memory storage but ability to evolve conceptual understanding of domain models, stakeholders. 
-* Self calibrated boundaries. A system that knows how to operate inside boundaries with judgement about when to proceed autonomously vs seek clarification
+* Self calibrated boundaries. A system that knows how to operate inside boundaries with judgment about when to proceed autonomously vs seek clarification
 * Multi context reasoning. The ability to articulate (and make) decisions based on tradeoff between technical/operational/business/user (and even ethical) dimensions
 
 In other words: an Agent isn't just persistent software that completes a task; but rather a reasoning framework that can navigate ambiguity while maintaining a coherent goal in mind. And in practice you'll probably have many of these trained on particular domain knowledge. Even potentially down to a full agent model trained on your proprietary knowledge that has never been in the public domain ever.
@@ -88,7 +88,7 @@ Gemini now generates a document with some summary of what we talked about and tr
 
 None of these AI features hit the fundamental problem that Agents pose for them. I want the agent to know _everything all at once_. 
 I want the Agent to be able to understand that when George talked about "prepare me for today's meeting" it had a lot to do. In fact, it had to understand that George works in Sales (HR data), and "today's meeting" (a calendar event) is a Teams call (make sure the meeting recorder joins) with Jane from Coca Cola (customer data) and that he needs the "first sales call" script & matching slides (document storage).
-Oh and when Sally ask "prepare me for today's meeting" it's actually 3 engineers chatting about a problem they discussed on slack a few days back. 
+Oh and when Sally ask "prepare me for today's meeting" it's actually three engineers chatting about a problem they discussed on slack a few days back. 
 That's of course a stereotypical "siri on steroids". But you could take that same lense to business processes. How often does a business process start to finish live entirely in one SaaS tool?
 
 If you want to spell out the collapse of SaaS. It'll be slow at first and then suddenly.
@@ -143,7 +143,7 @@ Which brings us to context sharing. Since the systems are at heart stateless, we
 Some of these challenges will be solved outside of "AI", and border in large parts on our ability to represent knowledge. And they will inevitably require us to rethink how we build and design our agents as well. 
 
 I've alluded to this earlier but we do have the problem of non-determinism. An agent will produce output when told to do so. Whether that's hallucination, correct or creative genius is really your interpretation. The words produced are ultimately merely the result of a statistical system. And there are use cases where "hallucination" is a very desirable feature, for instance in deepmind's work in protein folding or drafting marketing copy.
-It's a less desirable feature when a transcript accidentally picked up "police" instead of "policy". The engineering meeting summary became "discussing a recent event involving police action, possibly a stop or arrest, that the team refers to as a 'dot' in the discussion. It is implied that the police action was deemed successful in some way. .... The conversation lacks formal details but indicates a positive outcome following a police-related incident".  The actual discussion was a 2 minute conversation about a new policy that was successfully implemented for one of our notetaker bots. Imagine the action points an Agent would take from that... *(that's a real example btw)*
+It's a less desirable feature when a transcript accidentally picked up "police" instead of "policy". The engineering meeting summary became "discussing a recent event involving police action, possibly a stop or arrest, that the team refers to as a 'dot' in the discussion. It is implied that the police action was deemed successful in some way. .... The conversation lacks formal details but indicates a positive outcome following a police-related incident".  The actual discussion was a two minute conversation about a new policy that was successfully implemented for one of our notetaker bots. Imagine the action points an Agent would take from that... *(that's a real example btw)*
 
 ## So, SaaS is dead?
 I'm aware that a large number of resources are aimed at this and it's a field evolving at a rapid pace. Some of the areas we need are actively worked on. And we're coming at them both with foundational scientific research and practical engineering "good enough" solutions.
@@ -166,11 +166,11 @@ If anything, over the longer run horizontal M&A to bring different data sources 
 
 Which leaves us with the economic mismatch between seat licenses and Agentic operations. The traditional logic for seat licensing is that a user does some activity from which they derive value. And therefore as long as they use the software they pay a fee. And as a SaaS consuming organization, more users = more value = more fees. With all the usual commercial variations and discounts for min commit, volume, pre-pay, bolt-ons, ... . 
 And on the COGS side, each user creates a small marginal cogs increase. So in theory enormous unit margins, but a huge costbase between engineers and sales activity. Resulting in a landgrab / winner takes all market dynamic. Because theoretically at the limit your net margin will converge to gross margin.
-Agents of course have the exact opposite dynamic if you looked at them as a "user". One agent is likely to cause a comparatively big increase in cogs but only a single license. Ask yourself this though: is one agent really providing 1 user's worth of value to your customer?
+Agents of course have the exact opposite dynamic if you looked at them as a "user". One agent is likely to cause a comparatively big increase in cogs but only a single license. Ask yourself this though: is one agent really providing one user's worth of value to your customer?
 Maybe it's time to rethink how we price SaaS products and hone in on the actual value delivered; rather than taking a "user" as a proxy for value. Fundamentally cost structures will no longer scale with seats, but rather with consumption and outcomes. We already have consumption pricing models (telco minutes, dropbox storage, cloud styled metered compute, ... ) which are detached from seats and aligned with underlying cogs. What we don't understand yet is the consumption-value link when an Agent is in the mix, and whether the underlying cogs for an agent (both running the agent and accessing the data) are worth it.
 
 ## Conclusion
-As often in the the real world, it won't be a binary "deterministic or not", or "automator vs true agency", "mini-saas in house vs 3rd party saas". 
+As often in the the real world, it won't be a binary "deterministic or not", or "automator vs true agency", "mini-saas in house vs third party saas". 
 
 We will operate on a spectrum between the extremes. We will have things we call Agents, and we'll eventually find a good use for them once the novelty wears off. 
 

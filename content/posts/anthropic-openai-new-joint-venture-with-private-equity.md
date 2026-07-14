@@ -37,7 +37,7 @@ As I just said the GP "aim to sell them 4-7 years later for a return". To do thi
 
 When done well, PE genuinely creates more companies that are worth more. When done poorly ... well, there are plenty PE horror stories that are only a quick google away.
 
-Obviously these PE firms don't buy one company at a time. Quite often they run a portfolio of 5-10 of these companies, and will buy add-ons to integrate with the core 5-10 companies. Now considering that the companies involved in this structure with Anthropic are amongst the largest on the planet, those numbers are huge. Blackstone for instance controls close to 250 companies, not counting the various add-ons and other deals they are involved in.
+Obviously these PE firms don't buy one company at a time. Quite often they run a portfolio of 5-10 of these companies, and will buy add-ons to integrate with the core 5-10 companies. Now considering that the companies involved in this structure with Anthropic are among the largest on the planet, those numbers are huge. Blackstone for instance controls close to 250 companies, not counting the various add-ons and other deals they are involved in.
 
 This is the access that Anthropic is looking for. A rotating cast of companies where they have direct access to the people pulling the strings.
 
@@ -71,21 +71,21 @@ I'm not one to buy into conspiracy theories or assume bad intentions. The struct
 ## Improving the business
 Earlier I mentioned PE putting operational teams in a business. Those teams already have playbooks. So typically they put existing senior leadership into new businesses with the express aim to "do what you've done in the previous one". I know, I'm one of those.
 
-The principle behind these playbooks rely on pattern matching. If you've seen one of these before, you'll have the experience and judgement to do another. You've learnt from your mistakes and your successes. Crucially though, in the process you have built up two very strong muscles: judgement and domain understanding.
+The principle behind these playbooks rely on pattern matching. If you've seen one of these before, you'll have the experience and judgment to do another. You've learned from your mistakes and your successes. Crucially though, in the process you have built up two very strong muscles: judgment and domain understanding.
 
 This is the first area I'm concerned. Forward deployed engineers typically aren't domain or industry experts. Instead, they are AI implementation experts. They know how to get the best out of Anthropic's products. They don't necessarily know how to adjust a pattern for the reality of a procurement team in a small FMCG business, or how to roll up the shared IT needs of a group of vet clinics.
 And while the standard answer of every transformation project is "that knowledge comes from the domain experts already in the company", we all know that 
 (a) it won't be documented
 (b) it's likely not easy to explain 
-(c) John who knows everything actually left 2 years ago
+(c) John who knows everything actually left two years ago
 
-It's a classic transformation consulting problem, but now with AI. And AI, with it's inbuilt lack of judgement or ability to learn and contextualize to the organization, is likely going to make this worse rather than better.
+It's a classic transformation consulting problem, but now with AI. And AI, with it's inbuilt lack of judgment or ability to learn and contextualize to the organization, is likely going to make this worse rather than better.
 
 ## But we have data
 One of the defining qualities of mid market companies, particularly towards the lower end of the mid market, is that their internal data is underdeveloped. And the data there is is inevitably siloed and comes with a large need for interpretation. At best it looks like a few dashboards and a set of spreadsheets. At worst it's a CTO manually running a query directly on a production database. 
 And you won't find much controls or governance to ensure data consistency, correctness or any of those good practices. In fact, decision making is by intuition and experience and then justified by select data, rather than justified from data. 
 All of that of course creates a perfect storm for any AI project to fail before it even starts. The first job is cleansing, standardizing and centralizing the right data in a sensible structure. 
-My guess is that the JV is going to do a lot of data cleansing and ETL work while they grab a few bits of low hanging fruit. Classic technique of showing momentum with some quick wins, while the hard problems are ideally worked on in the background. Nobody will get budget for an AI program that begins with "no AI for the first 9 months".
+My guess is that the JV is going to do a lot of data cleansing and ETL work while they grab a few bits of low hanging fruit. Classic technique of showing momentum with some quick wins, while the hard problems are ideally worked on in the background. Nobody will get budget for an AI program that begins with "no AI for the first nine months".
 Also, if any of this sounds familiar you've clearly been part of previous incarnation of transformation digital transformation.
 I'd be happy to be proven wrong, but this could easily become "just another tool"; much like we all needed an ERP, a CRM, a HR system, a Cognos BI cube, a data warehouse, ... . We'll now just also need agentic-ness. 
 

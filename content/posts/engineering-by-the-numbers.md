@@ -73,7 +73,7 @@ This also ties back to how I think about [engineering capex and opex]({{< relref
 
 ## Protecting the narrative
 
-If you're not careful, "bring data" curdles into "the spreadsheet decides". Managers stop bringing their judgment because they've learned the number wins every argument. You've now optimised your best people down to dashboard-readers, and you've lost the exact thing you hired them for.
+If you're not careful, "bring data" curdles into "the spreadsheet decides". Managers stop bringing their judgment because they've learned the number wins every argument. You've now optimized your best people down to dashboard-readers, and you've lost the exact thing you hired them for.
 
 I protected against it with a few simple rules:
 
@@ -91,7 +91,7 @@ If you're a CTO or VP Eng at a maturing company and you want to introduce this w
 - **Start with the data you already have.** Do not build a metrics platform. Your ticketing system, your deploy pipeline, and your incident log already hold most of this. A spreadsheet is a completely respectable place to begin.
 - **Monthly, not weekly.** Weekly turns it into surveillance and the noise drowns the signal. Monthly gives trends room to actually mean something.
 - **Let each unit lead propose their own handful.** Ownership beats imposition. You keep veto, they keep authorship. Make sure they know _why_ they're measuring something. Ask the question "what aspect of your team health/performance/... are you measuring with this".
-- **Never open with a gotcha.** The first time a number is used to ambush someone in front of their peers, the whole thing dies. It becomes theatre, and you get managed numbers instead of managed teams. 
+- **Never open with a gotcha.** The first time a number is used to ambush someone in front of their peers, the whole thing dies. It becomes theater, and you get managed numbers instead of managed teams. 
 
 Do it right and something quietly shifts. Your managers stop coming to you with "it's going well" and start coming with "here's the number, here's what I think it means, and here's what I'm doing about it."
 
