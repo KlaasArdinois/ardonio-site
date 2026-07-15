@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2026-07-15T08:00:00+01:00
 title = "The Rewrite That Ate Two Years and Shipped Nothing"
 description="The two-year rewrite that has produced no shippable outcome. How to decide whether to kill it, box it, or finish it, and why the build was never the cost."
