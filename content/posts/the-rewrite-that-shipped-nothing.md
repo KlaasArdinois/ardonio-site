@@ -1,6 +1,6 @@
 +++ 
 draft = true
-date = 2026-07-14T08:00:00+01:00
+date = 2026-07-15T08:00:00+01:00
 title = "The Rewrite That Ate Two Years and Shipped Nothing"
 description="The two-year rewrite that has produced no shippable outcome. How to decide whether to kill it, box it, or finish it, and why the build was never the cost."
 slug = "the-rewrite-that-shipped-nothing"
@@ -12,9 +12,9 @@ series = []
 +++
 
 There is one conversation I have had more than any other when meeting boards. The phrasing varies, but it boils down to: "For a while now we're going through a rewrite, cleaning up technical debt, and at this point we're not quite sure where it's going."
-Variants include "it's behind schedule" and "it's a waste".
+Variants include "it's behind schedule" and "it never seems to be closer to finishing".
 
-"A while" is usually about two years. "Not sure where it's going" almost always means nowhere. And by the time someone external is being asked, the board has already noticed that a very expensive project has produced a great deal of activity and no shippable outcome.
+"A while" is usually about two years. "Not sure where it's going" almost always means nowhere in practical business terms. And by the time someone external is being asked, the board has already noticed that a very expensive project has produced a great deal of activity and no shippable outcome.
 
 And more often than not it's followed by a solution that sounds a lot like "should we just buy _<other company/tech>_ to speed it up?".
 
