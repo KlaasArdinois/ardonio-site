@@ -2,7 +2,7 @@
 draft = false
 date = 2026-09-22T16:30:00+01:00
 title = "It Keeps Falling Over"
-description = "The most recognizable scaling symptom and the two commont reactions to it: more engineering or a full rewrite. Both are usually both wrong. The fix is systems thinking, finding the constraints, and getting comfortable with things lightly on fire."
+description = "The most recognizable scaling symptom and the two common reactions to it: more engineering or a full rewrite. Both are usually both wrong. The fix is systems thinking, finding the constraints, and getting comfortable with things lightly on fire."
 slug = "it-keeps-falling-over"
 authors = ["Klaas Ardinois"]
 tags = []
@@ -25,7 +25,7 @@ They're wrong for the same reason: "it keeps falling over" *feels* like a whole-
 
 When something keeps falling over, the instinct is often to reach for more engineering. Instinctively it makes sense to think you just need more hands at the pump. But "more engineering" in my experience often boils down to one of these 3.
 
-**"Throw more bodies at it."** Most of the time followed by some form of "...and then we'll ramp back down". Expert advice: the exit ramp you planned isn't the one you'll take. But it is a board-friendly plan ususally because headcount is something tangibble, and you can point at it in a deck and "more people, more work done" works in many other areas of the company. The trouble is **you can't parallelise a diagnosis**. Dropping five new engineers onto a system nobody fully understands doesn't split the problem five ways; it multiplies the number of people who need onboarding onto a team that's already firefighting. Brooks wrote this down in 1975 and it's still true: adding people to a late, struggling effort tends to make it later. _(sidenote: the fire gets worse before it gets better, and sometimes it just gets worse.)_
+**"Throw more bodies at it."** Most of the time followed by some form of "...and then we'll ramp back down". Expert advice: the exit ramp you planned isn't the one you'll take. But it is a board-friendly plan usually because headcount is something tangible, and you can point at it in a deck and "more people, more work done" works in many other areas of the company. The trouble is **you can't parallelise a diagnosis**. Dropping five new engineers onto a system nobody fully understands doesn't split the problem five ways; it multiplies the number of people who need onboarding onto a team that's already firefighting. Brooks wrote this down in 1975 and it's still true: adding people to a late, struggling effort tends to make it later. _(sidenote: the fire gets worse before it gets better, and sometimes it just gets worse.)_
 
 **"Our engineers aren't good enough, we should get better ones."** The talent misdiagnosis. Sometimes it's genuinely true, but far less often than the person saying it believes. The people who built the thing are also the people most likely to know where the bodies are buried. Replacing these people mid-fire means re-learning the system from scratch at the worst possible moment. **Nine times out of ten it's less skill problem and more a mandate problem.** The team has been told to ship features for two years and nobody ever gave them the time or permission to go fix the thing that's now breaking. And when there genuinely is a capability gap, the answer is a few expert targeted hires who can do the surgical diagnosis, not a full squad rotation.
 
@@ -37,7 +37,7 @@ Notice what all three have in common: they're answers to *"whose job is this?"* 
 
 So what do you actually do? Before you reorganize a single person you upgrade the quality of the question.
 
-The first move is almost laughably unglamorous and obvious: **talk to the engineers, and fix the data on failure mdoes.** Because the data a company has when it makes this call is nearly always just a count in my experience. Something like "we had six outages last month." A count like that tells you it hurts. It tells you nothing about where to cut.
+The first move is almost laughably unglamorous and obvious: **talk to the engineers, and fix the data on failure modes.** Because the data a company has when it makes this call is nearly always just a count in my experience. Something like "we had six outages last month." A count like that tells you it hurts. It tells you nothing about where to cut.
 
 In one instance I stopped counting outages and started *classifying* them, by cause:
 
